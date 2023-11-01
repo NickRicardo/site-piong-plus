@@ -1,0 +1,928 @@
+/* menu de navegacao */
+body {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1920px;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: var(--blue-tertiary);
+}
+
+.menu .logo img {
+    height: 30px;
+    margin-right: 20px;
+}
+
+.menu-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+.menu .menu-nav li {
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.menu .menu-nav a {
+    color: var(--white);
+}
+
+.menu .menu-nav a:hover {
+    opacity: 2;
+}
+
+#banner-home {
+    background-image: url(/src/img/carrossel/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#banner-home .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#banner-home .content .title h1 {
+    color: var(--white);
+    font-size: 40px;
+}
+
+#banner-home .content .text {
+    width: 550px;
+    margin-top: 10px;
+    color: var(--white);
+    text-align: center;
+}
+
+#banner-home .content .btn-clickhere-1 {
+    text-align: center;
+    background: var(--white);
+    border: none;
+    border-radius: 25px;
+    padding: 12px;
+    width: 200px;
+    margin-top: 20px;
+    color: var(--blue-tertiary);
+    font-weight: bold;
+}
+
+.page-tab {
+    position: absolute;
+    bottom: -30px;
+}
+
+.page-tab img {
+    max-width: 100%;
+}
+
+#technical-consultancy {
+    background: url(../img/backgrounds/home/sec-consultoria.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#technical-consultancy .page-tab-bottom {
+    position: absolute;
+}
+
+#technical-consultancy .container-technical-consultancy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+#technical-consultancy .titles {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    color: var(--blue-tertiary);
+    text-align: justify;
+}
+
+#technical-consultancy .titles #title-consultancy {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#technical-consultancy .titles #title-technique {
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#technical-consultancy .container-technical-consultancy .technical-consultancy-image img {
+    width: 450px;
+    height: 450px;
+    border-radius: 25% 25% 60% 25%;
+    box-shadow: 20px 20px 50px rgb(109, 109, 109);
+    margin-left: 25%;
+    z-index: 99;
+}
+
+#technical-consultancy .container-technical-consultancy .btn-clickhere-2 {
+    position: relative;
+    text-align: center;
+    background: var(--blue-secundary);
+    color: var(--white);
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 20px;
+    width: 250px;
+    margin-top: 20px;
+    font-weight: bold;
+    z-index: 99;
+}
+
+#technical-consultancy .container-technical-consultancy .border1 {
+    border: 2px solid blue;
+    width: 400px;
+    height: 400px;
+    border-radius: 60% 25% 25% 25%;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+#technical-consultancy .container-technical-consultancy .border2 {
+    position: absolute;
+    border: 2px solid blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 60% 25% 25% 25%;
+    margin-bottom: 20px;
+    top: 130%;
+    left: 25%;
+}
+
+#technical-consultancy .container-technical-consultancy .border3 {
+    position: absolute;
+    border: 2px solid blue;
+    width: 250px;
+    height: 250px;
+    border-radius: 60% 25% 25% 25%;
+    margin-bottom: 20px;
+    top: 15%;
+    right: 20%;
+}
+
+#technical-consultancy .container-technical-consultancy .border4 {
+    position: absolute;
+    border: 2px solid blue;
+    width: 250px;
+    height: 250px;
+    border-radius: 60% 25% 25% 25%;
+    margin-bottom: 20px;
+    top: 15%;
+    right: 20%;
+}
+
+#video-institucional {
+    position: relative;
+}
+
+#video-institucional .container-institucional {
+    background-image: url(/src/img/backgrounds/home/bg-sec-movie.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+#video-institucional .page-tab-bottom {
+    position: absolute;
+    top: 0%;
+}
+
+#video-institucional .page-tab-bottom img {
+    max-width: 100%;
+}
+
+#video-institucional .assista-video img {
+    width: 50px;
+    height: 50px;
+}
+
+#video-institucional .assista-video h2,
+i {
+    color: var(--white);
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+#video-institucional .assista-video p {
+    color: var(--white);
+    width: 500px;
+    text-align: right;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#video-institucional .btn-clickhere-3 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background: var(--white);
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    width: 200px;
+    margin-top: 20px;
+    color: var(--blue-tertiary);
+    font-weight: bold;
+    margin-top: 20px;
+    left: 60%;
+}
+
+#satisfied-customers {
+    background-color: #2F81C3;
+    height: auto;
+    margin-bottom: 0;
+}
+
+#satisfied-customers .top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#satisfied-customers .title-and-image {
+    display: flex;
+    align-items: center;
+}
+
+
+#satisfied-customers .customers-title {
+    color: var(--white);
+    font-size: 40px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+#satisfied-customers .image img {
+    max-width: 100px;
+    height: auto;
+}
+
+#satisfied-customers .customer-text {
+    color: var(--white);
+    font-size: 16px;
+    max-width: 450px;
+    margin-right: 10%;
+}
+
+#satisfied-customers .bottom-section {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 50px;
+}
+
+#satisfied-customers .customer-box {
+    background-color: var(--white);
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#satisfied-customers .customer-title {
+    color: var(--blue-tertiary);
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#satisfied-customers .customers-image {
+    padding: 10px;
+    width: 250px;
+}
+
+#satisfied-customers .customer-description p {
+    color: var(--blue-secundary);
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#satisfied-customers .customers-controls {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#highlights {
+    position: relative;
+    background-color: var(--blue-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#highlights .page-tab {
+    position: absolute;
+    top: -20px;
+
+}
+
+#highlights .highlights-title {
+    color: var(--white);
+    text-align: center;
+}
+
+#highlights .highlights-title h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 20%;
+}
+
+#highlights .highlights-text p {
+    max-width: 700px;
+    text-align: center;
+}
+
+#highlights .latest-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#highlights .latest-highlights {
+    width: 35%;
+    margin-top: 30px;
+    padding: 10px 30px;
+}
+
+#highlights .latest-item {
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#highlights .latest-title {
+    color: #13295f;
+    text-align: left;
+}
+
+#highlights .latest-text {
+    color: var(--white);
+    font-size: 14px;
+    text-align: left;
+}
+
+#highlights .btn-clickhere-4 {
+    display: inline-block;
+    text-align: center;
+    background: var(--blue-botton);
+    border: none;
+    border-radius: 25px;
+    padding: 12px;
+    width: 250px;
+    margin-top: 20px;
+    color: var(--white);
+    font-weight: bold;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+#highlights .btn-clickhere-5 {
+    position: relative;
+    left: 0%;
+    bottom: 0%;
+    text-align: center;
+    background: #13295f;
+    color: var(--white);
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 20px;
+    width: 250px;
+    margin-top: 20px;
+    font-weight: bold;
+    z-index: 99;
+    border: none;
+    cursor: pointer;
+}
+
+
+#location {
+    background: url(../img/backgrounds/home/location1.png) top/cover fixed;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    position: relative;
+}
+
+#location .page-tab-bottom {
+    position: absolute;
+    top: 0%;
+}
+
+#location .page-tab-bottom img {
+    width: 100%;
+
+
+}
+
+.location-title {
+    color: var(--white);
+    text-align: center;
+}
+
+#location .location-title h2,
+i {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.location-container {
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: var(--white);
+    color: #13295f;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 40vh;
+}
+
+.container-footer {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-left,
+.footer-right {
+    flex: 1;
+}
+
+.endereco h2,
+.social h2 {
+    font-size: 22px;
+}
+
+.endereco,
+.horario,
+.social {
+    padding: 10px;
+}
+
+.endereco address {
+    font-style: normal;
+    color: #13295f;
+    margin-bottom: 20px;
+}
+
+.horario {
+    display: flex;
+}
+
+.horario h2 {
+    font-size: 18px;
+}
+
+.dias-atendimento,
+.horarios-funcionamento {
+    flex: 1;
+}
+
+.dias-atendimento {
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    height: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    margin-right: 12%;
+}
+
+.list-social {
+    display: flex;
+    gap: 20px;
+    font-size: 35px;
+}
+
+.list-social a {
+    color: #13295f;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin: 5px 0;
+}
+
+
+.social-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-clickhere-5 {
+    display: block;
+    text-align: center;
+    background: var(--blue-tertiary);
+    color: var(--white);
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 16px;
+    width: 350px;
+    margin-top: 20px;
+    font-weight: bold;
+    z-index: 99;
+    border: none;
+    cursor: pointer;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 3s;
+    transform: translateX(-100%);
+
+}
+
+.hidden-right {
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 3s;
+    transform: translateX(100%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transition: all 3s;
+    transform: translateX(0);
+}
+
+/* BLOG-STYLE */
+#blog-home {
+    background-image: url(../img/backgrounds/blog/bgblogton1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#blog-home .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#blog-home .content .title #title-main {
+    color: var(--white);
+    font-size: 70px;
+    font-weight: 500;
+    text-shadow: 10px 30px 6px rgba(255, 255, 255, 0.4);
+}
+
+#destaque-mensal {
+    background-image: url(/src/img/backgrounds/blog/onda1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#destaque-mensal .conteudo {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+#destaque-mensal .imagem-destaque {
+    background-image: url(/src/img/blog/destaque-mensal/projetoInovar.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    border-radius: 40% 40% 5% 5%;
+    box-shadow: 10px 1 0px 40px rgb(34, 34, 34);
+}
+
+#destaque-mensal .conteudo-escrito {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20%;
+    color: var(--white);
+    width: 500px;
+    height: auto;
+
+}
+
+#destaque-mensal .conteudo-escrito .title-destaque #title-cima {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#destaque-mensal .conteudo-escrito .title-destaque #title-baixo {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 15%;
+}
+
+#destaque-mensal .texto-destaque {
+    margin-top: 30px;
+}
+
+#destaque-mensal .title-destaque h2 {
+    font-size: 50px;
+}
+
+#destaque-mensal .btn-clickhere-3 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background: var(--white);
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    width: 200px;
+    margin-top: 20px;
+    color: var(--blue-tertiary);
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#busca {
+    display: flex;
+    justify-content: center;
+}
+
+#busca .conteudo-busca {
+    background-color: var(--green-primary);
+    width: 60%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px rgb(109, 109, 109);
+}
+
+#busca .conteudo-busca h3 {
+    color: var(--white);
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#busca .conteudo-busca input {
+    border-radius: 10px;
+    width: 350px;
+    padding: 15px;
+    font-size: 16px;
+
+}
+
+#busca .conteudo-busca button {
+    color: var(--white);
+    background-color: var(--blue-tertiary);
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    padding: 15px;
+}
+
+#artigos {
+    height: auto;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+#artigos .conteudo-artigos {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+#artigos .conteudo-artigos .box-artigo {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    background-color: var(--green-secundary);
+    border-radius: 5px;
+}
+
+#artigos .conteudo-artigos .box-artigo .box-top {
+    background-image: url(/src/img/blog/destaque-mensal/projetoInovar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1;
+    border-radius: 10px 10px 0 0;
+}
+
+
+#artigos .conteudo-artigos .box-artigo .box-bottom {
+    flex: 1;
+    color: var(--white);
+    padding: 20px;
+}
+
+#artigos .conteudo-artigos .box-artigo .box-bottom .title-box {
+    font-weight: 500;
+}
+
+#artigos .conteudo-artigos .box-artigo .box-bottom .text-box {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+#artigos .conteudo-artigos .box-artigo .box-bottom .btn-clickhere-3 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background: var(--white);
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+    color: var(--blue-tertiary);
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+#endo-marketing {
+    background-image: url(/src/img/backgrounds/blog/onda2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 30%;
+}
+
+#endo-marketing .conteudo-endo {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    justify-content: center;
+    gap: 130px;
+    margin-bottom: 50px;
+}
+
+#endo-marketing .conteudo-endo .box-endo {
+    position: relative;
+    background-color: var(--white);
+    width: 500px;
+    height: 200px;
+    padding: 30px;
+}
+
+#endo-marketing .conteudo-endo .text-endo {
+    width: 350px;
+    text-align: left;
+}
+
+#endo-marketing .conteudo-endo .image-endo {
+    background-image: url(/src/img/blog/destaque-mensal/projetoInovar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    border-radius: 45% 45% 5% 5%;
+    right: -90px;
+    top: -100px;
+    margin-bottom: 20px;
+}
+
+#endo-marketing .conteudo-endo .box-endo .btn-clickhere-5 {
+    position: relative;
+    left: 0%;
+    bottom: 0%;
+    text-align: center;
+    background: #13295f;
+    color: var(--white);
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 15px;
+    width: 150px;
+    margin-top: 20px;
+    font-weight: bold;
+    z-index: 99;
+    border: none;
+    cursor: pointer;
+}
+
+.to-top {
+    top: -40px;
+}
+
+.box-right {
+    margin: 30px 0;
+    position: absolute;
+    left: 90px;
+}
+
+.image-left {
+    position: absolute;
+    left: -90px;
+}
+
+.content-right {
+    margin-left: 120px;
+}
+
+.page-counter {
+    text-align: center;
+    margin: 20px;
+}
+
+.page-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 25px;
+    border-radius: 5px;
+}
+
+.page-button i {
+    margin-right: 5px;
+}
+
+.page-button:hover {
+    background-color: #0056b3;
+}
