@@ -53,6 +53,36 @@ header {
     opacity: 2;
 }
 
+.menu .dropdown ul.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: var(--blue-quartiary);
+    min-width: 160px;
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.menu .dropdown ul.dropdown-menu li {
+    display: block;
+    text-align: left;
+    padding: 8px;
+}
+
+.menu .dropdown ul.dropdown-menu li a {
+    color: var(--white);
+    display: block;
+}
+
+.menu .dropdown ul.dropdown-menu li a:hover {
+    background-color: var(--white);
+    color: var(--blue-tertiary);
+}
+
+
 #banner-home {
     background-image: url(/src/img/carrossel/bg1.png);
     background-size: cover;
@@ -351,7 +381,7 @@ i {
 #highlights .highlights-title h2 {
     font-size: 40px;
     text-transform: uppercase;
-    margin-top: 35%;
+    margin-top: 40%;
 }
 
 #highlights .latest-container {
