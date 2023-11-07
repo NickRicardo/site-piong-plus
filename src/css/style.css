@@ -83,37 +83,56 @@ header {
     font-weight: bold;
 }
 
+.banner-home {
+    position: relative;
+}
 
-#banner-home {
-    background-image: url(/src/img/carrossel/bg1.png);
-    background-size: cover;
+.imagens-slider {
+    position: relative;
+    display: flex;
+    height: 90vh;
+    align-items: start;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+
+.title h1 {
+    color: var(--white);
+    font-size: 40px;
+}
+
+.imagens-slider .slide{
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    height: 90vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-#banner-home .slider {
-    position: relative;
-    overflow: hidden;
-    height: 90vh;
-}
-
-.carousel {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    transition: transform 1s;
-}
-
-.carousel-slide {
     width: 100%;
     height: 100%;
-    background-size: cover;
-    background-position: center;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s ease-out; 
+    display: flex;
+    align-items: center;
+}
+
+.imagens-slider .slide.mostrar {
+    opacity: 1;
+}
+
+.slide-one{
+    background-image: url(/src/img/carrossel/bg1.png);
+}
+.slide-two{
+    background-image: url(/src/img/carrossel/bg2.png);
+}
+.slide-three{
+    background-image: url(/src/img/carrossel/bg3.png);
 }
 
 #banner-home .content {
@@ -121,7 +140,11 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: absolute;
+    z-index: 2; 
+
 }
+
 
 #banner-home .content .title h1 {
     color: var(--white);
@@ -150,20 +173,32 @@ header {
 #banner-home .content .title h1 {
     color: var(--white);
     font-size: 40px;
-    white-space: nowrap; 
-    overflow: hidden; 
-    border-right: 1px solid transparent; 
-    animation: typing 6s steps(40, end), blink-caret 0.75s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid transparent;
+    animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
 }
 
 @keyframes blink-caret {
-    from, to { border-color: transparent; }
-    50% { border-color: var(--white); }
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: var(--white);
+    }
 }
 
 .page-tab {
@@ -229,7 +264,7 @@ header {
     background-position: center;
 }
 
-#technical-consultancy .container-technical-consultancy .technical-consultancy-image img{
+#technical-consultancy .container-technical-consultancy .technical-consultancy-image img {
     position: absolute;
     width: 800px;
     height: 480px;
@@ -347,7 +382,6 @@ i {
     color: var(--white);
     font-size: 16px;
     max-width: 450px;
-    margin-right: 10%;
 }
 
 #satisfied-customers .bottom-section {
@@ -532,7 +566,7 @@ i {
     width: 350px;
     height: 450px;
     border-radius: 35% 35% 5% 5%;
-    
+
 }
 
 #highlights .content-event {
@@ -547,11 +581,11 @@ i {
     font-size: 25px;
 }
 
-#highlights #title-main{
+#highlights #title-main {
     font-weight: 300;
 }
 
-#highlights #subtitle{
+#highlights #subtitle {
     text-transform: uppercase;
     font-weight: 900;
 }
@@ -628,6 +662,8 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
     height: 40vh;
+    position: relative;
+    /* Adicione esta linha */
 }
 
 .container-footer {
@@ -722,6 +758,14 @@ footer {
     z-index: 99;
     border: none;
     cursor: pointer;
+}
+
+small {
+    clear: both;
+    text-align: center;
+    /* Para centralizar o conteúdo */
+    width: 100%;
+    /* Para ocupar toda a largura do container do footer */
 }
 
 .hidden {
@@ -1056,3 +1100,19 @@ footer {
 .page-button:hover {
     background-color: #0056b3;
 }
+
+/* #movie{
+    background-image: url(/src/img/backgrounds/blog/onda1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+#movie .container-institucional {
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+} */
