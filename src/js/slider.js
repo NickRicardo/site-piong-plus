@@ -15,4 +15,4 @@ function nextSlide() {
     showSlide(nextIndex);
 }
 
-setInterval(nextSlide, 2000);
+setInterval(nextSlide, 4000);

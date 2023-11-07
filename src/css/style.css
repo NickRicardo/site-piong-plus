@@ -83,10 +83,6 @@ header {
     font-weight: bold;
 }
 
-.banner-home {
-    position: relative;
-}
-
 .imagens-slider {
     position: relative;
     display: flex;
@@ -142,13 +138,12 @@ header {
     flex-direction: column;
     position: absolute;
     z-index: 2; 
-
 }
 
 
 #banner-home .content .title h1 {
     color: var(--white);
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #banner-home .content .text {
@@ -156,6 +151,7 @@ header {
     margin-top: 10px;
     color: var(--white);
     text-align: center;
+    font-size: 17px;
 }
 
 #banner-home .content .btn-clickhere-1 {
@@ -163,8 +159,8 @@ header {
     background: var(--white);
     border: none;
     border-radius: 25px;
-    padding: 12px;
-    width: 200px;
+    padding: 10px;
+    width: 180px;
     margin-top: 20px;
     color: var(--blue-tertiary);
     font-weight: bold;
@@ -214,7 +210,7 @@ header {
     background: url(../img/backgrounds/home/sec-consultoria.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 70vh;
     display: flex;
     justify-content: space-around;
 }
