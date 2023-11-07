@@ -1,3 +1,23 @@
-@media (max-width: 1440px) {
-    
+/* HOME */
+@media (max-width: 1310px) {
+    #banner-home .content .title h1 {
+        font-size: 35px;
+    }
+    #banner-home .content .text {
+        font-size: 16px;
+    }
 }
+
+@media (max-width: 800px) {
+    #banner-home .content .title h1 {
+        font-size: 30px;
+    }
+    #banner-home .content .text {
+        font-size: 14px;
+    }
+    #banner-home .content .btn-clickhere-1 {
+        padding: 10px;
+        width: 150px;
+    }
+}
+
