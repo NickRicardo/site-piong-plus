@@ -80,7 +80,7 @@ header {
     font-weight: bold;
 }
 
-.imagens-slider {
+#banner-home .imagens-slider {
     position: relative;
     display: flex;
     height: 90vh;
@@ -88,7 +88,7 @@ header {
     justify-content: center;
 }
 
-.content {
+#banner-home .content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -97,7 +97,7 @@ header {
     text-align: center;
 }
 
-.title h1 {
+#banner-home .title h1 {
     color: var(--white);
     font-size: 40px;
 }
@@ -213,6 +213,7 @@ header {
     height: 70vh;
     display: flex;
     justify-content: space-around;
+    position: relative;
 }
 
 
