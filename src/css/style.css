@@ -81,7 +81,7 @@ header {
 }
 
 /* MENU MOBILE */
-#btn-mobile{
+#btn-mobile {
     display: none;
 }
 
@@ -786,6 +786,20 @@ small {
     transform: translateX(100%);
 }
 
+.hidden-down{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 3s;
+    transform: translateY(-100%) 
+}
+
+.hidden-top{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 3s;
+    transform: translateY(100%) 
+}
+
 .show {
     opacity: 1;
     filter: blur(0);
@@ -805,18 +819,19 @@ small {
     justify-content: center;
 }
 
-#blog-home .content {
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#blog-home .content .title #title-main {
+.content .title .title-main {
     color: var(--white);
     font-size: 70px;
     font-weight: 500;
-    text-shadow: 10px 30px 6px rgba(255, 255, 255, 0.4);
+    text-transform: capitalize;
+    /* text-shadow: 10px 30px 6px rgba(255, 255, 255, 0.4); */
 }
 
 #destaque-mensal {
@@ -850,7 +865,7 @@ small {
 #destaque-mensal .conteudo-escrito {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20%;
+    margin-bottom: 25%;
     color: var(--white);
     width: 500px;
     height: auto;
@@ -1118,3 +1133,55 @@ small {
     justify-content: space-around;
     align-items: top;
 } */
+
+/* QUEM SOMOS */
+
+#banner-somos {
+    background-image: url(../img/backgrounds/empresa/quemSomos/localizacao.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#historia-empresa .historia-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+#historia-empresa .historia-conteudo #foto-conteudo1 {
+    background-image: url(../img/empresa/conteudo/solangeandricardo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    height: 500px;
+    border-radius: 30% 3% 35% 35%;
+}
+
+#historia-empresa .historia-conteudo #texto-conteudo1 {
+    width: 500px;
+    text-align: justify;
+}
+
+#historia-empresa .historia-conteudo #foto-conteudo2 {
+    background-image: url(../img/empresa/conteudo/fabrica.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    height: 500px;
+    border-radius: 3% 30% 35% 35%;
+}
+
+#historia-empresa .historia-conteudo #texto-conteudo2 {
+    width: 500px;
+    text-align: justify;
+}

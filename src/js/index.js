@@ -46,3 +46,35 @@ var myObserver = new IntersectionObserver( (entries)=> {
 var elements = document.querySelectorAll('.hidden-right')
 
 elements.forEach((element) => myObserver.observe(element))
+
+// INTERAÇÃO DE MOVIMENTAÇÃO DA SECTION VINDO DE CIMA P BAIXO
+var lastOne = document.querySelector('.last-one')
+var myObserver = new IntersectionObserver( (entries)=> {
+    entries.forEach( (entry) => {
+        if(entry.isIntersecting === true) {
+            entry.target.classList.add('show')
+        }else{
+            entry.target.classList.remove('show')
+        }
+    })
+})
+
+var elements = document.querySelectorAll('.hidden-down')
+
+elements.forEach((element) => myObserver.observe(element))
+
+// INTERAÇÃO DE MOVIMENTAÇÃO DA SECTION VINDO DE BAIXO P CIMA
+var lastOne = document.querySelector('.last-one')
+var myObserver = new IntersectionObserver( (entries)=> {
+    entries.forEach( (entry) => {
+        if(entry.isIntersecting === true) {
+            entry.target.classList.add('show')
+        }else{
+            entry.target.classList.remove('show')
+        }
+    })
+})
+
+var elements = document.querySelectorAll('.hidden-top')
+
+elements.forEach((element) => myObserver.observe(element))
