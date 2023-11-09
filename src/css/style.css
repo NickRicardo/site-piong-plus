@@ -34,7 +34,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 70px;
+    height: 80px;
 }
 
 .menu .menu-nav li {
@@ -79,6 +79,12 @@ header {
 .menu .dropdown ul.dropdown-menu li a:hover {
     font-weight: bold;
 }
+
+/* MENU MOBILE */
+#btn-mobile{
+    display: none;
+}
+
 
 #banner-home .imagens-slider {
     position: relative;
