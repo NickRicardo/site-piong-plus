@@ -786,18 +786,18 @@ small {
     transform: translateX(100%);
 }
 
-.hidden-down{
+.hidden-down {
     opacity: 0;
     filter: blur(15px);
     transition: all 3s;
-    transform: translateY(-100%) 
+    transform: translateY(-100%)
 }
 
-.hidden-top{
+.hidden-top {
     opacity: 0;
     filter: blur(15px);
     transition: all 3s;
-    transform: translateY(100%) 
+    transform: translateY(100%)
 }
 
 .show {
@@ -831,7 +831,7 @@ small {
     font-size: 70px;
     font-weight: 500;
     text-transform: capitalize;
-    /* text-shadow: 10px 30px 6px rgba(255, 255, 255, 0.4); */
+    text-shadow: 10px 30px 6px rgba(255, 255, 255, 0.4);
 }
 
 #destaque-mensal {
@@ -1142,7 +1142,6 @@ small {
     background-repeat: no-repeat;
     background-position: center;
     height: 40vh;
-    position: relative;
     display: flex;
     justify-content: center;
 }
@@ -1153,7 +1152,7 @@ small {
     align-items: center;
     gap: 5rem;
     margin-top: 7rem;
-    margin-bottom: 7rem;
+    margin-bottom: 8rem;
 }
 
 #historia-empresa .historia-conteudo #foto-conteudo1 {
@@ -1184,4 +1183,86 @@ small {
 #historia-empresa .historia-conteudo #texto-conteudo2 {
     width: 500px;
     text-align: justify;
+}
+
+#missao {
+    background-image: url(../img/backgrounds/empresa/quemSomos/teste2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 160vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+#missao .content-missao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    text-align: center;
+    color: var(--white);
+    margin-top: 7rem;
+
+}
+
+#missao .content-missao #title-missao{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+#missao .content-missao #text-missao{
+    font-size: 20px;
+}
+
+#responsabilidade {
+    background-image: url(../img/backgrounds/empresa/quemSomos/teste.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 150vh;
+    margin-top: -670px; 
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#responsabilidade .titles-responsabilidade{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#responsabilidade .titles-responsabilidade #title-responsabilidade{
+    color: var(--white);
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#responsabilidade .titles-responsabilidade #subtitle-responsabilidade{
+    color: var(--white);
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#social-ambiental {
+    background-image: url(../img/backgrounds/empresa/quemSomos/bg4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    margin-top: -400px;
+    z-index: 3;
 }
