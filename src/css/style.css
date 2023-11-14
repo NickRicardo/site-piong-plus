@@ -1334,12 +1334,12 @@ small {
     margin-bottom: 20px;
 }
 
-#form-work .work-titles h5{
+#form-work .work-titles h5 {
     font-weight: 300;
     padding: 20px;
 }
 
-#form-work .work-titles h2{
+#form-work .work-titles h2 {
     font-size: 30px;
     font-weight: 500;
     padding: 15px 0;
@@ -1422,3 +1422,14 @@ small {
 #form-work .file-input button:hover {
     background-color: #0056b3;
 }
+
+#policy {
+    background-image: url(../img/backgrounds/blog/bgblogton1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
