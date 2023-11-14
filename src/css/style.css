@@ -1424,7 +1424,7 @@ small {
 }
 
 #policy {
-    background-image: url(../img/backgrounds/blog/bgblogton1.png);
+    background-image: url(../img/backgrounds/politica/bg1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1433,3 +1433,24 @@ small {
     justify-content: center;
 }
 
+.policy-title{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#content-policy{
+    margin-top: 50px;
+    padding: 0 50px;
+    text-align: justify;
+    border-bottom: 3px solid var(--blue-tertiary);
+}
+
+.titles-content{
+    margin: 30px 0;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.subtitles-content{
+    margin: 30px 0;
+}
