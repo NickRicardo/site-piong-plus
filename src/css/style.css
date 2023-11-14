@@ -1469,3 +1469,45 @@ small {
     margin-bottom: 15px;
 }
 
+#contact-banner {
+    background-image: url(../img/backgrounds/contato/banner-contato1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+#contact{
+    height: 75vh;
+}
+
+
+#contact .content-contact {
+    position: relative;
+    text-align: center; 
+    top: -9rem;
+}
+
+#contact .content-contact img {
+    width: 85%;
+    height: auto;
+    max-width: 100%;
+    display: inline-block; 
+}
+
+#contact .overlay-text {
+    position: absolute;
+    width: 45%;
+    top: 110%;
+    left: 35%;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    color: var(--white); 
+    font-size: 35px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+#contact-form{
+
+}
