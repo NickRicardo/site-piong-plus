@@ -100,9 +100,11 @@
 
                     <div class="form-group">
                         <label for="phone">Telefone:<span class="required">*</span></label>
-                        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
-                        <small>Informe apenas números (10 dígitos).</small>
+                        <input type="tel" required="required" maxlength="11" name="phone" pattern="[0-9]{10,11}" />
+                        <small>Informe apenas números (10 ou 11 dígitos).</small>
                     </div>
+                    
+                    
 
                     <div class="form-group">
                         <label for="resume">Currículo:<span class="required">*</span></label>
