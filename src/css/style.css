@@ -1474,40 +1474,82 @@ small {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 50vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
 }
 
-#contact{
-    height: 75vh;
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
 }
 
-
-#contact .content-contact {
+#contact .content-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    text-align: center; 
-    top: -9rem;
 }
 
-#contact .content-contact img {
-    width: 85%;
-    height: auto;
-    max-width: 100%;
-    display: inline-block; 
+#contact .content-contact img{
+    width: 80%;
+    max-height: 100%;
+    z-index: 2;
 }
 
-#contact .overlay-text {
+#contact .title-photo {
+    width: 80%;
+    max-width: 550px;
     position: absolute;
-    width: 45%;
-    top: 110%;
+    font-size: 1.5vw;
+    bottom: 20%;
     left: 35%;
-    font-weight: bold;
-    transform: translate(-50%, -50%);
-    color: var(--white); 
-    font-size: 35px; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    transform: translateX(-50%);
+    text-align: left;
+    color: var(--white);
+    z-index: 3;
 }
-#contact-form{
 
+
+#contact-form{
+    background-color: #e6e6e6;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    
+}
+
+#contact-form .page-tab{
+    position: absolute;
+    top: -2px;
+    z-index: -1; /* Adicionando um valor negativo para colocar a imagem atrás do conteúdo */
+
+}
+
+#contact-form .contact-and-adress{
+    margin-top: 20%;
+    display: flex;
+    gap: 20px;
+    width: 800%;
+}
+
+#contact-form .formulario{
+    flex: 1;
+    z-index: 10; /* Garantindo que o formulário tenha uma ordem de empilhamento superior à imagem de fundo */
+}
+
+#contact-form .formulario form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+#contact-form .adress-container{
+    background-color: red;
+    flex: 1;
 }
