@@ -46,15 +46,17 @@ header {
     color: var(--white);
 }
 
-.menu .menu-nav a:hover {
-    opacity: 2;
-}
+/* .menu .menu-nav li:hover {
+    transform: translateY(-5px);
+    transition: all 0.2s;
+    font-weight: bold;
+} */
 
 .menu .dropdown ul.dropdown-menu {
     display: none;
     position: absolute;
     background-color: var(--white);
-    min-width: 160px;
+    width: 250px;
     z-index: 99999;
     list-style: none;
     padding: 0;
