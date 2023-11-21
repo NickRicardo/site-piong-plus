@@ -1117,6 +1117,7 @@ small {
 .page-button:hover {
     background-color: #0056b3;
 }
+
 /* QUEM SOMOS */
 
 #banner-somos {
@@ -1547,8 +1548,7 @@ small {
 
 #contact-form input,
 #contact-form textarea,
-#contact-form select
- {
+#contact-form select {
     padding: 10px;
     border: 2px solid #ccc;
     border-radius: 15px;
@@ -1629,16 +1629,146 @@ button {
     padding: 10px;
 }
 
-#contact-form #social-contact a{
+#contact-form #social-contact a {
     color: var(--white);
 }
 
-#contact-form #social-contact li{
+#contact-form #social-contact li {
     padding: 5px 0;
 }
 
-#maps{
+#maps {
     padding-top: 20px;
     background-color: #e6e6e6;
     height: 70vh;
 }
+
+#certificate {
+    background-image: url(/src/img/backgrounds/certificado/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+#seal-integrity {
+    height: 70vh;
+}
+
+.seal-integrity-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.seal-integrity-content #foto-conteudo1 {
+    width: 400px;
+    height: 400px;
+}
+
+.seal-integrity-content .text-content-seal {
+    width: 500px;
+    text-align: justify;
+}
+
+#bpf {
+    position: relative;
+    height: 85vh;
+    background-color: var(--main-color);
+}
+
+#bpf .page-tab {
+    position: absolute;
+    top: -1px;
+}
+
+#bpf .bpf-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.bpf-content #foto-conteudo2 {
+    width: 400px;
+    height: 400px;
+}
+
+.bpf-content .text-bpf {
+    width: 500px;
+    text-align: justify;
+    color: var(--white);
+}
+
+.bpf-content .text-bpf h2,
+.seal-integrity-content .text-content-seal h2,
+.environmentally-friendly-content .text-environmentally-friendly h2,
+.brazilian-industry-content .text-brazilian-industry h2 {
+    padding-bottom: 20px;
+}
+
+#environmentally-friendly {
+    background-color: #e6e6e6;
+    height: 125vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#environmentally-friendly .page-tab {
+    position: absolute;
+    top: -1px;
+}
+
+#environmentally-friendly .page-tab-bottom {
+    position: absolute;
+    bottom: -5px;
+}
+
+#environmentally-friendly .environmentally-friendly-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.environmentally-friendly-content #foto-conteudo3{
+    width: 299px;
+    height: 365px;
+}
+
+.environmentally-friendly-content .text-environmentally-friendly{
+    width: 500px;
+    text-align: justify;
+}
+
+#brazilian-industry {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--main-color);
+}
+
+#brazilian-industry .brazilian-industry-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.brazilian-industry-content #foto-conteudo4 {
+    width: 313px;
+    height: 408px;
+}
+
+.brazilian-industry-content .text-brazilian-industry {
+    width: 500px;
+    text-align: justify;
+}
+
