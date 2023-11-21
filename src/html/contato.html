@@ -14,8 +14,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,800;1,900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Pion G Plus | O patrimônio que protegemos é a sua vida.</title>
@@ -123,6 +123,18 @@
                         </div>
 
 
+                        <label for="assunto">Assunto:</label>
+                        <select id="assunto" name="assunto" required>
+                            <option value="" disabled selected>Selecione um assunto</option>
+                            <option value="duvida">Dúvida</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="atendimentoCliente">Atendimento ao cliente</option>
+                            <option value="compras">Setor de Compras</option>
+                            <option value="logistica">Logística</option>
+                            <option value="marketing">Setor de marketing</option>
+                            <option value="financeiro">Setor financeiro</option>
+                        </select>
+
                         <label for="mensagem">Mensagem:</label>
                         <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
 
@@ -133,33 +145,40 @@
                 <div class="adress-container">
                     <div class="adress-box">
                         <div class="content-box">
-                            <ul id="social-contact">
-                                <li>
-                                    <i class="fa fa-whatsapp"></i>
-                                    <a href="whatsapp://send?phone=+5524981434700">
-                                        Nosso WhatsApp
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="mailto:marketing@piong.com.br">
-                                        <i class="fa fa-envelope"></i>
-                                        Nosso E-mail
-                                    </a>
-                                </li>
-                                <li>
-                                    Telefones:
+                            <div id="social-contact">
+                                <div class="padding-box">
+                                    <i class="fab fa-whatsapp social-icon"></i>
+                                    <a href="whatsapp://send?phone=+5524981434700">Nosso WhatsApp</a>
+                                </div>
+                                <div class="padding-box">
+                                    <i class="far fa-envelope social-icon"></i>
+                                    <a href="mailto:marketing@piong.com.br">Nosso E-mail</a>
+                                </div>
+                                <div class="padding-box">
+                                    <i class="fas fa-phone-alt social-icon"></i>
                                     <ul>
-                                        <li><a href="tel:+552135181099">Tel: (21)3518-1099</a></li>
-                                        <li><a href="tel:08002022015">Tel: 08002022015</a></li>
-                                        <li><a href="tel:+5524992291753">Cel: (24)99229-1753</a></li>
+                                        <li>
+                                            <a href="tel:+552135181099">Tel: (21)3518-1099</a>
+                                        </li>
+                                        <li>
+                                            <a href="tel:08002022015">Tel: 08002022015</a>
+                                        </li>
+                                        <li>
+                                            <a href="tel:+5524992291753">Cel: (24)99229-1753</a>
+                                        </li>
                                     </ul>
-                                </li>
-                            </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
+        </section>
+        <section id="maps">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.015156661261!2d-43.69496382498882!3d-22.239503714363725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9ece77a59d6bff%3A0x20979735ece887eb!2sPion%20G%20Plus!5e0!3m2!1spt-BR!2sbr!4v1697480085078!5m2!1spt-BR!2sbr"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
     </main>

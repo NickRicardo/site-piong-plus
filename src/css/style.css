@@ -1107,6 +1107,7 @@ small {
     cursor: pointer;
     margin: 0 25px;
     border-radius: 5px;
+    width: 100px;
 }
 
 .page-button i {
@@ -1116,23 +1117,6 @@ small {
 .page-button:hover {
     background-color: #0056b3;
 }
-
-/* #movie{
-    background-image: url(/src/img/backgrounds/blog/onda1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    height: 60vh;
-    display: flex;
-    justify-content: space-around;
-}
-
-#movie .container-institucional {
-    display: flex;
-    justify-content: space-around;
-    align-items: top;
-} */
-
 /* QUEM SOMOS */
 
 #banner-somos {
@@ -1453,7 +1437,6 @@ small {
 .policcy-container {
     width: 100%;
     max-width: 800px;
-    /* ou outro valor que desejar */
     margin-left: auto;
     margin-right: auto;
 }
@@ -1535,7 +1518,7 @@ small {
     margin-top: 20%;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 16%;
     width: 80%;
 }
 
@@ -1552,6 +1535,7 @@ small {
 
 #contact-form h2 {
     margin-bottom: 20px;
+    font-size: 23px;
 }
 
 
@@ -1562,11 +1546,14 @@ small {
 }
 
 #contact-form input,
-#contact-form textarea {
+#contact-form textarea,
+#contact-form select
+ {
     padding: 10px;
     border: 2px solid #ccc;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-bottom: 10px;
+    font-size: 17px;
 }
 
 
@@ -1610,22 +1597,48 @@ button {
     width: 250px;
 }
 
-#contact-form .adress-container {
-    flex: 1;
-
-}
 
 #contact-form .adress-container .adress-box {
-    width: 400px;
-    height: 450px;
+    width: 380px;
+    height: 400px;
     border-radius: 15px;
-    background-color: #1c506e;
+    background-color: var(--main-color);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#contact-form .padding-box {
+    border-bottom: 1px solid #61859a;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#contact-form .padding-box:last-child {
+    border-bottom: none;
+}
+
+#contact-form .social-icon {
+    background-color: var(--white);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: var(--main-color);
+    padding: 10px;
+}
+
+#contact-form #social-contact a{
     color: var(--white);
 }
 
-#contact-form .content-box{
-    background-color: red;
+#contact-form #social-contact li{
+    padding: 5px 0;
+}
+
+#maps{
+    padding-top: 20px;
+    background-color: #e6e6e6;
+    height: 70vh;
 }

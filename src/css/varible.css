@@ -12,6 +12,7 @@
     --blue-botton: hsl(215, 57%, 75%);
     --green-primary: #171442;
     --green-secundary: #136881;
+    --main-color: #1c506e;
 
     /* gradients colors backgrouds*/
     --bg-section-gradientleft: linear-gradient(to left, hsl(210, 100%, 40%), hsl(210, 50%, 80%), var(--white));
