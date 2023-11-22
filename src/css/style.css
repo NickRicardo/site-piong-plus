@@ -1208,7 +1208,7 @@ small {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 110vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1298,11 +1298,21 @@ small {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 150vh;
+    height: 165vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     color: var(--white);
+    position: relative;
+}
+
+#social-ambiental .page-tab-bottom {
+    position: absolute;
+    bottom: -6px;
+}
+
+#social-ambiental .page-tab-bottom img{
+    max-width: 100%;
 }
 
 #work-with-us {
@@ -1770,5 +1780,28 @@ button {
 .brazilian-industry-content .text-brazilian-industry {
     width: 500px;
     text-align: justify;
+}
+
+#movie-intitutional{
+    background-color: #e6e6e6;
+    height: 85vh;
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-bottom: px;
+}
+
+#movie-intitutional .container-institucional{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#movie-intitutional .assista-video{
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 

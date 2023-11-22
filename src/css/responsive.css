@@ -7,6 +7,12 @@
     #banner-home .content .text {
         font-size: 16px;
     }
+
+    #missao{
+        height: 110vh;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 900px) {
@@ -114,3 +120,4 @@
         top: -7px;
     }
 }
+
