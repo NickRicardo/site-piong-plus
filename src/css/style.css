@@ -1,4 +1,4 @@
-/* menu de navegacao */
+    /* menu de navegacao */
 body {
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
@@ -971,7 +971,7 @@ small {
 }
 
 #artigos .conteudo-artigos .box-artigo .box-top {
-    background-image: url(/src/img/blog/destaque-mensal/projetoInovar.jpg);
+    background-image: url(/src/img/Blog/artigos/pub1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1208,7 +1208,7 @@ small {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 85vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1364,7 +1364,7 @@ small {
     width: 100%;
     box-sizing: border-box;
     border: 2px solid #ccc;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-bottom: 10px;
 }
 
@@ -1687,7 +1687,7 @@ button {
 
 #bpf {
     position: relative;
-    height: 85vh;
+    height: 90vh;
     background-color: var(--main-color);
 }
 
