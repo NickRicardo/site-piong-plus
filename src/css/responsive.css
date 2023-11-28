@@ -3,12 +3,14 @@
     #banner-home .content .title h1 {
         font-size: 35px;
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> novaversao
     #banner-home .content .text {
         font-size: 16px;
+    }
+
+    #missao{
+        height: 150vh;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -16,17 +18,11 @@
     #banner-home .content .title h1 {
         font-size: 25px;
     }
-<<<<<<< HEAD
-    #banner-home .content .text {
-        font-size: 14px;
-    }
-=======
 
     #banner-home .content .text {
         font-size: 14px;
     }
 
->>>>>>> novaversao
     #banner-home .content .btn-clickhere-1 {
         padding: 10px;
         width: 130px;
@@ -128,4 +124,8 @@
         top: -7px;
     }
 }
+<<<<<<< HEAD
+>>>>>>> novaversao
+=======
+
 >>>>>>> novaversao
