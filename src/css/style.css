@@ -1898,7 +1898,7 @@ height: 550px;
 }
 
 .wrapper #categorias{
-    width: 300px;
+    min-width: 270px;
     padding: 20px;
     background-color: #f0f0f0;
 }
@@ -1915,7 +1915,7 @@ height: 550px;
 }
 
 .wrapper .produto {
-    width: 280px;
+    width: 250px;
     margin: 10px;
     padding: 10px;
     border: 1px solid #6C777D;
@@ -1924,5 +1924,10 @@ height: 550px;
 
 .wrapper #produto .produto img {
     max-width: 100%;
+    padding: 10px;
+}
+
+.wrapper .produto button{
+    width: 150px;
     padding: 10px;
 }
