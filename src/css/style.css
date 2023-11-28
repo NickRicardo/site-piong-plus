@@ -215,9 +215,6 @@ header {
 }
 
 #technical-consultancy {
-    background: url(../img/backgrounds/home/sec-consultoria.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 70vh;
     display: flex;
     justify-content: space-around;
@@ -1805,3 +1802,127 @@ button {
     margin-bottom: 20px;
 }
 
+#product-banner {
+    background-image: url(../img/backgrounds/produtos/produtos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+#product-section{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#product-section .produto-area{
+    position: relative;
+    width: 1000px;
+    height: 250px;
+    background: linear-gradient(to right, var(--blue-tertiary), var(--blue-secundary));
+    border-radius: 25px;
+    margin: 100px 0 120px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 10px 10px 10px rgb(109, 109, 109);
+}
+
+#product-section .produto-area .produto-imagem{
+position: absolute;
+left: 150px;
+background-image: url(/src/img/produtos/destaque/destaque1.png);
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: cover;
+width: 550px;
+height: 550px;
+}
+
+#product-section .content-produto {
+    width: 550px;
+    height: auto;
+    padding: 30px;
+}
+
+#product-section .title-produto {
+    color: var(--white);
+    font-size: 25px;
+    text-align: right;
+}
+
+#product-section #title-main {
+    font-weight: 300;
+}
+
+#product-section #subtitle {
+    text-transform: uppercase;
+    font-size: 43px;
+    font-weight: 900;
+}
+
+#product-section .text-event {
+    color: var(--white);
+    font-weight: 300;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#product-section .produto-area .btn-clickhere-4 {
+    display: inline-block;
+    text-align: center;
+    background: var(--white);
+    border: none;
+    border-radius: 25px;
+    padding: 12px;
+    width: 200px;
+    color: var(--blue-tertiary);
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    position: absolute;
+    bottom: -20px;
+    right: 70px;
+    box-shadow: 10px 10px 10px rgb(109, 109, 109);
+}
+
+.wrapper{
+    height: auto;
+    display: flex;
+    margin: 0 8% 10% ;
+ 
+}
+
+.wrapper #categorias{
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.wrapper #categorias li{
+    cursor: pointer;
+}
+.wrapper #produto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.wrapper .produto {
+    width: 280px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #6C777D;
+    text-align: center;
+}
+
+.wrapper #produto .produto img {
+    max-width: 100%;
+    padding: 10px;
+}
