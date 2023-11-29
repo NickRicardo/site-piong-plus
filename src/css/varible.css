@@ -2,17 +2,26 @@
     /* primary colors */
     --white: hsl(0, 0%, 100%);
     --black: hsl(0, 0%, 0%);
+
+    /* AZUL */
     --blue-primary: hsl(200, 75%, 20%);
     --blue-secundary: hsl(209, 97%, 53%);
     --blue-tertiary: #005D90;
     --blue-quartiary: hsl(209, 59%, 63%);
     --blue-fifth: hsl(209, 78%, 18%);
-    --blue-claro:  #5B9FE6;
-    --gray-primary: hsl(184, 9%, 57%);
+    --blue-claro: #5B9FE6;
+    --main-color: #1c506e;
     --blue-botton: hsl(215, 57%, 75%);
+
+    /* VERDE */
     --green-primary: #171442;
     --green-secundary: #136881;
-    --main-color: #1c506e;
+
+    /* CINZA */
+    --gray-text: #6C777D;
+    --gray-primary: hsl(184, 9%, 57%);
+
+
 
     /* gradients colors backgrouds*/
     --bg-section-gradientleft: linear-gradient(to left, hsl(210, 100%, 40%), hsl(210, 50%, 80%), var(--white));

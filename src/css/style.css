@@ -1,4 +1,7 @@
-    /* menu de navegacao */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  
+  /* menu de navegacao */
 body {
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
@@ -1893,36 +1896,141 @@ height: 550px;
 .wrapper{
     height: auto;
     display: flex;
-    margin: 0 8% 10% ;
- 
+    margin: 0 8% 10%;
 }
 
 .wrapper #categorias{
-    width: 300px;
+    min-width: 300px;
     padding: 20px;
-    background-color: #f0f0f0;
+    color: var(--gray-text);
+}
+
+.wrapper #categorias h2{
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 3px;
+    border-bottom: 1px solid var(--gray-text);
+    padding-bottom: 20px;
 }
 
 .wrapper #categorias li{
     cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: 400;
 }
 .wrapper #produto{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
+}
+
+    .wrapper .produto {
+        width: 270px;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid var(--gray-text);
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .wrapper #produto .produto img {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .wrapper #produto .produto h3 {
+        color: var(--blue-claro);
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .wrapper #produto .produto h5 {
+        color: var(--gray-text);
+        font-size: 12px;
+    }
+    
+    #search-section {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10%;
+    }
+
+    #search-section .search-container {
+        position: relative;
+    }
+
+    #search-section .search-container input {
+        width: 400px;
+        padding: 20px 40px 20px 20px; 
+        border-radius: 13px;
+        font-size: 20px;
+    }
+
+    #search-section .search-container .fa-search {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+        color: #555; 
+    }
+
+    
+#contact-store .content-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30px;
 
 }
 
-.wrapper .produto {
-    width: 280px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #6C777D;
+#contact-store .content-contact img {
+    width: 80%;
+    max-height: 100%;
+    z-index: 2;
+}
+
+#contact-store .title-photo {
+    width: 80%;
+    max-width: 550px;
+    position: absolute;
+    font-size: 1.5vw;
+    bottom: 22%;
+    left: 35%;
+    transform: translateX(-50%);
+    text-align: left;
+    color: var(--white);
+    z-index: 3;
+}
+
+#contact-store .title-photo h3{
+    font-size: 37px;
+    font-weight: 300;
+}
+
+#contact-store .title-photo h4{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#contact-store .btn-clickhere-1 {
+    position: absolute; 
+    bottom:12%;
+    left: 25%;
+    transform: translateX(-50%);
     text-align: center;
+    background: var(--white);
+    border-radius: 25px;
+    padding: 12px;
+    width: 200px;
+    color: var(--blue-tertiary);
+    font-weight: bold;
+    z-index: 4; 
+    font-size: 16px;
 }
 
-.wrapper #produto .produto img {
-    max-width: 100%;
-    padding: 10px;
-}

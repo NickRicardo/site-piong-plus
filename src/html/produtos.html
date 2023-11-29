@@ -11,9 +11,6 @@
     <link rel="shortcut icon" href="../img/favico/marca-d'agua.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,800;1,900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -49,9 +46,9 @@
                     </li>
 
                     <li class="dropdown">
-                        <a href="#">Produtos</a>
+                        <a href="../html/produtos.html">Produtos</a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Aventais/Macacões</a></li>
+                            <li><a href="#">Aventais / Macacões</a></li>
                             <li><a href="#">Calça e Blusa</a></li>
                             <li><a href="#">Camisola/Botas</a></li>
                             <li><a href="#">Campos Cirúrgicos</a></li>
@@ -98,37 +95,70 @@
             </div>
         </section>
 
+        <section id="search-section">
+            <div class="search-container">
+                <label for="search"><i class="fas fa-search"></i></label>
+                <input type="text" placeholder="O que você está procurando?" id="search" oninput="filtrarPorBusca()">
+            </div>
+        </section>
+
+
         <div class="wrapper">
             <aside id="categorias">
                 <h2>Categorias</h2>
                 <ul>
- 
-                <li onclick="filtrarProdutos('categoria1')">Aventais / Macacões</li>
-                <li onclick="filtrarProdutos('categoria2')">Calça e Blusa</li>
-                <li onclick="filtrarProdutos('categoria3')">Camisola / Batas</li>
-                <li onclick="filtrarProdutos('categoria4')">Campos Cirúrgicos</li>
-                <li onclick="filtrarProdutos('categoria5')">Campos Oftálmicos</li>
-                <li onclick="filtrarProdutos('categoria6')">Cobertura de Mesa</li>
-                <li onclick="filtrarProdutos('categoria7')">Invólucros / Wrap</li>
-                <li onclick="filtrarProdutos('categoria8')">Kits Cirúrgicos</li>
-                <li onclick="filtrarProdutos('categoria9')">Kits Odontológicos</li>
-                <li onclick="filtrarProdutos('todos')">Todos os Produtos</li>
-                <!-- Adicione mais categorias conforme necessário -->
+                    <li>
+                        <input type="checkbox" id="categoria1" onclick="filtrarProdutos()">
+                        <label for="categoria1">Aventais / Macacões</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="categoria2" onclick="filtrarProdutos()">
+                        <label for="categoria2">Calça e Blusa</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="categoria3" onclick="filtrarProdutos()">
+                        <label for="categoria3">Camisola / Batas</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="categoria4" onclick="filtrarProdutos()">
+                        <label for="categoria4">Campos Cirúrgicos</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="categoria5" onclick="filtrarProdutos()">
+                        <label for="categoria5">Campos Oftálmicos</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="categoria6" onclick="filtrarProdutos()">
+                        <label for="categoria6">Cobertura de Mesa</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="categoria7" onclick="filtrarProdutos()">
+                        <label for="categoria7">Invólucros / Wrap</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="categoria8" onclick="filtrarProdutos()">
+                        <label for="categoria8">Kits Cirúrgicos</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="categoria9" onclick="filtrarProdutos()">
+                        <label for="categoria9">Kits Odontológicos</label>
+                    </li>
                 </ul>
             </aside>
             <section id="produto">
                 <!-- Containers para exibir produtos -->
-                <!-- Estrutura: imagem, nome, botão de 'Saiba mais' -->
             </section>
         </div>
 
-        <section id="contact">
+
+        <section id="contact-store">
             <div class="content-contact">
-                <img class="hidden-right" src="/src/img/backgrounds/contato/bg2.png"
-                    alt="Atendente de telefone, sorrindo">
+                <img src="/src/img/backgrounds/contato/bg2.png" alt="Atendente de telefone, sorrindo">
                 <div class="title-photo">
-                    <h3>Estamos prontos para atender as suas necessidades.</h3>
+                    <h3>Quer entender melhor</h3>
+                    <h4>Como podemos te atender?</h4>
                 </div>
+                <a class="btn-clickhere-1" href="../html/contato.html">Fale Conosco</a>
             </div>
 
         </section>
