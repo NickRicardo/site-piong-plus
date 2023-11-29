@@ -2034,3 +2034,31 @@ height: 550px;
     font-size: 16px;
 }
 
+#produto-banner{
+    height: 6vh;
+    background: var(--bg-section-product);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#produto-banner .content .title h1 {
+    color: var(--white);
+    font-size: 25px;
+}
+
+.fild-produts {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fild-produts .product-spacification{
+    background-color: green;
+    width: 45%;
+}
+
+.fild-produts .content-product{
+    background-color: blueviolet;
+    width: 45%;
+}

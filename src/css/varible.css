@@ -6,7 +6,7 @@
     /* AZUL */
     --blue-primary: hsl(200, 75%, 20%);
     --blue-secundary: hsl(209, 97%, 53%);
-    --blue-tertiary: #005D90;
+    --blue-tertiary: hsl(202, 100%, 28%);
     --blue-quartiary: hsl(209, 59%, 63%);
     --blue-fifth: hsl(209, 78%, 18%);
     --blue-claro: #5B9FE6;
@@ -30,4 +30,6 @@
     /* gradients colors bottons*/
     --bg-btn-gradient: linear-gradient(to top, hsl(210, 100%, 40%), hsl(210, 50%, 80%));
 
+    /* gradients colors products */
+    --bg-section-product: linear-gradient(to right, hsl(209, 78%, 18%), hsl(202, 100%, 28%));
 }
