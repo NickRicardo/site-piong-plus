@@ -69,18 +69,30 @@ function exibirProdutos(produtosParaExibir) {
     });
 }
 
-// Função para redirecionar para a página de detalhes do produto
-function exibirDetalhes(nomeProduto) {
-    window.location.href = `product.html?produto=${encodeURIComponent(nomeProduto)}`;
+function exibirDetalhes(indiceProduto) {
+    const produtoSelecionado = produtos[indiceProduto];
+    window.location.href = `../html/produtos/aventaisMacacoes.html?produto=${encodeURIComponent(produtoSelecionado.nome)}`;
 }
+
+function exibirProdutos(produtosParaExibir) {
+    const produtosContainer = document.getElementById('produto');
+    produtosContainer.innerHTML = '';
+
+    produtosParaExibir.forEach((produto, indice) => {
+        const produtoHTML = `
+            <div class="produto" onclick="exibirDetalhes(${indice})">
+                <img src="${produto.imagem}" alt="${produto.nome}">
+                <h3>${produto.nome}</h3>
+                <h5>${produto.especificacoes}</h5>
+            </div>
+        `;
+        produtosContainer.innerHTML += produtoHTML;
+    });
+}
+
 
 // Chamada inicial para exibir todos os produtos
 filtrarProdutos();
-
-// Função para redirecionar para a página de detalhes do produto
-function exibirDetalhes(nomeProduto) {
-    window.location.href = `product.html?produto=${encodeURIComponent(nomeProduto)}`;
-}
 
 // Função para filtrar produtos com base na barra de pesquisa
 function filtrarPorBusca() {

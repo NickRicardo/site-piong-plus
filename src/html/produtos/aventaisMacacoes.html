@@ -46,7 +46,7 @@
                     </li>
 
                     <li class="dropdown">
-                        <a href="../html/produtos.html">Produtos</a>
+                        <a href="../../../src/html/produtos.html">Produtos</a>
                         <ul class="dropdown-menu">
                             <li><a href="../produtos/aventaisMacacoes.html">Aventais / Macacões</a></li>
                             <li><a href="#">Calça e Blusa</a></li>
@@ -82,21 +82,24 @@
                 <div class="product-spacification">
                     <h2 class="product-name">AVENTAL CIRÚRGICO PROTEÇÃO TOTAL IMPERMEÁVEL</h2>
 
-                    <p class="product-description">Usado como EPI em proteção  do   usuário  em  diversos procedimentos, tais como: ambulatório, emergência, cirurgias pesadas, hemodiálise, quimioterapia, lavanderia, banho em paciente, etc.
-                    
-                    
-                    <span class="product-certificate">Fabricado  de  acordo  com  as  exigências ANVISA BPF (Boas Práticas de Fabricação) e ABNT NBR 16064 - 2012.</span>
+                    <p class="product-description">Usado como EPI em proteção do usuário em diversos procedimentos, tais
+                        como: ambulatório, emergência, cirurgias pesadas, hemodiálise, quimioterapia, lavanderia, banho
+                        em paciente, etc.
+
+
+                        <span class="product-certificate">Fabricado de acordo com as exigências ANVISA BPF (Boas
+                            Práticas de Fabricação) e ABNT NBR 16064 - 2012.</span>
 
                     <ul class="list-spacification">
-                        <li>- Mangas longas;</li>
-                        <li>- Punho malha;</li>
-                        <li>- Dobra asséptica;</li>
-                        <li>- Embalado em grau cirúrgico;</li>
-                        <li>- De uso único;</li>
-                        <li>- Pronto para uso;</li>
-                        <li>- Produto Estéril e</li>
-                        <li>- Produto Estéril e</li>
-                        <li>- CÓD ANVISA: 8034 206 9005</li>
+                        <li>Mangas longas;</li>
+                        <li>Punho malha;</li>
+                        <li>Dobra asséptica;</li>
+                        <li>Embalado em grau cirúrgico;</li>
+                        <li>De uso único;</li>
+                        <li>Pronto para uso;</li>
+                        <li>Produto Estéril e</li>
+                        <li>Produto Estéril e</li>
+                        <li>CÓD ANVISA: 8034 206 9005</li>
                     </ul>
                     </p>
 
@@ -110,13 +113,61 @@
             </div>
         </section>
 
+        <section id="product-table">
+
+            <table class="product-category">
+                <thead>
+                    <tr>
+                        <th>Código do Produto</th>
+                        <th>Descrição</th>
+                        <th>Tamanho</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>589990</td>
+                        <td>Avental com toalha</td>
+                        <td>G</td>
+                    </tr>
+                    <tr>
+                        <td>589970</td>
+                        <td>Avental com toalha</td>
+                        <td>LGG</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- ITEMS RELACIONADOS -->
+        <section id="related-product">
+            <div class="produto" onclick="exibirDetalhes('${produto.nome}')">
+                <img src="../../img/produtos/categorias/aventaisMacacao/macacao1.png" alt="${produto.nome}">
+                <h3>Macacão Tyclean C/ Ziper e Capuz N/Estéril</h3>
+                <h5>Usado como EPI em proteção do usuário em diversos procedimentos</h5>
+            </div>
+            <div class="produto" onclick="exibirDetalhes('${produto.nome}')">
+                <img src="../../img/produtos/categorias/camisolaBatas/camisola1.png" alt="${produto.nome}">
+                <h3>CAMISOLA AZUL | SSMMS</h3>
+                <h5>Usada em procedimentos de consulta médica, exames, emergência, visita a pacientes etc</h5>
+            </div>
+            <div class="produto" onclick="exibirDetalhes('${produto.nome}')">
+                <img src="../../img/produtos/categorias/aventaisMacacao/avental2.png" alt="${produto.nome}">
+                <h3>Avental Verde N/Estéril | TNT</h3>
+                <h5>Usado como EPI em proteção do usuário em diversos procedimentos</h5>
+            </div>
+            <div class="produto" onclick="exibirDetalhes('${produto.nome}')">
+                <img src="../../img/produtos/categorias/aventaisMacacao/avental3.png" alt="${produto.nome}">
+                <h3>Avental Amarelo N/Estéril | SSMMS </h3>
+                <h5>Usado como EPI em proteção do usuário em diversos procedimentos</h5>
+            </div>
 
 
+            </div>
+
+        </section>
 
 
-
-
-        <!-- <section id="contact-store">
+        <section id="contact-store">
             <div class="content-contact">
                 <img src="/src/img/backgrounds/contato/bg2.png" alt="Atendente de telefone, sorrindo">
                 <div class="title-photo">
@@ -124,8 +175,7 @@
                     <h4>Como podemos te atender?</h4>
                 </div>
                 <a class="btn-clickhere-1" href="../html/contato.html">Fale Conosco</a>
-            </div> -->
-
+            </div>
         </section>
     </main>
 
@@ -179,6 +229,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="../js/form.js"></script>
     <script src="../js/lojainterativa.js"></script>
+    <script src="../../js/related-product.js"></script>
 </body>
 
 </html>

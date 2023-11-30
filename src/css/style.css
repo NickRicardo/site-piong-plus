@@ -2073,19 +2073,115 @@ button {
     flex-direction: column;
 }
 
+.fild-produts .product-spacification .product-name {
+    color: var(--blue-claro);
+    text-align: justify;
+}
+
+.fild-produts .product-spacification .product-description {
+    color: var(--gray-text);
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.fild-produts .product-spacification .product-certificate{
+    color: var(--gray-text);
+    text-align: justify;
+    margin-top: 25px;
+    display: block;
+}
+
+.fild-produts .product-spacification .list-spacification{
+    list-style-type: circle;
+    color: var(--gray-text);
+    margin: 25px 0 25px 25px;
+}
+
 .btn-clickhere-2 {
     text-align: center;
     background: var(--blue-tertiary);
     border-radius: 25px;
     padding: 12px;
-    width: 200px;
+    width: 250px;
     color: var(--white);
-    font-weight: bold;
+    font-weight: 300;
     font-size: 16px;
     margin-top: 20px;
+    text-transform: uppercase;
+    margin-left: 25px;
 }
 
-.fild-produts .content-product:hover img {
-    transform: scale(1.2); /* Ajuste o valor conforme necessário para o nível de zoom desejado */
-    transition: transform 0.3s ease; /* Adiciona uma transição suave ao efeito de zoom */
+#product-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+/* .fild-produts .content-product:hover img {
+    transform: scale(1.2); 
+    transition: transform 0.3s ease; 
+} */
+
+.product-category {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px 0;
+}
+
+.product-category th, .product-category td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.product-category th {
+    background-color: #f2f2f2;
+}
+
+.product-category tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+#related-product{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+#related-product .produto {
+    width: 270px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid var(--gray-text);
+    text-align: center;
+    cursor: pointer;
+}
+
+#related-product .wrapper .produto {
+    width: 270px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid var(--gray-text);
+    text-align: center;
+    cursor: pointer;
+}
+
+#related-product img {
+    max-width: 100%;
+    padding: 10px;
+}
+
+#related-product h3 {
+    color: var(--blue-claro);
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#related-product h5 {
+    color: var(--gray-text);
+    font-size: 12px;
 }
