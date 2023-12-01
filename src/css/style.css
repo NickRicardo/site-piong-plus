@@ -12,6 +12,10 @@ main {
     flex-direction: column;
     max-width: 1920px;
     margin: 0 auto;
+    background-image: url(/src/img/backgrounds/produtos/circle3d.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 header {
@@ -222,6 +226,10 @@ header {
     display: flex;
     justify-content: space-around;
     position: relative;
+    background-image: url(/src/img/backgrounds/home/circle3d.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -1896,7 +1904,7 @@ button {
 .wrapper {
     height: auto;
     display: flex;
-    margin: 0 8% 10%;
+    margin: 0 8%;
 }
 
 .wrapper #categorias {
@@ -1987,6 +1995,7 @@ button {
     position: relative;
     margin-bottom: 30px;
 
+
 }
 
 #contact-store .content-contact img {
@@ -2047,6 +2056,7 @@ button {
     color: var(--white);
     font-size: 25px;
 }
+
 .fild-produts {
     padding: 30px 20px;
     display: flex;
@@ -2068,6 +2078,11 @@ button {
     overflow: hidden;
 }
 
+.fild-produts .content-product img {
+    transform-origin: center center;
+    object-fit: cover;
+}
+
 .product-spacification {
     display: flex;
     flex-direction: column;
@@ -2084,14 +2099,14 @@ button {
     margin-top: 15px;
 }
 
-.fild-produts .product-spacification .product-certificate{
+.fild-produts .product-spacification .product-certificate {
     color: var(--gray-text);
     text-align: justify;
     margin-top: 25px;
     display: block;
 }
 
-.fild-produts .product-spacification .list-spacification{
+.fild-produts .product-spacification .list-spacification {
     list-style-type: circle;
     color: var(--gray-text);
     margin: 25px 0 25px 25px;
@@ -2111,17 +2126,12 @@ button {
     margin-left: 25px;
 }
 
-#product-table{
+#product-table {
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
 }
-
-/* .fild-produts .content-product:hover img {
-    transform: scale(1.2); 
-    transition: transform 0.3s ease; 
-} */
 
 .product-category {
     border-collapse: collapse;
@@ -2129,7 +2139,8 @@ button {
     margin: 50px 0;
 }
 
-.product-category th, .product-category td {
+.product-category th,
+.product-category td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
@@ -2144,7 +2155,7 @@ button {
 }
 
 
-#related-product{
+#related-product {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
