@@ -360,90 +360,107 @@ i {
     left: 60%;
 }
 
+
 #satisfied-customers {
-    background-color: #2F81C3;
-    height: auto;
-    margin-bottom: 0;
-}
-
-#satisfied-customers .top-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#satisfied-customers .title-and-image {
-    display: flex;
-    align-items: center;
-}
-
-
-#satisfied-customers .customers-title {
-    color: var(--white);
-    font-size: 40px;
-    margin-top: 20px;
-    text-transform: uppercase;
-}
-
-#satisfied-customers .image img {
-    max-width: 100px;
-    height: auto;
-}
-
-#satisfied-customers .customer-text {
-    color: var(--white);
-    font-size: 16px;
-    max-width: 450px;
-}
-
-#satisfied-customers .bottom-section {
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-    justify-content: center;
-    gap: 50px;
-}
-
-#satisfied-customers .customer-box {
-    background-color: var(--white);
-    border-radius: 5px;
-    text-align: center;
-    width: 250px;
-    height: 350px;
-    margin-top: 20px;
-    padding: 5px;
-}
-
-#satisfied-customers .customer-title {
-    color: var(--blue-tertiary);
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-#satisfied-customers .customers-image {
-    padding: 10px;
-    width: 250px;
-}
-
-#satisfied-customers .customer-description p {
-    color: var(--blue-secundary);
-    font-size: 13px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-#satisfied-customers .customers-controls {
-    position: absolute;
-    z-index: 99;
+    position: relative;
+    background: var(--blue-botton);
+    overflow: hidden;
     width: 100%;
-    height: 70%;
+    height: 100vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+
 }
 
+#satisfied-customers .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+
+#satisfied-customers .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+    filter: blur(4px);
+    background: #d1ebff;
+    border-radius: 10px;
+}
+
+#satisfied-customers .swiper-slide-active{
+    filter: blur(0px);
+    background: #fff;
+}
+
+#satisfied-customers .swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+#satisfied-customers .testimonialBox {
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    padding-top: 90px;
+    color: #999;
+}
+
+#satisfied-customers .testimonialBox .quote {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    opacity: 0.2;
+    width: 50px;
+    height: 50px;
+
+}
+
+#satisfied-customers .testimonialBox .details {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#satisfied-customers .testimonialBox .details .imgBx {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px
+}
+
+#satisfied-customers .testimonialBox .details .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#satisfied-customers .testimonialBox .details h3 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.1em;
+    color: #2196f3;
+
+}
+
+#satisfied-customers .testimonialBox .details h3 span {
+    font-size: 12px;
+    color: #666;
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right  {
+    background: none;
+}
 #highlights {
     position: relative;
     background-color: var(--white);
