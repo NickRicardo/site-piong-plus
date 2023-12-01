@@ -2157,11 +2157,33 @@ button {
 
 #related-product {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
 
 }
+
+#related-product .title-related {
+    display: flex;
+    justify-content: start;
+    width: 80%;
+    font-weight: 100;
+}
+
+#related-product .title-related h2{
+    display: flex;
+    justify-content: start;
+    font-weight: 400;
+    margin: 0 0 15px 11%;
+
+}
+
+#related-product .product-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 
 #related-product .produto {
     width: 270px;
