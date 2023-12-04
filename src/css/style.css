@@ -366,7 +366,7 @@ i {
     background: var(--blue-client);
     overflow: hidden;
     width: 100%;
-    height: 70vh;
+    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -391,7 +391,7 @@ i {
     border-radius: 10px;
 }
 
-#satisfied-customers .swiper-slide-active{
+#satisfied-customers .swiper-slide-active {
     filter: blur(0px);
     background: #fff;
 }
@@ -458,13 +458,13 @@ i {
 }
 
 .swiper-3d .swiper-slide-shadow-left,
-.swiper-3d .swiper-slide-shadow-right  {
+.swiper-3d .swiper-slide-shadow-right {
     background: none;
 }
 
 #satisfied-customers .testimonial-header {
     text-align: center;
-    color:var(--white);
+    color: var(--white);
     margin-bottom: 30px;
 }
 
@@ -476,7 +476,7 @@ i {
 
 #satisfied-customers .testimonial-header p {
     font-size: 22px;
-    color:var(--white);
+    color: var(--white);
 }
 
 #highlights {
@@ -2205,7 +2205,7 @@ button {
     font-weight: 100;
 }
 
-#related-product .title-related h2{
+#related-product .title-related h2 {
     display: flex;
     justify-content: start;
     font-weight: 400;
@@ -2252,4 +2252,40 @@ button {
 #related-product h5 {
     color: var(--gray-text);
     font-size: 12px;
+}
+
+#ombudsman {
+    background-image: url(../img/backgrounds/Ouvidoria/banner-ombudsman.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+#content-ombudsman {
+    margin-top: 50px;
+    text-align: justify;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content-ombudsman .ombudsman-container {
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+}
+
+#content-ombudsman .ombudsman-container a{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.no-background {
+    background-image: none;
 }
