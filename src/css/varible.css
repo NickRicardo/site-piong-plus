@@ -23,6 +23,9 @@
     --gray-primary: hsl(184, 9%, 57%);
 
 
+/* TIMELINE */
+--primary-color: #4000ff;
+
 
     /* gradients colors backgrouds*/
     --bg-section-gradientleft: linear-gradient(to left, hsl(210, 100%, 40%), hsl(210, 50%, 80%), var(--white));
