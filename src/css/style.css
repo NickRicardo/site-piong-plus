@@ -508,7 +508,7 @@ i {
     margin-top: 40%;
 }
 
-#highlights .latest-container {
+.latest-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -516,7 +516,7 @@ i {
     gap: 40px;
 }
 
-#highlights .latest-highlights {
+.latest-highlights {
     width: 300px;
     height: 350px;
     display: flex;
@@ -526,7 +526,7 @@ i {
 }
 
 
-#highlights .latest-item-top {
+.latest-item-top {
     flex: 1;
     background-image: url(../img/Blog/artigos/pub1.png);
     background-repeat: no-repeat;
@@ -535,7 +535,7 @@ i {
     border-radius: 25px 25px 0 0;
 }
 
-#highlights .latest-item-bottom {
+.latest-item-bottom {
     flex: 1;
     padding: 20px;
     background-color: var(--blue-tertiary);
@@ -543,7 +543,7 @@ i {
     border-radius: 0 0 25px 25px;
 }
 
-#highlights .latest-title {
+.latest-title {
     color: var(--white);
     font-weight: 300;
     text-align: left;
@@ -551,13 +551,13 @@ i {
     padding-bottom: 20px;
 }
 
-#highlights .latest-text {
+.latest-text {
     color: var(--white);
     font-size: 14px;
     text-align: left;
 }
 
-#highlights .btn-clickhere-4 {
+ .btn-clickhere-4 {
     display: inline-block;
     text-align: center;
     background: var(--white);
@@ -2281,11 +2281,68 @@ button {
     margin-bottom: 4%;
 }
 
-#content-ombudsman .ombudsman-container a{
+#content-ombudsman .ombudsman-container a {
     font-weight: bold;
     font-size: 1.2rem;
 }
 
 .no-background {
     background-image: none;
+}
+
+#materia-banner {
+    height: 6vh;
+    background: var(--bg-section-product);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#materia-banner .title-main {
+    color: var(--white);
+    font-size: 25px;
+}
+
+#container-materia {
+    display: flex;
+    justify-content: center;
+}
+
+#container-materia .fild-materia {
+    width: 80%;
+    padding: 60px 0;
+}
+
+#container-materia .materia-name {
+    color: var(--blue-claro);
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+#container-materia .materia-description {
+    color: var(--gray-text);
+    font-size: 20px;
+    text-align: justify;
+}
+
+.img_box {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.slider_container {
+    margin: 50px 0;
+}
+
+.slider_container .container {
+    padding: 0 15px;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.card_slider {
+    padding: 50px 10px;
 }
