@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/varible.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/responsive.css">
-    <link rel="shortcut icon" href="../img/favico/marca-d'agua.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/varible.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
+    <link rel="shortcut icon" href="../../img/favico/marca-d'agua.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -23,7 +23,7 @@
     <header>
         <div class="menu">
             <div class="logo">
-                <a href="/index.html"><img src="../img/logo/logo.png"></a>
+                <a href="../../../index.html"><img src="../../img/logo/logo.png"></a>
             </div>
             <nav class="menu-nav">
                 <button id="btn-mobile">
@@ -32,7 +32,7 @@
                 </button>
                 <ul>
                     <li>
-                        <a href="/index.html">Home</a>
+                        <a href="../../../index.html">Home</a>
                     </li>
                     <li class="dropdown">
                         <a href="#">Empresa</a>
@@ -40,15 +40,15 @@
                             <li><a href="../html/quem-somos.html">Quem Somos</a></li>
                             <li><a href="../html/certificado.html">Certificados</a></li>
                             <li><a href="../html/trabalhe-conosco.html">Trabalhe Conosco</a></li>
-                            <li><a href="../../src/html/ouvidoria.html">Ouvidoria</a></li>
+                            <li><a href="#">Ouvidoria</a></li>
                             <li><a href="#">Faça um Tour</a></li>
                         </ul>
                     </li>
 
                     <li class="dropdown">
-                        <a href="../html/produtos.html">Produtos</a>
+                        <a href="../../../src/html/produtos.html">Produtos</a>
                         <ul class="dropdown-menu">
-                            <li><a href="../html/produtos/aventaisMacacoesProtecao.html">Aventais / Macacões</a></li>
+                            <li><a href="../produtos/aventaisMacacoes.html">Aventais / Macacões</a></li>
                             <li><a href="#">Calça e Blusa</a></li>
                             <li><a href="#">Camisola/Botas</a></li>
                             <li><a href="#">Campos Cirúrgicos</a></li>
@@ -69,86 +69,104 @@
     </header>
 
     <main class="container">
-        <section id="product-banner">
+        <section id="produto-banner">
             <div class="content">
                 <div class="title">
-                    <h1 class="title-main">Produtos</h1>
+                    <h1 class="title-main">Aventais | Macacões</h1>
                 </div>
             </div>
         </section>
-        <!-- PRODUTO DESTAQUE -->
-        <section id="product-section">
-            <div class="produto-area">
-                <div class="produto-imagem hidden" alt="Imagem do evento mensal Outubro rosa">
+
+        <section id="container-product">
+            <div class="fild-produts">
+                <div class="product-spacification">
+                    <h2 class="product-name">AVENTAL CIRÚRGICO PROTEÇÃO TOTAL IMPERMEÁVEL</h2>
+
+                    <p class="product-description">Usado como EPI em proteção do usuário em diversos procedimentos, tais
+                        como: ambulatório, emergência, cirurgias pesadas, hemodiálise, quimioterapia, lavanderia, banho
+                        em paciente, etc.
+
+
+                        <span class="product-certificate">Fabricado de acordo com as exigências ANVISA BPF (Boas
+                            Práticas de Fabricação) e ABNT NBR 16064 - 2012.</span>
+
+                    <ul class="list-spacification">
+                        <li>Mangas longas;</li>
+                        <li>Punho malha;</li>
+                        <li>Dobra asséptica;</li>
+                        <li>Embalado em grau cirúrgico;</li>
+                        <li>De uso único;</li>
+                        <li>Pronto para uso;</li>
+                        <li>Produto Estéril e</li>
+                        <li>Produto Estéril e</li>
+                        <li>CÓD ANVISA: 8034 206 9005</li>
+                    </ul>
+                    </p>
+
+                    <a class="btn-clickhere-2" href="../../html/contato.html">Faça um orçamento</a>
                 </div>
-                <div class="content-produto">
-                    <div class="title-produto">
-                        <h2 id="title-main"> Produtos em</h2>
-                        <h2 id="subtitle">DESTAQUE</h2>
-                    </div>
-                    <div class="text-event">
-                        <p>Os componentes dos Kits são embalados em embalagem primária de papel grau cirúrgico e filme
-                            hospitalar e selados termicamente.</p>
-                    </div>
+
+
+                <div class="content-product">
+                    <img id="product-main" src="../../img/produtos/categorias/aventaisMacacao/avental1.png" alt="">
                 </div>
-                <a class="btn-clickhere-4" href="src/html/blog.html">Acesse agora</a>
             </div>
         </section>
 
-        <section id="search-section">
-            <div class="search-container">
-                <label for="search"><i class="fas fa-search"></i></label>
-                <input type="text" placeholder="O que você está procurando?" id="search" oninput="filtrarPorBusca()">
+        <section id="product-table">
+
+            <table class="product-category">
+                <thead>
+                    <tr>
+                        <th>Código do Produto</th>
+                        <th>Descrição</th>
+                        <th>Tamanho</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>589990</td>
+                        <td>Avental com toalha</td>
+                        <td>G</td>
+                    </tr>
+                    <tr>
+                        <td>589970</td>
+                        <td>Avental com toalha</td>
+                        <td>LGG</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- ITEMS RELACIONADOS -->
+        <section id="related-product">
+            <div class="title-related">
+                <h2>Produtos Relacionados</h2>
+            </div>
+            <div class="product-row">
+                <div class="produto" onclick="exibirDetalhes('${produto.nome}')">
+                    <img src="../../img/produtos/categorias/aventaisMacacao/macacao1.png" alt="${produto.nome}">
+                    <h3>Macacão Tyclean C/ Ziper e Capuz N/Estéril</h3>
+                    <h5>Usado como EPI em proteção do usuário em diversos procedimentos</h5>
+                </div>
+                <div class="produto" onclick="exibirDetalhes('${produto.nome}')">
+                    <img src="../../img/produtos/categorias/camisolaBatas/camisola1.png" alt="${produto.nome}">
+                    <h3>CAMISOLA AZUL | SSMMS</h3>
+                    <h5>Usada em procedimentos de consulta médica, exames, emergência, visita a pacientes etc</h5>
+                </div>
+                <div class="produto" onclick="exibirDetalhes('${produto.nome}')">
+                    <img src="../../img/produtos/categorias/aventaisMacacao/avental2.png" alt="${produto.nome}">
+                    <h3>Avental Verde N/Estéril | TNT</h3>
+                    <h5>Usado como EPI em proteção do usuário em diversos procedimentos</h5>
+                </div>
+                <div class="produto" onclick="exibirDetalhes('${produto.nome}')">
+                    <img src="../../img/produtos/categorias/aventaisMacacao/avental3.png" alt="${produto.nome}">
+                    <h3>Avental Amarelo N/Estéril | SSMMS </h3>
+                    <h5>Usado como EPI em proteção do usuário em diversos procedimentos</h5>
+                </div>
             </div>
         </section>
 
-
-        <div class="wrapper">
-            <aside id="categorias">
-                <h2>Categorias</h2>
-                <ul>
-                    <li>
-                        <input type="checkbox" id="categoria1" onclick="filtrarProdutos()">
-                        <label for="categoria1">Aventais / Macacões</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="categoria2" onclick="filtrarProdutos()">
-                        <label for="categoria2">Calça e Blusa</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="categoria3" onclick="filtrarProdutos()">
-                        <label for="categoria3">Camisola / Batas</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="categoria4" onclick="filtrarProdutos()">
-                        <label for="categoria4">Campos Cirúrgicos</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="categoria5" onclick="filtrarProdutos()">
-                        <label for="categoria5">Campos Oftálmicos</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="categoria6" onclick="filtrarProdutos()">
-                        <label for="categoria6">Cobertura de Mesa</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="categoria7" onclick="filtrarProdutos()">
-                        <label for="categoria7">Invólucros / Wrap</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="categoria8" onclick="filtrarProdutos()">
-                        <label for="categoria8">Kits Cirúrgicos</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="categoria9" onclick="filtrarProdutos()">
-                        <label for="categoria9">Kits Odontológicos</label>
-                    </li>
-                </ul>
-            </aside>
-            <section id="produto">
-                <!-- Containers para exibir produtos -->
-            </section>
-        </div>
 
 
         <section id="contact-store">
@@ -158,9 +176,8 @@
                     <h3>Quer entender melhor</h3>
                     <h4>Como podemos te atender?</h4>
                 </div>
-                <a class="btn-clickhere-1" href="../html/contato.html">Fale Conosco</a>
+                <a class="btn-clickhere-1" href="../../html/contato.html">Fale Conosco</a>
             </div>
-
         </section>
     </main>
 
@@ -214,6 +231,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="../js/form.js"></script>
     <script src="../js/lojainterativa.js"></script>
+    <script src="../../js/related-product.js"></script>
+    <script src="../../js/effectzoom.js"></script>
 </body>
 
 </html>

@@ -1090,7 +1090,7 @@ small {
 }
 
 #endo-marketing .conteudo-endo .image-endo {
-    background-image: url(/src/img/blog/destaque-mensal/projetoInovar.jpg);
+    background-image: url(../../src/img/Blog/destaque-mensal/Sobecc-2023/slide1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1193,8 +1193,7 @@ small {
 .timeline-wrapper {
     position: relative;
     max-width: 100vw;
-    height: 88vh;
-
+    height: 65vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1207,9 +1206,7 @@ small {
     padding: 0 22rem;
     background-color: #888;
     list-style-type: none;
-
     --scale: 1;
-
     display: flex;
 }
 
@@ -1251,10 +1248,13 @@ small {
 .timeline li::after{
     content: attr(data-date);
     top: -3.4rem;
+    font-size: 13px;
+    font-weight: bold;
+    --scale: 1.5;
 }
 
 .timeline li:nth-child(odd)::after{
-    top: 3.4rem;
+    /* top: 3.4rem; */
 }
 
 .timeline li:hover:after,
@@ -1302,7 +1302,7 @@ small {
     height: 25rem;
     border-radius: 1rem;
     padding: 1rem;
-    background-image: linear-gradient(45deg, var(--primary-color), magenta);
+    background: linear-gradient(to right, var(--blue-secundary), var(--blue-fifth));
     box-shadow: 0 .1rem .4rem #0004;
     z-index: 100;
     display: flex;
@@ -1333,7 +1333,7 @@ small {
     background-color: #fff3;
     padding: 1rem;
     border-radius: 1rem;
-    margin-left: 0.7rem;
+    margin-left: 10rem;
     text-align: justify;
 }
 
@@ -1347,6 +1347,13 @@ small {
     padding: .5rem .8rem;
     border-radius: 2rem;
     font-size: 1rem;
+}
+
+#historia-empresa #title-main{
+    font-size: 50px;
+    text-align: center;
+    padding: 30px 0 -30px 0;
+    color: var(--blue-tertiary);
 }
 
 

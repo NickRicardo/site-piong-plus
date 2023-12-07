@@ -2,6 +2,8 @@
 const produtos = [
     { nome: 'Avental Cirúrgico Proteção Total Impermeável', categoria: 'categoria1', imagem: '../img/produtos/categorias/aventaisMacacao/avental1.png', especificacoes: 'Usado como EPI em proteção do usuário em diversos procedimentos' },
 
+    { nome: 'Avental Emergency Plus | LC Impermeável', categoria: 'categoria1', imagem: '../img/produtos/categorias/aventaisMacacao/aventalEmergency.png', especificacoes: 'Usado como EPI em proteção do usuário em diversos procedimentos' },
+
     { nome: 'Calça e Blusa | Pijama SSMMS', categoria: 'categoria2', imagem: '../img/produtos/categorias/calcaBlusa/calcaeblusa1.png', especificacoes: 'Usada em procedimentos de consulta médica, exames, emergência,  visita a pacientes etc.' },
 
     { nome: 'CAMISOLA AZUL | SSMMS', categoria: 'categoria3', imagem: '../img/produtos/categorias/camisolaBatas/camisola1.png', especificacoes: 'Usada em procedimentos de consulta médica, exames,  emergência,  visita a pacientes etc' },
