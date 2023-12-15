@@ -94,7 +94,7 @@ const produtos = [
         imagem: '../img/produtos/categorias/campoCirurgico/campoCirurgico1.png',
         especificacoes: 'Indicado para procedimentos onde seja necessária   a  manutenção  da   técnica asséptica  e  o  isolamento  da área á ser tratada',
         paginaDetalhes: '../../../src/html/produtos/campoCirurgico.html'
-        
+
     },
 
     {
@@ -110,7 +110,7 @@ const produtos = [
     {
         nome: 'Campo Cirúrgico Oftálmico | SSMMS',
         categoria: 'categoria5',
-        imagem: '../img/produtos/categorias/campoOftalmico/campoOftalmico.png',
+        imagem: '../img/produtos/categorias/campoOftalmico/campoOftalmico2.png',
         especificacoes: 'Indicado  para cobertura  da mesa de instrumentos com impermeabilidade e reforço absorvente.',
         paginaDetalhes: '../../../src/html/produtos/campoOftalmico.html'
     },
@@ -120,7 +120,7 @@ const produtos = [
     {
         nome: 'COBERTURA IMPERMEÁVEL PARA MESA AUXILIAR',
         categoria: 'categoria6',
-        imagem: '../img/produtos/categorias/coberturaMesa/coberturaMesaAux.png',
+        imagem: '../img/produtos/categorias/coberturaMesa/coberturaMesaAux.jpg',
         especificacoes: 'Indicado  para cobertura  da mesa de instrumentos com impermeabilidade e reforço absorvente.',
         paginaDetalhes: '../../../src/html/produtos/coberturaImpermeavelMesaAuxiliar.html'
     },
@@ -213,7 +213,7 @@ const produtos = [
         nome: 'CIRUGIAS GERAIS/UNIVERSAIS | Kit Cir. Universal',
         categoria: 'categoria8',
         imagem: '../img/produtos/categorias/kitCirurgico/kit488265.png',
-        especificacoes: 'Kit Cirúrgico Ortopédico Ombro CÓD. 48.82.65 ANVISA: 803.420.60.005',
+        especificacoes: 'Kit Cirúrgico Universal CÓD. 48.82.65 ANVISA: 803.420.60.005',
         paginaDetalhes: '../../../src/html/produtos/kitUniversal.html'
     },
 
@@ -221,7 +221,7 @@ const produtos = [
         nome: 'CIRUGIAS GERAIS/UNIVERSAIS | Kit Cir. Universal com Avental',
         categoria: 'categoria8',
         imagem: '../img/produtos/categorias/kitCirurgico/kit488268.png',
-        especificacoes: 'Kit Cirúrgico Ortopédico Ombro CÓD. 48.82.68 ANVISA: 803.420.60.005',
+        especificacoes: 'Kit Cirúrgico Universal com Avental CÓD. 48.82.68 ANVISA: 803.420.60.005',
         paginaDetalhes: '../../../src/html/produtos/kitUniversalAvental.html'
     },
     //#endregion
@@ -257,27 +257,15 @@ function filtrarProdutos() {
 }
 
 // Função para exibir produtos na página
-function exibirProdutos(produtosParaExibir) {
-    const produtosContainer = document.getElementById('produto');
-    produtosContainer.innerHTML = '';
+function exibirDetalhes(nomeProduto) {
+    const produtoSelecionado = produtos.find(produto => produto.nome === nomeProduto);
 
-    produtosParaExibir.forEach(produto => {
-        const produtoHTML = `
-            <div class="produto" onclick="exibirDetalhes('${produto.nome}')">
-                <img src="${produto.imagem}" alt="${produto.nome}">
-                <h3>${produto.nome}</h3>
-                <h5>${produto.especificacoes}</h5>
-            </div>
-        `;
-        produtosContainer.innerHTML += produtoHTML;
-    });
+    if (produtoSelecionado && produtoSelecionado.paginaDetalhes) {
+        window.location.href = `../html/produtos/${produtoSelecionado.paginaDetalhes}?produto=${encodeURIComponent(produtoSelecionado.nome)}`;
+    } else {
+        console.error("Produto não encontrado ou página de detalhes não especificada.");
+    }
 }
-
-function exibirDetalhes(indiceProduto) {
-    const produtoSelecionado = produtos[indiceProduto];
-    window.location.href = `../html/produtos/${produtoSelecionado.paginaDetalhes}?produto=${encodeURIComponent(produtoSelecionado.nome)}`;
-}
-
 
 function exibirProdutos(produtosParaExibir) {
     const produtosContainer = document.getElementById('produto');
@@ -285,11 +273,13 @@ function exibirProdutos(produtosParaExibir) {
 
     produtosParaExibir.forEach((produto, indice) => {
         const produtoHTML = `
-            <div class="produto" onclick="exibirDetalhes(${indice})">
-                <img src="${produto.imagem}" alt="${produto.nome}">
-                <h3>${produto.nome}</h3>
-                <h5>${produto.especificacoes}</h5>
-            </div>
+        <div class="produto" onclick="exibirDetalhes('${produto.nome}')">
+        <img class="produto-imagem" src="${produto.imagem}" alt="${produto.nome}">
+        <div class="text-content">
+        <h3>${produto.nome}</h3>
+        <h5>${produto.especificacoes}</h5>
+        </div>
+    </div>
         `;
         produtosContainer.innerHTML += produtoHTML;
     });
