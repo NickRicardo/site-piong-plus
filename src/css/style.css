@@ -2527,6 +2527,13 @@ button {
     margin-bottom: 20px;
 }
 
+#container-materia .subtitle-materia-artigo {
+    color: var(--blue-claro);
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
 #container-materia .materia-description {
     color: var(--gray-text);
     font-size: 20px;
