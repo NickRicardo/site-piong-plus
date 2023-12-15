@@ -1112,7 +1112,7 @@ small {
 }
 
 #endo-marketing .conteudo-endo .novembroAzul{
-    background-image: url(../../src/img/Blog/destaque-mensal/NovembroAzul/foto1.png);
+    background-image: url(../../src/img/Blog/destaque-mensal/NovembroAzul/gif1.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1140,7 +1140,7 @@ small {
 }
 
 #endo-marketing .conteudo-endo .fomenta2023{
-    background-image: url(../../src/img/Blog/destaque-mensal/Fomenta/teste1.png);
+    background-image: url(../../src/img/Blog/destaque-mensal/Fomenta/Design-sem-nome.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1615,7 +1615,6 @@ small {
 #form-work button:hover {
     background-color: #0056b3;
 }
-
 
 #form-work .required {
     color: red;
