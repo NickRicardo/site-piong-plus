@@ -212,12 +212,12 @@ header {
     }
 }
 
-.page-tab {
+#banner-home .page-tab {
     position: absolute;
     bottom: -30px;
 }
 
-.page-tab img {
+#banner-home .page-tab img {
     max-width: 100%;
 }
 
@@ -324,6 +324,11 @@ header {
 
 #video-institucional .page-tab-bottom img {
     max-width: 100%;
+}
+
+#video-institucional .page-tab{
+    position: absolute;
+    bottom: -30px;
 }
 
 #video-institucional .assista-video img {
@@ -531,7 +536,7 @@ i {
 
 .latest-item-top {
     flex: 1;
-    background-image: url(../img/Blog/artigos/pub1.png);
+    /* background-image: url(../img/Blog/artigos/pub1.png); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -572,7 +577,6 @@ i {
     font-weight: bold;
     margin-top: 20px;
     text-transform: capitalize;
-    cursor: pointer;
 }
 
 #highlights .btn-clickhere-5 {
@@ -1003,34 +1007,45 @@ small {
     flex-wrap: wrap;
     max-width: 1440px;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     margin-bottom: 50px;
 }
 
 #artigos .conteudo-artigos .box-artigo {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 300px;
     height: 350px;
-    background-color: var(--green-secundary);
-    border-radius: 5px;
+    background-color: var(--blue-tertiary);
+    border-radius: 25px;
 }
 
 #artigos .conteudo-artigos .box-artigo .box-top {
-    background-image: url(/src/img/Blog/artigos/pub1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     flex: 1;
-    border-radius: 10px 10px 0 0;
+    border-radius: 25px 25px 0 0;
 }
 
+ .autoclave {
+    background-image: url(/src/img/Blog/artigos/autoclave.png);
+}
+
+.iras {
+    background-image: url(/src/img/Blog/artigos/iras.png);
+}
+
+.contaminacao{
+    background-image: url(/src/img/Blog/artigos/contaminacao.png);
+}
 
 #artigos .conteudo-artigos .box-artigo .box-bottom {
     flex: 1;
     color: var(--white);
     padding: 20px;
     text-align: center;
+
 }
 
 #artigos .conteudo-artigos .box-artigo .box-bottom .title-box {
@@ -1042,6 +1057,9 @@ small {
     font-weight: 300;
     margin-top: 10px;
     text-align: left;
+    font-size: 16px;
+    border-bottom: 1px solid var(--white);
+    padding: 12px;
 }
 
 #artigos .conteudo-artigos .box-artigo .box-bottom .btn-clickhere-3 {
@@ -1055,8 +1073,8 @@ small {
     width: 150px;
     margin-top: 20px;
     color: var(--blue-tertiary);
-    margin-top: 20px;
     font-weight: 500;
+    font-size: 15px;
 }
 
 #endo-marketing {
@@ -1104,42 +1122,42 @@ small {
     margin-bottom: 20px;
 }
 
-#endo-marketing .conteudo-endo .sobecc2023{
+#endo-marketing .conteudo-endo .sobecc2023 {
     background-image: url(../../src/img/Blog/destaque-mensal/Sobecc-2023/slide1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#endo-marketing .conteudo-endo .novembroAzul{
+#endo-marketing .conteudo-endo .novembroAzul {
     background-image: url(../../src/img/Blog/destaque-mensal/NovembroAzul/gif1.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#endo-marketing .conteudo-endo .outubroRosa{
+#endo-marketing .conteudo-endo .outubroRosa {
     background-image: url(../../src/img/Blog/destaque-mensal/Outubro-rosa/pb2.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#endo-marketing .conteudo-endo .inovar{
+#endo-marketing .conteudo-endo .inovar {
     background-image: url(../../src/img/Blog/destaque-mensal/Inovar/projetoInovar.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#endo-marketing .conteudo-endo .expoBrasil{
+#endo-marketing .conteudo-endo .expoBrasil {
     background-image: url(../../src/img/Blog/destaque-mensal/Expo/teste1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#endo-marketing .conteudo-endo .fomenta2023{
+#endo-marketing .conteudo-endo .fomenta2023 {
     background-image: url(../../src/img/Blog/destaque-mensal/Fomenta/Design-sem-nome.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -2170,13 +2188,11 @@ button {
     cursor: pointer;
 }
 
-.wrapper .produto .produto-imagem{
+.wrapper .produto .produto-imagem {
     padding-top: 20px;
 }
 
-.wrapper .produto .text-content{
-
-}
+.wrapper .produto .text-content {}
 
 
 .wrapper #produto .produto img {
@@ -2523,15 +2539,21 @@ button {
 #container-materia .subtitle-materia {
     color: var(--blue-claro);
     text-align: left;
-    font-size: 21px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin: 20px;
 }
 
 #container-materia .subtitle-materia-artigo {
     color: var(--blue-claro);
     text-align: center;
     font-size: 21px;
-    margin-bottom: 20px;
+    margin: 20px;
+}
+
+#container-materia .subtitle-materia-artigo ul,
+li {
+    color: var(--gray-text);
+    font-size: 20px;
 }
 
 #container-materia .materia-description {
