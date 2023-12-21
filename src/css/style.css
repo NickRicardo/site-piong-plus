@@ -526,7 +526,7 @@ i {
 
 .latest-highlights {
     width: 300px;
-    height: 350px;
+    height: 360px;
     display: flex;
     flex-direction: column;
     border-radius: 25px;
@@ -536,7 +536,6 @@ i {
 
 .latest-item-top {
     flex: 1;
-    /* background-image: url(../img/Blog/artigos/pub1.png); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -545,24 +544,27 @@ i {
 
 .latest-item-bottom {
     flex: 1;
-    padding: 20px;
+    padding: 10px;
     background-color: var(--blue-tertiary);
     text-align: center;
     border-radius: 0 0 25px 25px;
 }
 
-.latest-title {
+
+.latest-title h3{
     color: var(--white);
-    font-weight: 300;
+    font-size: 18px;
     text-align: left;
-    border-bottom: 2px solid var(--white);
-    padding-bottom: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
 }
 
-.latest-text {
+.latest-title p{
     color: var(--white);
     font-size: 14px;
     text-align: left;
+    border-bottom: 2px solid var(--white);
+    padding-bottom: 10px;
 }
 
 .btn-clickhere-4 {
@@ -1005,7 +1007,7 @@ small {
 #artigos .conteudo-artigos {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1440px;
+    max-width: 1200px;
     justify-content: center;
     gap: 40px;
     margin-bottom: 50px;
@@ -1018,6 +1020,7 @@ small {
     height: 350px;
     background-color: var(--blue-tertiary);
     border-radius: 25px;
+    box-shadow: 1px 5px 12px rgb(0, 0, 0);
 }
 
 #artigos .conteudo-artigos .box-artigo .box-top {
@@ -1040,22 +1043,50 @@ small {
     background-image: url(/src/img/Blog/artigos/contaminacao.png);
 }
 
+.biosseguranca{
+    background-image: url(/src/img/Blog/artigos/biosseguranca.png);
+}
+
+.infeccao{
+    background-image: url(/src/img/Blog/artigos/infeccao.png); 
+}
+
+.tendencia{
+    background-image: url(/src/img/Blog/artigos/tendencias.png); 
+
+}
+
+.normas{
+    background-image: url(/src/img/Blog/artigos/regulamentacoes.png)
+}
+
+.adocao{
+    background-image: url(/src/img/Blog/artigos/adocao.png)
+
+}
+
+.estoque{
+    background-image: url(/src/img/Blog/artigos/estoqueepi.png)
+
+}
+
 #artigos .conteudo-artigos .box-artigo .box-bottom {
     flex: 1;
     color: var(--white);
-    padding: 20px;
+    padding: 5px 10px 10px 12px;
     text-align: center;
 
 }
 
 #artigos .conteudo-artigos .box-artigo .box-bottom .title-box {
-    font-weight: 500;
+    font-weight: 600;
     text-align: left;
+    font-size: 19px;
 }
 
 #artigos .conteudo-artigos .box-artigo .box-bottom .text-box {
     font-weight: 300;
-    margin-top: 10px;
+    margin-top: 5px;
     text-align: left;
     font-size: 16px;
     border-bottom: 1px solid var(--white);
@@ -1164,11 +1195,27 @@ small {
     background-position: center;
 }
 
-
 #endo-marketing .conteudo-endo .box-endo .btn-clickhere-5 {
     position: relative;
     left: 0%;
     bottom: 0%;
+    text-align: center;
+    background: #13295f;
+    color: var(--white);
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 15px;
+    width: 150px;
+    margin-top: 20px;
+    font-weight: bold;
+    z-index: 99;
+    border: none;
+    cursor: pointer;
+}
+
+#endo-marketing .conteudo-endo .box-endo .content-right .btn-clickhere-5 {
+    position: relative;
+    left: 50%;
     text-align: center;
     background: #13295f;
     color: var(--white);
@@ -2555,6 +2602,17 @@ li {
     color: var(--gray-text);
     font-size: 20px;
 }
+
+#container-materia .negrito{
+    color: var(--black);
+}
+
+#container-materia .negrito a:hover{
+    color: var(--blue-claro);
+    text-decoration: underline;
+}
+
+
 
 #container-materia .materia-description {
     color: var(--gray-text);
