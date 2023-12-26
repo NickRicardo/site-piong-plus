@@ -1,18 +1,93 @@
-/* HOME */
-@media (max-width: 1310px) {
+@media (max-width: 1440px) {
+
+    /* PAGE HOME */
     #banner-home .content .title h1 {
-        font-size: 35px;
+        font-size: 34px;
     }
 
     #banner-home .content .text {
-        font-size: 16px;
+        font-size: 15px;
     }
 
-    #missao{
+    #missao {
         height: 150vh;
         justify-content: center;
         align-items: center;
     }
+
+    #video-institucional .page-tab-bottom {
+        top: -3px;
+    }
+
+    #location .page-tab-bottom {
+        top: -3px;
+    }
+}
+
+@media (max-width: 1310px){
+    /* CONSULTORIA TECNICA */
+    #technical-consultancy {
+        height: 75vh;
+    }
+
+    #technical-consultancy .container-technical-consultancy{
+        width: 80%;
+    }
+
+    #technical-consultancy .titles {
+        width: 550px;
+    }
+
+    #technical-consultancy .titles #title-consultancy {
+        font-size: 30px;
+    }
+
+    #technical-consultancy .titles #title-technique {
+        font-size: 55px;
+
+    }
+
+    #technical-consultancy .container-technical-consultancy .btn-clickhere-2 {
+        width: 200px;
+    }
+
+
+    #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
+        /* width: 450px;
+        height: 380px; */
+        margin-left: 15%;
+    }
+}
+
+@media(max-width: 1024px) {
+    #technical-consultancy {
+        height: 80vh;
+
+    }
+
+    #technical-consultancy .titles {
+        width: 350px;
+    }
+
+    #technical-consultancy .titles #title-consultancy {
+        font-size: 30px;
+    }
+
+    #technical-consultancy .titles #title-technique {
+        font-size: 55px;
+
+    }
+
+    #technical-consultancy .container-technical-consultancy .btn-clickhere-2 {
+        width: 180px;
+    }
+
+
+    #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
+        width: 450px;
+        height: 380px;
+    }
+
 }
 
 @media (max-width: 900px) {
@@ -29,9 +104,7 @@
         width: 130px;
         font-size: 14px;
     }
-
 }
-
 
 @media (max-width: 800px) {
 
@@ -41,14 +114,14 @@
     }
 
     #banner-home .content .text {
-        font-size: 14px;
+        font-size: 16px;
         width: auto;
     }
 
     #banner-home .content .btn-clickhere-1 {
         padding: 8px;
         width: 100px;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     #btn-mobile {
@@ -58,34 +131,41 @@
         background: none;
         cursor: pointer;
         gap: .5rem;
-
     }
 
-    .menu-nav ul{
+    .menu-nav ul {
         display: block;
         position: absolute;
         width: 100%;
         right: 0;
-        background: #e7e7e7;
-        transition: .6s;
+        background: var(--main-color);
+        transition: .3s;
         z-index: 1000;
         height: 0px;
         visibility: hidden;
         overflow-y: hidden;
         border-radius: 0 0 .5rem .5rem;
-        
+        text-align: center;
     }
 
-    .menu-nav.active ul{
+    .menu .menu-nav li{
+        margin: 20px 0;
+        font-size: 20px;
+    }
+
+    .menu .dropdown ul.dropdown-menu {
+        width: 100%;
+
+    }
+
+    .menu .dropdown ul.dropdown-menu li a {
+        text-align: center;
+    }
+
+    .menu-nav.active ul {
         height: 100vh;
         visibility: visible;
         overflow-y: auto;
-    }
-
-.menu-nav.active a{
-        padding: 1rem;
-        margin: 0 1rem;
-        border-bottom: 2px solid rgba(0, 0, 0, .05);
     }
 
     #hamburguer {
@@ -104,20 +184,18 @@
         margin-top: 5px;
         transition: .3s;
         position: relative;
-
     }
 
     .menu-nav.active #hamburguer {
         border-top-color: transparent;
     }
 
-    .menu-nav.active #hamburguer::before{
+    .menu-nav.active #hamburguer::before {
         transform: rotate(135deg);
     }
 
-    .menu-nav.active #hamburguer::after{
+    .menu-nav.active #hamburguer::after {
         transform: rotate(-135deg);
         top: -7px;
     }
 }
-
