@@ -1,129 +1,18 @@
-@media (max-width: 1440px) {
+@media (max-width: 1440px) {}
 
-    /* PAGE HOME */
-    #banner-home .content .title h1 {
-        font-size: 34px;
-    }
+@media (max-width: 1310px) {}
 
-    #banner-home .content .text {
-        font-size: 15px;
-    }
+@media(max-width: 1024px) {}
 
-    #missao {
-        height: 150vh;
-        justify-content: center;
-        align-items: center;
-    }
+@media (max-width: 900px) {}
 
-    #video-institucional .page-tab-bottom {
-        top: -3px;
-    }
+@media (max-width: 768px) {}
 
-    #location .page-tab-bottom {
-        top: -3px;
-    }
-}
+@media (max-width: 425px) {}
 
-@media (max-width: 1310px){
-    /* CONSULTORIA TECNICA */
-    #technical-consultancy {
-        height: 75vh;
-    }
+@media (max-width: 320px) {
 
-    #technical-consultancy .container-technical-consultancy{
-        width: 80%;
-    }
-
-    #technical-consultancy .titles {
-        width: 550px;
-    }
-
-    #technical-consultancy .titles #title-consultancy {
-        font-size: 30px;
-    }
-
-    #technical-consultancy .titles #title-technique {
-        font-size: 55px;
-
-    }
-
-    #technical-consultancy .container-technical-consultancy .btn-clickhere-2 {
-        width: 200px;
-    }
-
-
-    #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
-        /* width: 450px;
-        height: 380px; */
-        margin-left: 15%;
-    }
-}
-
-@media(max-width: 1024px) {
-    #technical-consultancy {
-        height: 80vh;
-
-    }
-
-    #technical-consultancy .titles {
-        width: 350px;
-    }
-
-    #technical-consultancy .titles #title-consultancy {
-        font-size: 30px;
-    }
-
-    #technical-consultancy .titles #title-technique {
-        font-size: 55px;
-
-    }
-
-    #technical-consultancy .container-technical-consultancy .btn-clickhere-2 {
-        width: 180px;
-    }
-
-
-    #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
-        width: 450px;
-        height: 380px;
-    }
-
-}
-
-@media (max-width: 900px) {
-    #banner-home .content .title h1 {
-        font-size: 25px;
-    }
-
-    #banner-home .content .text {
-        font-size: 14px;
-    }
-
-    #banner-home .content .btn-clickhere-1 {
-        padding: 10px;
-        width: 130px;
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 800px) {
-
-    #banner-home .content .title h1 {
-        font-size: 18px;
-        width: auto;
-    }
-
-    #banner-home .content .text {
-        font-size: 16px;
-        width: auto;
-    }
-
-    #banner-home .content .btn-clickhere-1 {
-        padding: 8px;
-        width: 100px;
-        font-size: 16px;
-    }
-
+    /* MENU */
     #btn-mobile {
         display: flex;
         padding: .5rem 1rem;
@@ -139,7 +28,7 @@
         width: 100%;
         right: 0;
         background: var(--main-color);
-        transition: .3s;
+        transition: .4s;
         z-index: 1000;
         height: 0px;
         visibility: hidden;
@@ -148,7 +37,7 @@
         text-align: center;
     }
 
-    .menu .menu-nav li{
+    .menu .menu-nav li {
         margin: 20px 0;
         font-size: 20px;
     }
@@ -198,4 +87,223 @@
         transform: rotate(-135deg);
         top: -7px;
     }
+
+    /* BANNER HOME */
+    #banner-home .content .title {
+        padding: 0 1rem;
+    }
+
+    #banner-home .content .title h1 {
+        font-size: 18px;
+        width: auto;
+    }
+
+    #banner-home .content .text {
+        font-size: 12px;
+        width: auto;
+    }
+
+    #banner-home .content .btn-clickhere-1 {
+        padding: 8px;
+        width: 90px;
+        font-size: 12px;
+    }
+
+    /* CONSUTORIA TECNICA */
+    #technical-consultancy {
+        height: 90vh;
+        padding: 1.5rem 0;
+    }
+
+    #technical-consultancy .container-technical-consultancy {
+        display: flex;
+        flex-direction: column;
+        width: 20px;
+    }
+
+    #technical-consultancy .titles {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #technical-consultancy .titles #title-consultancy {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    #technical-consultancy .titles #title-technique {
+        font-size: 40px;
+    }
+
+    #technical-consultancy .titles .text-technical-consultancy {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
+        width: 200px;
+        height: 180px;
+    }
+
+    #technical-consultancy .container-technical-consultancy .technical-consultancy-image img {
+        width: 350px;
+        height: 200px;
+        right: -65px;
+        bottom: 0px;
+    }
+
+    #technical-consultancy .container-technical-consultancy .btn-clickhere-2 {
+        padding: 10px;
+        font-size: 12px;
+        width: 120px;
+    }
+
+    #video-institucional .container-institucional {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #video-institucional .institucional iframe {
+        width: 300px;
+        height: 169px;
+    }
+
+    #video-institucional .assista-video img {
+        width: 25px;
+        height: 25px;
+    }
+
+    #video-institucional .assista-video h2,
+    i {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #video-institucional .assista-video p {
+        width: 250px;
+        text-align: justify;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    #video-institucional .btn-clickhere-3 {
+        padding: 12px;
+        width: 120px;
+        margin-top: 20px;
+        font-size: 12px;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* DEPOIMENTOS DOS CLIENTES */
+    #satisfied-customers {
+        height: 90vh;
+    }
+
+    #satisfied-customers .testimonial-header h2 {
+        font-size: 22px;
+        font-weight: 900;
+    }
+
+    #satisfied-customers .testimonial-header p {
+        max-width: 280px;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    #satisfied-customers .swiper-container {
+        padding-top: 20px;
+    }
+
+    #satisfied-customers .swiper-slide {
+        width: 280px;
+        height: auto;
+        margin-right: 8px;
+    }
+
+    #satisfied-customers .testimonialBox {
+        padding: 20px;
+    }
+
+    #satisfied-customers .testimonialBox .content {
+        font-size: 15px;
+    }
+
+    #satisfied-customers .testimonialBox .quote {
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #satisfied-customers .testimonialBox .details h3 {
+        font-size: 14px;
+    }
+
+    #satisfied-customers .testimonialBox .details span {
+        font-size: 10px;
+    }
+
+    /* DESTAQUES BLOG */
+    #highlights{
+        display: block;
+    }
+    
+    #highlights .highlights-title h2 {
+        font-size: 20px;
+        font-weight: 900;
+        margin-top: 0;
+    }
+
+    #highlights .latest-highlights {
+        width: 285px;
+        box-shadow: 8px 8px 10px rgb(109, 109, 109);
+    }
+
+    .latest-item-top,
+    .latest-item-bottom {
+        width: 285px;
+    }
+
+    .latest-container {
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+
+    #highlights .destaque-mensal {
+        width: 100%;
+
+    }
+
+    #highlights .destaque-mensal .evento-destaque {
+        top: -80px;
+        /* Ajusta a posição do evento destacado */
+        left: 0;
+        width: 100%;
+        /* Garante que o evento destacado ocupe toda a largura da tela */
+        border-radius: 15px 15px 0 0;
+        /* Adapta a borda superior do evento destacado */
+    }
+
+    #highlights .destaque-mensal .content-event {
+        width: 100%;
+        /* Garante que o conteúdo do evento destacado ocupe toda a largura da tela */
+        text-align: center;
+        /* Centraliza o texto */
+    }
+
+    #highlights .destaque-mensal .btn-clickhere-4 {
+        width: 100%;
+        /* Garante que o botão ocupe toda a largura da tela */
+        right: 0;
+        bottom: 0;
+        border-radius: 0 0 15px 15px;
+        /* Adapta a borda inferior do botão */
+    }
+
 }

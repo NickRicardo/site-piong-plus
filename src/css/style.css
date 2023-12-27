@@ -27,9 +27,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 4rem;
     width: 100%;
     background-color: var(--blue-tertiary);
+    padding: 0 4rem;
 }
 
 .menu .logo img {
@@ -219,8 +219,9 @@ header {
     max-width: 100%;
 }
 
+/* CONSUTORIA TECNICA */
 #technical-consultancy {
-    height: 70vh;
+    height: 75vh;
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -262,12 +263,12 @@ header {
     font-weight: 900;
 }
 
-#technical-consultancy .container-technical-consultancy .technical-consultancy-image{
+#technical-consultancy .container-technical-consultancy .technical-consultancy-image {
     position: relative;
     width: 650px;
     height: 420px;
     border-radius: 25% 25% 52% 25%;
-    box-shadow: 20px 20px 50px rgb(109, 109, 109);
+    box-shadow: 10px 10px 10px rgb(109, 109, 109);
     margin-left: 25%;
     z-index: 99;
     background-image: url(/src/img/backgrounds/home/FOTO\ FUNDO.png);
@@ -281,9 +282,8 @@ header {
     position: absolute;
     width: 800px;
     height: 480px;
-    right: -120px;
-    bottom: 0;
-
+    right: -150px;
+    bottom: 0.5px;
 }
 
 #technical-consultancy .container-technical-consultancy .btn-clickhere-2 {
@@ -324,12 +324,12 @@ header {
     max-width: 100%;
 }
 
-#video-institucional .page-tab{
+#video-institucional .page-tab {
     position: absolute;
     bottom: -30px;
 }
 
-#video-institucional .page-tab img{
+#video-institucional .page-tab img {
     max-width: 100%;
 }
 
@@ -375,7 +375,7 @@ i {
     background: var(--blue-client);
     overflow: hidden;
     width: 100%;
-    height: 95vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -499,14 +499,16 @@ i {
     top: -20px;
 }
 
-#highlights .page-tab img{
-max-width: 100%;
+#highlights .page-tab img {
+    max-width: 100%;
 }
 
 #highlights .highlights-title {
     color: var(--blue-tertiary);
-    text-align: center;
     margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #highlights .highlights-title h2 {
@@ -550,7 +552,7 @@ max-width: 100%;
 }
 
 
-.latest-title h3{
+.latest-title h3 {
     color: var(--white);
     font-size: 18px;
     text-align: left;
@@ -558,7 +560,7 @@ max-width: 100%;
     font-weight: 600;
 }
 
-.latest-title p{
+.latest-title p {
     color: var(--white);
     font-size: 14px;
     text-align: left;
@@ -1030,7 +1032,7 @@ small {
     border-radius: 25px 25px 0 0;
 }
 
- .autoclave {
+.autoclave {
     background-image: url(/src/img/Blog/artigos/autoclave.png);
 }
 
@@ -1038,35 +1040,33 @@ small {
     background-image: url(/src/img/Blog/artigos/iras.png);
 }
 
-.contaminacao{
+.contaminacao {
     background-image: url(/src/img/Blog/artigos/contaminacao.png);
 }
 
-.biosseguranca{
+.biosseguranca {
     background-image: url(/src/img/Blog/artigos/biosseguranca.png);
 }
 
-.infeccao{
-    background-image: url(/src/img/Blog/artigos/infeccao.png); 
+.infeccao {
+    background-image: url(/src/img/Blog/artigos/infeccao.png);
 }
 
-.tendencia{
-    background-image: url(/src/img/Blog/artigos/tendencias.png); 
+.tendencia {
+    background-image: url(/src/img/Blog/artigos/tendencias.png);
 
 }
 
-.normas{
+.normas {
     background-image: url(/src/img/Blog/artigos/regulamentacoes.png)
 }
 
-.adocao{
+.adocao {
     background-image: url(/src/img/Blog/artigos/adocao.png)
-
 }
 
-.estoque{
+.estoque {
     background-image: url(/src/img/Blog/artigos/estoqueepi.png)
-
 }
 
 #artigos .conteudo-artigos .box-artigo .box-bottom {
@@ -2602,11 +2602,11 @@ li {
     font-size: 20px;
 }
 
-#container-materia .negrito{
+#container-materia .negrito {
     color: var(--black);
 }
 
-#container-materia .negrito a:hover{
+#container-materia .negrito a:hover {
     color: var(--blue-claro);
     text-decoration: underline;
 }
