@@ -11,6 +11,9 @@
 @media (max-width: 425px) {}
 
 @media (max-width: 320px) {
+    body {
+        overflow-x: hidden;
+    }
 
     /* MENU */
     #btn-mobile {
@@ -230,7 +233,12 @@
     }
 
     #satisfied-customers .testimonialBox .content {
-        font-size: 15px;
+        font-size: 13px;
+    }
+
+    #satisfied-customers .testimonialBox .details .imgBx img {
+        width: 80%;
+        height: 80%;
     }
 
     #satisfied-customers .testimonialBox .quote {
@@ -248,62 +256,229 @@
         font-size: 10px;
     }
 
-    /* DESTAQUES BLOG */
-    #highlights{
+    /* DESTAQUES BLOG / ARTIGOS */
+    #highlights {
         display: block;
     }
-    
+
     #highlights .highlights-title h2 {
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 900;
         margin-top: 0;
     }
 
     #highlights .latest-highlights {
-        width: 285px;
+        width: 280px;
+        height: 300px;
         box-shadow: 8px 8px 10px rgb(109, 109, 109);
     }
 
     .latest-item-top,
     .latest-item-bottom {
-        width: 285px;
+        width: 280px;
+
     }
 
     .latest-container {
         gap: 40px;
-        margin-bottom: 40px;
     }
 
+    .latest-title h3 {
+        font-size: 16px;
+    }
 
+    .latest-title p {
+        font-size: 12px;
+    }
+
+    .btn-clickhere-4 {
+        padding: 10px;
+        color: var(--blue-tertiary);
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px;
+    }
+
+    #highlights .latest-highlights:nth-last-child(-n+5) {
+        display: none;
+    }
+
+    #highlights .btn-clickhere-5 {
+        margin: 10% 0 20% 0;
+        width: 150px;
+        font-size: 15px;
+    }
+
+    /* DESTAQUE ENDOMAKETING */
     #highlights .destaque-mensal {
-        width: 100%;
-
+        width: 90%;
+        height: 270px;
     }
 
     #highlights .destaque-mensal .evento-destaque {
-        top: -80px;
-        /* Ajusta a posição do evento destacado */
-        left: 0;
-        width: 100%;
-        /* Garante que o evento destacado ocupe toda a largura da tela */
-        border-radius: 15px 15px 0 0;
-        /* Adapta a borda superior do evento destacado */
+        width: 200px;
+        height: 215px;
+        top: -165px;
+        left: 43px;
+        border-radius: 50% 50% 5% 5%;
     }
 
-    #highlights .destaque-mensal .content-event {
-        width: 100%;
-        /* Garante que o conteúdo do evento destacado ocupe toda a largura da tela */
+    #highlights .content-event {
+        text-align: justify;
+    }
+
+    #highlights .title-event {
+        font-size: 18px;
         text-align: center;
-        /* Centraliza o texto */
+    }
+
+    #highlights .text-event {
+        font-size: 15px;
     }
 
     #highlights .destaque-mensal .btn-clickhere-4 {
-        width: 100%;
-        /* Garante que o botão ocupe toda a largura da tela */
-        right: 0;
-        bottom: 0;
-        border-radius: 0 0 15px 15px;
-        /* Adapta a borda inferior do botão */
+        padding: 10px;
+        width: 140px;
+        color: var(--blue-tertiary);
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 20px;
+        position: absolute;
+        bottom: -20px;
+        right: 70px;
+        box-shadow: 10px 10px 10px rgb(109, 109, 109);
     }
 
+    /* LOCALIZAÇÃO */
+    #location {
+        height: 80vh;
+    }
+
+    #location .location-title h2 {
+        font-size: 20px;
+    }
+
+    #location .location-title .fa-map-marker-alt {
+        margin-right: 5px;
+        color: red;
+    }
+
+    #location iframe {
+        width: 280px;
+        height: 280px;
+    }
+
+    /* FOOTER  */
+    .container-footer {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .footer-left,
+    .footer-right {
+        flex: 1;
+        width: 100%;
+    }
+
+    .footer-right {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .endereco h2,
+    .social h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .endereco,
+    .horario,
+    .social {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .endereco address {
+        font-style: normal;
+        margin-bottom: 20px;
+    }
+
+    .horario {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .horario h2 {
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+
+    .dias-atendimento,
+    .horarios-funcionamento {
+        flex: 1;
+        width: 100%;
+    }
+
+    .horarios-funcionamento {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-right h2 {
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+
+    .dias-atendimento {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social {
+        height: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: end;
+        margin-right: none;
+    }
+
+
+    .list-social {
+        display: flex;
+        gap: 20px;
+    }
+
+    .list-social a {
+        font-size: 30px;
+    }
+
+    .social-links ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .social-links li {
+        margin: 5px 0;
+    }
+
+    .social-links a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .btn-clickhere-5 {
+        padding: 10px;
+        font-size: 12px;
+        width: 200px;
+    }
+
+    small {
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 12px;
+    }
 }

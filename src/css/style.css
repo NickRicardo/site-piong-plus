@@ -317,7 +317,7 @@ header {
 
 #video-institucional .page-tab-bottom {
     position: absolute;
-    top: 0%;
+    top: -2px;
 }
 
 #video-institucional .page-tab-bottom img {
@@ -450,7 +450,7 @@ i {
 
 #satisfied-customers .testimonialBox .details h3 {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 1px;
     line-height: 1.1em;
     color: #2196f3;
@@ -459,6 +459,7 @@ i {
 #satisfied-customers .testimonialBox .details h3 span {
     font-size: 12px;
     color: #666;
+    font-weight: 400;
 }
 
 .swiper-3d .swiper-slide-shadow-left,
@@ -564,7 +565,7 @@ i {
     color: var(--white);
     font-size: 14px;
     text-align: left;
-    border-bottom: 2px solid var(--white);
+    border-bottom: 1px solid var(--white);
     padding-bottom: 10px;
 }
 
@@ -687,7 +688,7 @@ i {
 
 #location .page-tab-bottom {
     position: absolute;
-    top: 0%;
+    top: -4px;
 }
 
 #location .page-tab-bottom img {
@@ -722,7 +723,6 @@ footer {
     flex-wrap: wrap;
     height: 40vh;
     position: relative;
-    /* Adicione esta linha */
 }
 
 .container-footer {
@@ -733,6 +733,12 @@ footer {
 .footer-left,
 .footer-right {
     flex: 1;
+}
+
+.footer-right {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
 }
 
 .endereco h2,
@@ -762,7 +768,8 @@ footer {
 
 .dias-atendimento,
 .horarios-funcionamento {
-    flex: 1;
+    display: flex;
+    justify-content: space-around;
 }
 
 .dias-atendimento {
@@ -771,11 +778,12 @@ footer {
 }
 
 .social {
-    height: 60%;
+    /* height: 60%; */
     display: flex;
     justify-content: flex-end;
-    align-items: end;
-    margin-right: 12%;
+    /* align-items: end; */
+    /* margin-right: 12%; */
+    margin-top: 15%;
 }
 
 .list-social {
@@ -786,6 +794,7 @@ footer {
 
 .list-social a {
     color: #13295f;
+    font-size: 35px;
 }
 
 .social-links ul {
