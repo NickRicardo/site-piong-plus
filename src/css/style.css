@@ -770,7 +770,11 @@ footer {
 .horarios-funcionamento {
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+    margin-left: 5px;
 }
+
+
 
 .dias-atendimento {
     display: flex;
