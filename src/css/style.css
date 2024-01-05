@@ -221,7 +221,7 @@ header {
 
 /* CONSUTORIA TECNICA */
 #technical-consultancy {
-    height: 75vh;
+    height: 80vh;
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -264,14 +264,10 @@ header {
 }
 
 #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
-    position: relative;
-    width: 650px;
-    height: 420px;
-    border-radius: 25% 25% 52% 25%;
-    box-shadow: 10px 10px 10px rgb(109, 109, 109);
-    margin-left: 25%;
+    width: 750px;
+    height: 670px;
     z-index: 99;
-    background-image: url(/src/img/backgrounds/home/FOTO\ FUNDO.png);
+    background-image: url(/src/img/backgrounds/consultoriaTecnica/ConsultTEc.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -2815,4 +2811,97 @@ li {
     align-items: center;
     background-color: var(--white);
     transition: transform 0.2s
+}
+
+#parceiros{
+    height: auto;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+#parceiros .parceiros-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#parceiros .parceiros-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--blue-tertiary);
+    width: 70%;
+    margin: 30px 0 80px 0;
+    text-align: center;
+}
+
+#parceiros .parceiros-header h2 {
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+#parceiros .parceiros-header p {
+    font-size: 22px;
+    color: var(--blue-tertiary);
+}
+
+#parceiros .parceiros-coment{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+#parceiros .parceiros-coment .parceiros-box{
+    box-shadow: 1px 15px 50px rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 25px;
+}
+
+#parceiros .parceiros-coment .parceiros-box::before{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    right: -25px ;
+    top: 90px;
+    background-color: white;
+    -webkit-transform: rotate(45deg);
+}
+
+#parceiros-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 77vh;
+}
+
+#parceiros-contact .parceiros-content-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+#parceiros-contact .parceiros-content-contact img {
+    width: 75%;
+    max-height: 100%;
+    z-index: 2;
+}
+
+#parceiros-contact .title-photo {
+    width: 80%;
+    max-width: 550px;
+    position: absolute;
+    font-size: 1.5vw;
+    bottom: 20%;
+    left: 35%;
+    transform: translateX(-50%);
+    text-align: left;
+    color: var(--white);
+    z-index: 3;
 }
