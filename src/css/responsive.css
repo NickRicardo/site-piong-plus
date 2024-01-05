@@ -12,7 +12,6 @@
     header{
         display: flex;
         justify-content: center;
-        background-color: rebeccapurple;
     }
 
      #btn-mobile {
@@ -22,11 +21,9 @@
         background: none;
         cursor: pointer;
         gap: .5rem;
+        width: auto;
     }
 
-    /* .menu{
-
-    } */
 
     .menu-nav ul {
         display: block;
@@ -92,6 +89,67 @@
         transform: rotate(-135deg);
         top: -7px;
     }
+
+    
+    /* BANNER HOME */
+    #banner-home .content .title {
+        padding: 0 1rem;
+    }
+
+    #banner-home .content .title h1 {
+        font-size: 24px;
+        width: auto;
+    }
+
+    #banner-home .content .text {
+        font-size: 14px;
+        width: auto;
+    }
+
+    #banner-home .content .btn-clickhere-1 {
+        padding: 8px;
+        width: 90px;
+        font-size: 12px;
+    }
+
+       /* CONSUTORIA TECNICA */
+       #technical-consultancy {
+        height: 65vh;
+        padding: 1.5rem 0;
+    }
+
+    #technical-consultancy .titles {
+        width: 15rem;
+        display: flex;
+        flex-direction: column;
+        }
+
+        #technical-consultancy .titles #title-consultancy {
+            font-size: 23px;
+            font-weight: 500;
+        }
+
+        #technical-consultancy .titles #title-technique {
+            font-size: 35px;
+        }
+
+        #technical-consultancy .titles .text-technical-consultancy {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
+            width: 18.75rem;
+            height: 18.75rem;
+        }
+    
+        #technical-consultancy .container-technical-consultancy .btn-clickhere-2 {
+            padding: 10px;
+            font-size: 12px;
+            width: 120px;
+            left: -30px;
+        }
+
 }
 
 @media (max-width: 425px) {
@@ -103,6 +161,8 @@
         background: none;
         cursor: pointer;
         gap: .5rem;
+        width: auto;
+
     }
 
     .menu-nav ul {
@@ -229,12 +289,6 @@
         height: 180px;
     }
 
-    #technical-consultancy .container-technical-consultancy .technical-consultancy-image img {
-        width: 350px;
-        height: 200px;
-        right: -65px;
-        bottom: 0px;
-    }
 
     #technical-consultancy .container-technical-consultancy .btn-clickhere-2 {
         padding: 10px;
@@ -430,7 +484,7 @@
         margin-top: 20px;
         position: absolute;
         bottom: -20px;
-        right: 105px;
+        right: 125px;
         box-shadow: 10px 10px 10px rgb(109, 109, 109);
     }
 
@@ -798,11 +852,14 @@
     /* MENU */
     #btn-mobile {
         display: flex;
+        justify-content: space-between;
         padding: .5rem 1rem;
         border: none;
         background: none;
         cursor: pointer;
         gap: .5rem;
+        width: auto;
+
     }
 
     .menu {
