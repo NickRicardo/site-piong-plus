@@ -1,8 +1,8 @@
-@media (max-width: 1440px) {
+@media (max-width: 1540px) {
 
     /* CONSUTORIA TECNICA */
     #technical-consultancy {
-        height: 65vh;
+        height: 90vh;
         padding: 1.5rem 0;
     }
 
@@ -14,8 +14,8 @@
     }
 
     #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
-        width: 500px;
-        height: 500px;
+        width: 605px;
+        height: 605px;
     }
 }
 
@@ -1110,6 +1110,97 @@
         text-overflow: ellipsis;
         font-size: 12px;
     }
+
+
+       /* PAGINA QUEM SOMOS  */
+    /* BANNER */
+    main {
+        overflow-x: hidden;
+    }
+
+    #banner-somos .content .title .title-main {
+        font-size: 25px;
+        width: auto;
+    }
+
+    .timeline-wrapper {
+        display: none;
+    }
+
+    .timeLineMobile {
+        display: block;
+        height: auto;
+    }
+
+    .timeLineMobile::after {
+        left: 31px;
+    }
+
+    .container-timeLineMobile {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .container-timeLineMobile::before {
+        left: 61px;
+        border: medium solid hsl(209, 97%, 53%);
+        border-width: 10px 10px 10px 0;
+        border-color: transparent hsl(209, 97%, 53%) transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+        left: 20px;
+    }
+
+    .right {
+        left: 0%;
+    }
+
+         /* MISSÃO VISAO E VALORES  */
+         #missao{
+            height: 80vh;
+            padding: 20px;
+        }
+    
+        #missao .content-missao{
+            width: 80%;
+            text-align: justify;
+        }
+
+        #missao .content-missao #title-missao {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+        
+        #missao .content-missao #text-missao {
+            font-size: 15px;
+        }
+
+        /* RESPONSABILIDADE FOTO  */
+
+        #responsabilidade{
+            height: 40vh;
+        }
+
+        #responsabilidade .titles-responsabilidade #title-responsabilidade {
+
+            font-size: 25px;
+            font-weight: bold;
+        }
+        
+        #responsabilidade .titles-responsabilidade #subtitle-responsabilidade {
+            color: var(--white);
+            font-size: 18px;
+            font-weight: 300;
+        }
+
+        #social-ambiental{
+            /* TERMINAR EM CASA  */
+        }
 }
 
 @media (max-width: 375px) {
@@ -1816,4 +1907,71 @@
         text-overflow: ellipsis;
         font-size: 12px;
     }
+
+    /* PAGINA QUEM SOMOS  */
+    /* BANNER */
+    main {
+        overflow-x: hidden;
+    }
+
+    #banner-somos .content .title .title-main {
+        font-size: 25px;
+        width: auto;
+    }
+
+    #historia-empresa #title-timeline-center .titles {
+        width: 260px;
+
+    }
+
+    #historia-empresa .titles #title-timeline {
+        font-size: 1.7rem;
+        font-weight: 300;
+    }
+
+    #historia-empresa .titles #subtitle-timeline {
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+
+    .timeline-wrapper {
+        display: none;
+    }
+
+    .timeLineMobile {
+        display: block;
+        height: auto;
+    }
+
+    .timeLineMobile::after {
+        left: 31px;
+    }
+
+    .container-timeLineMobile {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .container-timeLineMobile::before {
+        left: 61px;
+        border: medium solid hsl(209, 97%, 53%);
+        border-width: 10px 10px 10px 0;
+        border-color: transparent hsl(209, 97%, 53%) transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+        left: 20px;
+    }
+
+    .right {
+        left: 0%;
+    }
+
+
+
 }
