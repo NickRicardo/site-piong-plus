@@ -21,7 +21,7 @@
     #missao {
         height: 90vh;
     }
-    
+
 }
 
 @media(max-width: 1024px) {
@@ -262,12 +262,12 @@
         color: red;
     }
 
-    
-    #responsabilidade{
+
+    #responsabilidade {
         height: 65vh;
     }
 
-    .historia-conteudo{
+    .historia-conteudo {
         width: 100%;
     }
 
@@ -275,12 +275,12 @@
         max-width: 50%;
     }
 
-    #movie-institutional .container-institucional .assista-video{
+    #movie-institutional .container-institucional .assista-video {
         padding: 10px;
     }
 
     #movie-institutional #assista,
-    #movie-institutional #video{
+    #movie-institutional #video {
         font-size: 2rem;
     }
 
@@ -695,17 +695,18 @@
         height: 80vh;
     }
 
-    #responsabilidade{
+    #responsabilidade {
         height: 65vh;
     }
 
-    .historia-conteudo{
+    .historia-conteudo {
         width: 100%;
     }
 
     .historia-conteudo .foto-conteudo {
         max-width: 50%;
     }
+
 
     @media (max-width: 628px) {
 
@@ -1333,6 +1334,26 @@
         #movie-institutional iframe {
             width: 100%;
             height: auto;
+        }
+
+        /* PAGINA CERTIFICADOS  */
+
+        #certificate{
+            height: 30vh;
+        }
+
+        .content .title .title-main{
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+
+        #seal-integrity{
+            height: auto;
+        }
+
+        .seal-integrity-content{
+            display: flex;
+            flex-direction: column;
         }
 
     }
