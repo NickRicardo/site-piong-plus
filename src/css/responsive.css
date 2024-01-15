@@ -24,7 +24,7 @@
 
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 1200px) {
 
     /* MENU  */
     .menu .menu-nav li {
@@ -284,8 +284,53 @@
         font-size: 2rem;
     }
 
+    /* CERTIFICADO  */
+    #seal-integrity {
+        height: 80vh;
+    }
 
+    .text-content-seal {
+        max-width: 80%;
+        padding: 3rem 1rem;
+        gap: 30px
+    }
 
+    .text-content-seal h2 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .seal-integrity-content img {
+        max-width: 70%;
+    }
+
+    .texto-conteudo {
+        font-size: .9rem;
+    }
+
+    #bpf {
+        max-height: 100%;
+    }
+
+    #bpf .bpf-content img {
+        max-width: 70%;
+        height: auto;
+    }
+
+    #bpf .bpf-content {
+        max-width: 80%;
+        padding: 3rem 1rem;
+        gap: 30px
+    }
+
+    #bpf .bpf-content .text-bpf h2 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    #environmentally-friendly{
+        height: 100vh;
+    }
 
 }
 
@@ -553,7 +598,6 @@
     .latest-item-top,
     .latest-item-bottom {
         width: 280px;
-
     }
 
     .latest-container {
@@ -705,6 +749,114 @@
 
     .historia-conteudo .foto-conteudo {
         max-width: 50%;
+    }
+
+    /* PAGINA CERTIFICADOS  */
+
+    #certificate {
+        height: 30vh;
+    }
+
+    .content .title .title-main {
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    #seal-integrity {
+        height: auto;
+    }
+
+    .seal-integrity-content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .text-content-seal {
+        max-width: 80%;
+    }
+
+    .text-content-seal h2 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .texto-conteudo {
+        font-size: .9rem;
+    }
+
+    .seal-integrity-content img {
+        max-width: 70%;
+    }
+
+    #bpf {
+        max-height: 100vh;
+    }
+
+    #bpf .bpf-content {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    #bpf .bpf-content img {
+        max-width: 70%;
+        height: auto;
+    }
+
+    #bpf .bpf-content .text-bpf {
+        max-width: 80%;
+    }
+
+    #bpf .bpf-content .text-bpf h2 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    #environmentally-friendly {
+        height: 100vh;
+    }
+
+    #environmentally-friendly .environmentally-friendly-content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #environmentally-friendly .environmentally-friendly-content img {
+        max-width: 70%;
+    }
+
+    #environmentally-friendly .text-environmentally-friendly {
+        max-width: 80%;
+    }
+
+    #environmentally-friendly .text-environmentally-friendly h2 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    #brazilian-industry {
+        height: 120vh;
+    }
+
+    #brazilian-industry .brazilian-industry-content {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    #brazilian-industry .brazilian-industry-content img {
+        max-width: 70%;
+    }
+
+    #brazilian-industry .text-brazilian-industry {
+        max-width: 80%;
+    }
+
+    #brazilian-industry .text-brazilian-industry h2 {
+        font-size: 1.1rem;
+        text-align: center;
     }
 
 
@@ -1338,24 +1490,111 @@
 
         /* PAGINA CERTIFICADOS  */
 
-        #certificate{
+        #certificate {
             height: 30vh;
         }
 
-        .content .title .title-main{
+        .content .title .title-main {
             font-size: 30px;
             text-transform: uppercase;
         }
 
-        #seal-integrity{
+        #seal-integrity {
             height: auto;
         }
 
-        .seal-integrity-content{
+        .seal-integrity-content {
             display: flex;
             flex-direction: column;
+            gap: 30px;
         }
 
+        .text-content-seal {
+            max-width: 80%;
+        }
+
+        .text-content-seal h2 {
+            font-size: 1.1rem;
+            text-align: center;
+        }
+
+        .texto-conteudo {
+            font-size: .9rem;
+        }
+
+        .seal-integrity-content img {
+            max-width: 70%;
+        }
+
+        #bpf {
+            max-height: 100vh;
+        }
+
+        #bpf .bpf-content {
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 30px;
+        }
+
+        #bpf .bpf-content img {
+            max-width: 70%;
+            height: auto;
+        }
+
+        #bpf .bpf-content .text-bpf {
+            max-width: 80%;
+        }
+
+        #bpf .bpf-content .text-bpf h2 {
+            font-size: 1.1rem;
+            text-align: center;
+        }
+
+        #environmentally-friendly {
+            height: 100vh;
+        }
+
+        #environmentally-friendly .environmentally-friendly-content {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        #environmentally-friendly .environmentally-friendly-content img {
+            max-width: 70%;
+        }
+
+        #environmentally-friendly .text-environmentally-friendly {
+            max-width: 80%;
+        }
+
+        #environmentally-friendly .text-environmentally-friendly h2 {
+            font-size: 1.1rem;
+            text-align: center;
+        }
+
+        #brazilian-industry {
+            height: 120vh;
+        }
+
+        #brazilian-industry .brazilian-industry-content {
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 30px;
+        }
+
+        #brazilian-industry .brazilian-industry-content img {
+            max-width: 70%;
+        }
+
+        #brazilian-industry .text-brazilian-industry {
+            max-width: 80%;
+        }
+
+        #brazilian-industry .text-brazilian-industry h2 {
+            font-size: 1.1rem;
+            text-align: center;
+        }
     }
 
     @media (max-width: 375px) {
@@ -1578,6 +1817,8 @@
             bottom: -20px;
             right: 100px;
         }
+
+
     }
 
     @media (max-width: 320px) {
@@ -2128,6 +2369,23 @@
         }
 
         #missao {
+            height: auto;
+        }
+
+        /* CERTIFICATE  */
+        #seal-integrity {
+            height: auto;
+        }
+
+        #bpf {
+            height: 130vh;
+        }
+
+        #environmentally-friendly {
+            height: auto;
+        }
+
+        #brazilian-industry {
             height: auto;
         }
 
