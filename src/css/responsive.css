@@ -1824,12 +1824,29 @@
             height: 40vh;
         }
 
+        #work-with-us .title-main{
+            font-size: 22px;
+        }
+
         #form-work .file-input button {
             width: 200px;
         }
 
         #form-work button{
             width: 200px;
+        }
+
+        /* CANAL DE DENUNCIAS  */
+        #ombudsman{
+            height: 40vh;
+        }
+
+        #ombudsman .title-main{
+            font-size: 22px;
+        }
+
+        #content-ombudsman .ombudsman-container{
+            font-size: 15px;
         }
 
 
