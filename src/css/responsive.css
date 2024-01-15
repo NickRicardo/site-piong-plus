@@ -328,7 +328,7 @@
         text-align: center;
     }
 
-    #environmentally-friendly{
+    #environmentally-friendly {
         height: 100vh;
     }
 
@@ -1816,6 +1816,20 @@
             position: absolute;
             bottom: -20px;
             right: 100px;
+        }
+
+        /* TRABALHE CONOSCO */
+
+        #work-with-us{
+            height: 40vh;
+        }
+
+        #form-work .file-input button {
+            width: 200px;
+        }
+
+        #form-work button{
+            width: 200px;
         }
 
 
