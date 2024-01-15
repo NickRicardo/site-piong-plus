@@ -332,6 +332,16 @@
         height: 100vh;
     }
 
+    /* POLITICA */
+    #titles-policy #title-policy-term{
+       font-size: 22px;
+    }
+
+    #titles-policy #subtitle-policy-term{
+        font-size: 17px;
+        font-weight: 500;
+     }
+
 }
 
 @media (max-width: 900px) {
@@ -859,6 +869,35 @@
         text-align: center;
     }
 
+        /* POLITICA */
+        #titles-policy #title-policy-term{
+            padding: 0 20px;
+         }
+
+         #title-policy-term{
+            font-size: 18px;
+         }
+
+         #subtitle-policy-term{
+            font-size: 15px;
+            padding: 20px;
+         }
+
+         .policcy-container{
+            max-width: 80%;
+         }
+
+         .policcy-container .titles-content{
+            font-size: 18px;
+            font-weight: 900;
+         }
+
+         .policcy-container .text-policy{
+            font-size: 16px;
+         }
+         
+
+     
 
     @media (max-width: 628px) {
 
