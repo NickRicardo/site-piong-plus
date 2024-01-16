@@ -333,14 +333,80 @@
     }
 
     /* POLITICA */
-    #titles-policy #title-policy-term{
-       font-size: 22px;
+    #titles-policy #title-policy-term {
+        font-size: 22px;
     }
 
-    #titles-policy #subtitle-policy-term{
+    #titles-policy #subtitle-policy-term {
         font-size: 17px;
         font-weight: 500;
+    }
+
+    /* PRODUTOS  */
+    #product-banner .title-main{
+        font-size: 45px;
+    }
+
+    #product-section{
+        height: 65vh;
+    }
+
+    #product-section .content-produto{
+        width: 40%;
+    }
+
+    #product-section .title-produto #title-main{
+        font-size: 23px;
+    }
+
+    #product-section .title-produto #subtitle{
+        font-size: 32px;
+    }
+
+    #product-section .text-event{
+        font-size: 16px;
+    }
+
+    .wrapper #categorias{
+        width: 10%;
+        padding: 10px;
+    }
+
+    .wrapper #categorias h2{
+        font-size: 24px;
+    }
+
+    .wrapper #categorias li{
+        font-size: 15px;
+    }
+
+    .wrapper .produto{
+        width: 25%;
+        max-width: none; 
+    }
+
+    .wrapper #produto .produto h3{
+        font-size: 13px;
+    }
+
+    .wrapper #produto .produto h5{
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    #contact-store .title-photo{
+        width: 40%;
+    }
+
+    #contact-store .title-photo h3{
+       font-size: 2vh;
+    }
+
+    #contact-store .title-photo h4{
+        font-size: 2vh;
      }
+
+
 
 }
 
@@ -869,35 +935,87 @@
         text-align: center;
     }
 
-        /* POLITICA */
-        #titles-policy #title-policy-term{
-            padding: 0 20px;
-         }
+    /* POLITICA */
+    #titles-policy #title-policy-term {
+        padding: 0 20px;
+    }
 
-         #title-policy-term{
-            font-size: 18px;
-         }
+    #title-policy-term {
+        font-size: 18px;
+    }
 
-         #subtitle-policy-term{
-            font-size: 15px;
-            padding: 20px;
-         }
+    #subtitle-policy-term {
+        font-size: 15px;
+        padding: 20px;
+    }
 
-         .policcy-container{
-            max-width: 80%;
-         }
+    .policcy-container {
+        max-width: 80%;
+    }
 
-         .policcy-container .titles-content{
-            font-size: 18px;
-            font-weight: 900;
-         }
+    .policcy-container .titles-content {
+        font-size: 18px;
+        font-weight: 900;
+    }
 
-         .policcy-container .text-policy{
-            font-size: 16px;
-         }
-         
+    .policcy-container .text-policy {
+        font-size: 16px;
+    } 
 
-     
+    /* PRODUTOS  */
+    #product-banner .title-main{
+        font-size: 35px;
+    }
+
+    #product-section{
+        height: 65vh;
+    }
+
+    #product-section .content-produto{
+        width: 40%;
+    }
+
+    #product-section .title-produto #title-main{
+        font-size: 21px;
+    }
+
+    #product-section .title-produto #subtitle{
+        font-size: 25px;
+    }
+
+    #product-section .text-event{
+        font-size: 12px;
+    }
+
+    #product-section .produto-area .btn-clickhere-4{
+        width: 120px;
+        font-size: 12px;
+    }
+
+    .wrapper #categorias{
+        width: 8%;
+        padding: 5px;
+    }
+
+    #product-section .produto-area .produto-imagem{
+        width: 450px;
+        height: 450px
+    }
+
+    .wrapper #categorias h2{
+        font-size: 22px;
+    }
+
+    .wrapper #categorias li{
+        font-size: 14px;
+    }
+
+    .wrapper .produto{
+        width: 60%;
+        max-width: none; 
+    }
+
+
 
     @media (max-width: 628px) {
 
@@ -1634,6 +1752,108 @@
             font-size: 1.1rem;
             text-align: center;
         }
+
+        
+    /* PRODUTOS  */
+    #product-banner .title-main{
+        font-size: 22px;
+    }
+
+    #product-section{
+        height: 100vh;
+    }
+
+    #product-section .content-produto{
+        width: 100%;
+    }
+
+    #product-section .title-produto #title-main{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #product-section .title-produto #subtitle{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #product-section .text-event{
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    #product-section .produto-area .btn-clickhere-4{
+        width: 100px;
+        font-size: 10px;
+        right: 35%;
+    }
+
+    .wrapper #categorias{
+        width: 8%;
+        padding: 5px;
+    }
+
+    #product-section .produto-area{
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #product-section .produto-area .produto-imagem{
+        width: 290px;
+        height: 280px;
+        position: relative;
+        left: 20%;
+    }
+
+    #search-section .search-container input{
+        width: 100%;
+    }
+
+    .wrapper #categorias h2{
+        font-size: 22px;
+    }
+
+    .wrapper #categorias li{
+        font-size: 14px;
+    }
+
+    .wrapper .produto{
+        width: 80%;
+        max-width: none; 
+    }
+
+    .wrapper #produto .produto h3{
+        font-size: 13px;
+    }
+
+    .wrapper #produto .produto h5{
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    #contact-store .title-photo{
+        width: 40%;
+    }
+
+    #contact-store .title-photo h3{
+       font-size: 1.2vh;
+    }
+
+    #contact-store .title-photo h4{
+        font-size: 1.2vh;
+     }
+
+    .mobile-dropdown {
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    aside{
+        display: none;
+    }
+        
     }
 
     @media (max-width: 375px) {
@@ -1859,11 +2079,11 @@
 
         /* TRABALHE CONOSCO */
 
-        #work-with-us{
+        #work-with-us {
             height: 40vh;
         }
 
-        #work-with-us .title-main{
+        #work-with-us .title-main {
             font-size: 22px;
         }
 
@@ -1871,20 +2091,20 @@
             width: 200px;
         }
 
-        #form-work button{
+        #form-work button {
             width: 200px;
         }
 
         /* CANAL DE DENUNCIAS  */
-        #ombudsman{
+        #ombudsman {
             height: 40vh;
         }
 
-        #ombudsman .title-main{
+        #ombudsman .title-main {
             font-size: 22px;
         }
 
-        #content-ombudsman .ombudsman-container{
+        #content-ombudsman .ombudsman-container {
             font-size: 15px;
         }
 

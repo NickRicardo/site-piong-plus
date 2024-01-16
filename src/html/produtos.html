@@ -92,6 +92,50 @@
             </div>
         </section>
 
+        <div class="mobile-dropdown">
+            <button id="categorias-dropdown-btn" onclick="toggleCategoriasDropdown()">Categorias <i class="fas fa-chevron-down"></i></button>
+            <div id="categorias-dropdown-content">
+                <!-- O conteúdo do dropdown vai aqui -->
+                <ul>
+                    <li>
+                        <input type="checkbox" id="categoria1" onclick="filtrarProdutos()">
+                        <label for="categoria1">Aventais / Macacões</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="categoria2" onclick="filtrarProdutos()">
+                        <label for="categoria2">Calça e Blusa</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="categoria3" onclick="filtrarProdutos()">
+                        <label for="categoria3">Camisola / Batas</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="categoria4" onclick="filtrarProdutos()">
+                        <label for="categoria4">Campos Cirúrgicos</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="categoria5" onclick="filtrarProdutos()">
+                        <label for="categoria5">Campos Oftálmicos</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="categoria6" onclick="filtrarProdutos()">
+                        <label for="categoria6">Cobertura de Mesa</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="categoria7" onclick="filtrarProdutos()">
+                        <label for="categoria7">Invólucros / Wrap</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="categoria8" onclick="filtrarProdutos()">
+                        <label for="categoria8">Kits Cirúrgicos</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="categoria9" onclick="filtrarProdutos()">
+                        <label for="categoria9">Kits Odontológicos</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
         <div class="wrapper">
             <aside id="categorias">
@@ -142,14 +186,15 @@
 
 
         <section id="contact-store">
+            <a href="../../src/html/contato.html">
             <div class="content-contact">
                 <img src="/src/img/backgrounds/contato/bg3.png" alt="Atendente de telefone, sorrindo">
                 <div class="title-photo">
                     <h3>Quer entender melhor</h3>
                     <h4>Como podemos te atender?</h4>
                 </div>
-                <a class="btn-clickhere-1" href="../html/contato.html">Fale Conosco</a>
             </div>
+        </a>
 
         </section>
     </main>
@@ -165,9 +210,7 @@
                         Rua Dr. Almir Fagundes de Souza, nº56, CEP: 27600-000, Benfica - Valença/RJ - Brasil
                     </address>
                     <a href="tel:+552135181099">Tel: +55 (21) 3518-1099</a><br>
-                    <a href="tel:08002022015">Tel: 0800 202 2015</a><br>
                     <a href="tel:+5524992291753">Cel: (24)99229-1753</a>
-                    <a href="/src/html/politica.html" class="btn-clickhere-5">Política de Privacidade Pion G Plus</a>
                 </div>
             </div>
             <div class="footer-right">
@@ -178,8 +221,8 @@
                         <p>Sexta:</p>
                     </div>
                     <div class="horarios-funcionamento">
-                        <p>08h 00min - 18h 00min</p>
-                        <p>08h 00min - 17h 00min</p>
+                        <p>08h - 18h </p>
+                        <p>08h - 17h</p>
                     </div>
                 </div>
                 <div class="social">
@@ -202,8 +245,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
         integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="../js/form.js"></script>
     <script src="../js/lojainterativa.js"></script>
+    <script src="../js/dropdownCategoria.js"></script>
 </body>
 
 </html>

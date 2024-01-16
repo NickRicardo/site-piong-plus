@@ -5,7 +5,7 @@ const produtos = [
         nome: 'Avental Cirúrgico Proteção Total Impermeável',
         categoria: 'categoria1',
         imagem: '../img/produtos/categorias/aventaisMacacao/aventalProtecao.png',
-        especificacoes: 'Usado como EPI em proteção do usuário em diversos procedimentos',
+        especificacoes: 'Usado como EPI em proteção do usuário',
         paginaDetalhes: '../../../src/html/produtos/aventalProtecao.html'
     },
 
@@ -296,3 +296,4 @@ function filtrarPorBusca() {
     );
     exibirProdutos(produtosFiltrados);
 }
+
