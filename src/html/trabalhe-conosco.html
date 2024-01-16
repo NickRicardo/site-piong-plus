@@ -71,7 +71,7 @@
                 <h2>Trabalhe Conosco</h2>
             </div>
             <div class="content-form">
-                <form id="resumeForm" target="_blank" action="https://formsubmit.co/nicollas.developer@gmail.com" method="POST" enctype="multipart/form-data">
+                <form id="resumeForm" form action="https://formsubmit.co/nicollas.developer@gmail.com" method="POST"enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="name">Nome:<span class="required">*</span></label>
                         <input type="text" id="name" name="name" required>
@@ -86,6 +86,11 @@
                         <label for="phone">Telefone:<span class="required">*</span></label>
                         <input type="tel" required="required" maxlength="11" name="phone" pattern="[0-9]{10,11}" />
                         <small>Informe apenas números (10 ou 11 dígitos).</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="cpf">CPF:<span class="required">*</span></label>
+                        <input type="text" id="cpf" name="cpf" required pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
+                        <small>Informe apenas números (11 dígitos) com a máscara: XXX.XXX.XXX-XX</small>
                     </div>
 
                     <div class="form-group">
