@@ -343,68 +343,68 @@
     }
 
     /* PRODUTOS  */
-    #product-banner .title-main{
+    #product-banner .title-main {
         font-size: 45px;
     }
 
-    #product-section{
+    #product-section {
         height: 65vh;
     }
 
-    #product-section .content-produto{
+    #product-section .content-produto {
         width: 40%;
     }
 
-    #product-section .title-produto #title-main{
+    #product-section .title-produto #title-main {
         font-size: 23px;
     }
 
-    #product-section .title-produto #subtitle{
+    #product-section .title-produto #subtitle {
         font-size: 32px;
     }
 
-    #product-section .text-event{
+    #product-section .text-event {
         font-size: 16px;
     }
 
-    .wrapper #categorias{
+    .wrapper #categorias {
         width: 10%;
         padding: 10px;
     }
 
-    .wrapper #categorias h2{
+    .wrapper #categorias h2 {
         font-size: 24px;
     }
 
-    .wrapper #categorias li{
+    .wrapper #categorias li {
         font-size: 15px;
     }
 
-    .wrapper .produto{
+    .wrapper .produto {
         width: 25%;
-        max-width: none; 
+        max-width: none;
     }
 
-    .wrapper #produto .produto h3{
+    .wrapper #produto .produto h3 {
         font-size: 13px;
     }
 
-    .wrapper #produto .produto h5{
+    .wrapper #produto .produto h5 {
         font-size: 10px;
         font-weight: 500;
     }
 
-    #contact-store .title-photo{
+    #contact-store .title-photo {
         width: 40%;
     }
 
-    #contact-store .title-photo h3{
-       font-size: 2vh;
+    #contact-store .title-photo h3 {
+        font-size: 2vh;
     }
 
-    #contact-store .title-photo h4{
+    #contact-store .title-photo h4 {
         font-size: 2vh;
-     }
+    }
 
 
 
@@ -960,60 +960,114 @@
 
     .policcy-container .text-policy {
         font-size: 16px;
-    } 
+    }
 
     /* PRODUTOS  */
-    #product-banner .title-main{
+    #product-banner .title-main {
         font-size: 35px;
     }
 
-    #product-section{
+    #product-section {
         height: 65vh;
     }
 
-    #product-section .content-produto{
+    #product-section .content-produto {
         width: 40%;
     }
 
-    #product-section .title-produto #title-main{
+    #product-section .title-produto #title-main {
         font-size: 21px;
     }
 
-    #product-section .title-produto #subtitle{
+    #product-section .title-produto #subtitle {
         font-size: 25px;
     }
 
-    #product-section .text-event{
+    #product-section .text-event {
         font-size: 12px;
     }
 
-    #product-section .produto-area .btn-clickhere-4{
+    #product-section .produto-area .btn-clickhere-4 {
         width: 120px;
         font-size: 12px;
     }
 
-    .wrapper #categorias{
+    .wrapper #categorias {
         width: 8%;
         padding: 5px;
     }
 
-    #product-section .produto-area .produto-imagem{
+    #product-section .produto-area .produto-imagem {
         width: 450px;
         height: 450px
     }
 
-    .wrapper #categorias h2{
+    .wrapper #categorias h2 {
         font-size: 22px;
     }
 
-    .wrapper #categorias li{
+    .wrapper #categorias li {
         font-size: 14px;
     }
 
-    .wrapper .produto{
+    .wrapper .produto {
         width: 60%;
-        max-width: none; 
+        max-width: none;
     }
+
+    #produto-banner .content .title h1 {
+        font-size: 22px;
+    }
+
+    .fild-produts .product-spacification .product-name {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .fild-produts .product-spacification .product-description {
+        font-size: 14px;
+    }
+
+    .fild-produts .product-spacification .list-spacification li {
+        font-size: 14px;
+    }
+
+    .fild-produts .btn-clickhere-2 {
+        width: 190px;
+        font-size: 14px;
+    }
+
+    .fild-produts .content-product {
+        width: 40%;
+    }
+
+    .fild-produts .content-product img {
+        width: 100%
+    }
+
+    .product-category {
+        font-size: 14px;
+    }
+
+    #related-product .produto {
+        width: 25%;
+    }
+
+    #related-product .product-row .produto:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    #contact-store .title-photo h3,
+    #contact-store .title-photo h4{
+        font-size: 14px;
+    }
+
+    #contact-store .btn-clickhere-1{
+        width: 120px;
+        font-size: 12px;
+    }
+
+
 
 
 
@@ -1753,107 +1807,111 @@
             text-align: center;
         }
 
-        
-    /* PRODUTOS  */
-    #product-banner .title-main{
-        font-size: 22px;
-    }
 
-    #product-section{
-        height: 100vh;
-    }
+        /* PRODUTOS  */
+        #product-banner .title-main {
+            font-size: 22px;
+        }
 
-    #product-section .content-produto{
-        width: 100%;
-    }
+        #product-section {
+            height: 100vh;
+        }
 
-    #product-section .title-produto #title-main{
-        font-size: 18px;
-        text-align: center;
-    }
+        #product-section .content-produto {
+            width: 100%;
+        }
 
-    #product-section .title-produto #subtitle{
-        font-size: 20px;
-        text-align: center;
-    }
+        #product-section .title-produto #title-main {
+            font-size: 18px;
+            text-align: center;
+        }
 
-    #product-section .text-event{
-        font-size: 12px;
-        text-align: justify;
-    }
+        #product-section .title-produto #subtitle {
+            font-size: 20px;
+            text-align: center;
+        }
 
-    #product-section .produto-area .btn-clickhere-4{
-        width: 100px;
-        font-size: 10px;
-        right: 35%;
-    }
+        #product-section .text-event {
+            font-size: 12px;
+            text-align: justify;
+        }
 
-    .wrapper #categorias{
-        width: 8%;
-        padding: 5px;
-    }
+        #product-section .produto-area .btn-clickhere-4 {
+            width: 100px;
+            font-size: 10px;
+            right: 35%;
+        }
 
-    #product-section .produto-area{
-        height: auto;
-        display: flex;
-        flex-direction: column-reverse;
-    }
+        .wrapper #categorias {
+            width: 8%;
+            padding: 5px;
+        }
 
-    #product-section .produto-area .produto-imagem{
-        width: 290px;
-        height: 280px;
-        position: relative;
-        left: 20%;
-    }
+        #product-section {
+            height: 80vh;
+        }
 
-    #search-section .search-container input{
-        width: 100%;
-    }
+        #product-section .produto-area {
+            height: auto;
+            display: flex;
+            flex-direction: column-reverse;
+        }
 
-    .wrapper #categorias h2{
-        font-size: 22px;
-    }
+        #product-section .produto-area .produto-imagem {
+            width: 290px;
+            height: 280px;
+            position: relative;
+            left: 20%;
+        }
 
-    .wrapper #categorias li{
-        font-size: 14px;
-    }
+        #search-section .search-container input {
+            width: 100%;
+        }
 
-    .wrapper .produto{
-        width: 80%;
-        max-width: none; 
-    }
+        .wrapper #categorias h2 {
+            font-size: 22px;
+        }
 
-    .wrapper #produto .produto h3{
-        font-size: 13px;
-    }
+        .wrapper #categorias li {
+            font-size: 14px;
+        }
 
-    .wrapper #produto .produto h5{
-        font-size: 10px;
-        font-weight: 500;
-    }
+        .wrapper .produto {
+            width: 80%;
+            max-width: none;
+        }
 
-    #contact-store .title-photo{
-        width: 40%;
-    }
+        .wrapper #produto .produto h3 {
+            font-size: 13px;
+        }
 
-    #contact-store .title-photo h3{
-       font-size: 1.2vh;
-    }
+        .wrapper #produto .produto h5 {
+            font-size: 10px;
+            font-weight: 500;
+        }
 
-    #contact-store .title-photo h4{
-        font-size: 1.2vh;
-     }
+        #contact-store .title-photo {
+            width: 40%;
+        }
 
-    .mobile-dropdown {
-        display: block;
-        display: flex;
-        justify-content: center;
-    }
+        #contact-store .title-photo h3 {
+            font-size: 1.2vh;
+        }
 
-    aside{
-        display: none;
-    }
-        
+        #contact-store .title-photo h4 {
+            font-size: 1.2vh;
+        }
+
+        .mobile-dropdown {
+            display: block;
+            display: flex;
+            justify-content: center;
+        }
+
+        aside {
+            display: none;
+        }
+
     }
 
     @media (max-width: 375px) {
@@ -2677,6 +2735,10 @@
 
         #brazilian-industry {
             height: auto;
+        }
+
+        #product-section {
+            height: 120vh;
         }
 
     }
