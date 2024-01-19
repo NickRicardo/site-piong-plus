@@ -2262,7 +2262,7 @@ button {
 }
 
 #product-section {
-    height: 65vh;
+    height: 105vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2380,7 +2380,7 @@ button {
     flex-direction: column;
     /* align-items: center; */
     justify-content: space-between;
-    width: 25%;
+    width: 30%;
     margin: 10px;
     padding: 10px;
     border: 1px solid var(--gray-text);
@@ -2525,6 +2525,7 @@ button {
 .fild-produts .content-product img {
     transform-origin: center center;
     object-fit: cover;
+    width: 80%;
 }
 
 .product-spacification {
@@ -2575,6 +2576,7 @@ button {
     justify-content: center;
     align-items: center;
     height: auto;
+
 }
 
 .product-category {
@@ -2588,10 +2590,13 @@ button {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
+    text-transform: capitalize;
+
 }
 
 .product-category th {
     background-color: #f2f2f2;
+    
 }
 
 .product-category tr:nth-child(even) {

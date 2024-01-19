@@ -181,7 +181,7 @@ const produtos = [
         nome: 'OBSTETRÍCIA / GINECOLOGIA / UROLOGIA | Kit Cir. Cesárea',
         categoria: 'categoria8',
         imagem: '../img/produtos/categorias/kitCirurgico/kit488478.png',
-        especificacoes: 'Kit Cirúrgico Ortopédico Quadrl CÓD. 48.84.78 ANVISA: 803.420.60.005',
+        especificacoes: 'Kit Cirúrgico Cesárea CÓD. 48.84.78 ANVISA: 803.420.60.011',
         paginaDetalhes: '../../../src/html/produtos/kitCesaria.html'
     },
 
@@ -189,7 +189,7 @@ const produtos = [
         nome: 'OBSTETRÍCIA / GINECOLOGIA / UROLOGIA | Kit Cir. Cesárea Humanizado',
         categoria: 'categoria8',
         imagem: '../img/produtos/categorias/kitCirurgico/kit488480.png',
-        especificacoes: 'Kit Cirúrgico Ortopédico Quadrl CÓD. 48.84.78 ANVISA: 803.420.60.005',
+        especificacoes: 'Kit Cirúrgico Cesárea Humanizado CÓD. 48.84.80 ANVISA: 803.420.60.011',
         paginaDetalhes: '../../../src/html/produtos/kitHumanizada.html'
     },
 
@@ -197,15 +197,23 @@ const produtos = [
         nome: 'OBSTETRÍCIA / GINECOLOGIA / UROLOGIA | Kit Cir. Ginecológico',
         categoria: 'categoria8',
         imagem: '../img/produtos/categorias/kitCirurgico/kit468312.png',
-        especificacoes: 'Kit Cirúrgico Ortopédico Quadrl CÓD. 46.83.12 ANVISA: 803.420.60.005',
+        especificacoes: 'Kit Cirúrgico Ginecológico CÓD. 46.83.12 ANVISA: 803.420.60.005',
         paginaDetalhes: '../../../src/html/produtos/kitGinecologico.html'
+    },
+
+    {
+        nome: 'OBSTETRÍCIA / GINECOLOGIA / UROLOGIA | Kit Cirúrgico Urológico',
+        categoria: 'categoria8',
+        imagem: '../img/produtos/categorias/kitCirurgico/kit571042.png',
+        especificacoes: 'Kit Cirúrgico Urológico CÓD. 57.10.42 ANVISA: 803.420.60.005',
+        paginaDetalhes: '../../../src/html/produtos/kitUrologico.html'
     },
 
     {
         nome: 'CARDIOLOGIA | Kit Cir. Hemodinâmica',
         categoria: 'categoria8',
         imagem: '../img/produtos/categorias/kitCirurgico/kit488276.png',
-        especificacoes: 'Kit Cirúrgico Ortopédico Quadrl CÓD. 48.82.76 ANVISA: 803.420.60.005',
+        especificacoes: 'Kit Cirúrgico Hemodinâmica CÓD. 48.82.76 ANVISA: 803.420.60.011',
         paginaDetalhes: '../../../src/html/produtos/kitHemodinamica.html'
     },
 
