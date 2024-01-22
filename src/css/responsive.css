@@ -1,4 +1,4 @@
-@media (max-width: 1540px) {
+@media (max-width: 1600px) {
 
     /* CONSUTORIA TECNICA */
     #technical-consultancy {
@@ -40,6 +40,9 @@
         width: 80%;
     }
 
+    #product-section {
+        height: 90vh;
+    }
 }
 
 @media(max-width: 1200px) {
@@ -370,7 +373,7 @@
     }
 
     #product-section .content-produto {
-        width: 40%;
+        width: 45%;
     }
 
     #product-section .title-produto #title-main {
@@ -460,8 +463,57 @@
         flex-wrap: wrap
     }
 
+    /* ESPECIALISTA  */
+    #consultoria-home .titles #title-consultancy {
+        font-size: 2.5rem;
+    }
 
+    #consultoria-home .titles #title-technique {
+        font-size: 3.5rem;
 
+    }
+
+    .text-technical-consultancy {
+        font-size: 16px;
+    }
+
+    #consultoria-home .btn-clickhere-2 {
+        width: 200px;
+        font-size: 13px;
+    }
+
+    #diferencial .diferencial-header h2 {
+        font-size: 2.5rem;
+    }
+
+    #diferencial .diferencial-header p {
+        font-size: 18px;
+    }
+
+    #diferencial .diferencial-container h3 {
+        font-size: 18px;
+    }
+
+    #product-section {
+        height: 90vh;
+    }
+
+    .celular {
+        left: -20%;
+    }
+
+    #parceiros .parceiros-header h2 {
+        font-size: 2.5rem;
+    }
+
+    #parceiros .parceiros-header p {
+        font-size: 18px;
+    }
+
+    #parceiros-contact .title-photo {
+        width: 30%;
+        bottom: 30%;
+    }
 }
 
 @media (max-width: 900px) {
@@ -481,7 +533,6 @@
         gap: .5rem;
         width: auto;
     }
-
 
     .menu-nav ul {
         display: block;
@@ -1026,7 +1077,7 @@
     }
 
     #product-section .content-produto {
-        width: 40%;
+        width: 46%;
     }
 
     #product-section .title-produto #title-main {
@@ -1119,6 +1170,86 @@
     #contact-store .btn-clickhere-1 {
         width: 120px;
         font-size: 12px;
+    }
+
+
+    /* ESPECIALISTA  */
+    #consultoria-home .titles #title-consultancy {
+        font-size: 2.0rem;
+    }
+
+    #consultoria-home .titles #title-technique {
+        font-size: 3.0rem;
+
+    }
+
+    #consultoria-home .titles {
+        width: 420px;
+    }
+
+    .text-technical-consultancy {
+        font-size: 15px;
+    }
+
+    #consultoria-home .btn-clickhere-2 {
+        width: 180px;
+        font-size: 12px;
+    }
+
+    #diferencial .diferencial-header h2 {
+        font-size: 2.0rem;
+    }
+
+    #diferencial .diferencial-header p {
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    #diferencial .diferencial-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #diferencial .diferencial-icons .diferencial-box {
+        max-width: 100%;
+        width: 230px;
+    }
+
+    #diferencial .diferencial-container h3 {
+        font-size: 18px;
+    }
+
+    /* #product-section {
+        height: 90vh;
+    } */
+
+    #product-section .produto-area {
+        height: 220px;
+    }
+
+    .celular {
+        width: 500px;
+        height: 450px;
+        left: -20%;
+    }
+
+    #parceiros .parceiros-header h2 {
+        font-size: 2.0rem;
+    }
+
+    #parceiros .parceiros-header p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    #parceiros-contact .title-photo {
+        width: 30%;
+        bottom: 30%;
+    }
+
+    #parceiros .parceiros-coment {
+        gap: 30px;
+        width: 80%;
     }
 }
 
@@ -1483,7 +1614,6 @@
         flex-direction: column;
         gap: 20px;
         flex-wrap: wrap;
-
     }
 
     .footer-left,
@@ -1750,7 +1880,6 @@
     }
 
     /* PAGINA CERTIFICADOS  */
-
     #certificate {
         height: 30vh;
     }
@@ -2027,6 +2156,44 @@
         width: 80%;
     }
 
+    .celular {
+        width: 500px;
+        height: 450px;
+        position: relative;
+        left: 0%;
+    }
+
+    #parceiros .parceiros-coment .parceiros-box img {
+        box-shadow: 1px 15px 50px rgba(0, 0, 0, 0.2);
+    }
+
+    #parceiros .parceiros-coment {
+        gap: 30px;
+        width: 80%;
+    }
+
+    #consultoria-home {
+        background-image: url(./../img/backgrounds/consultoriaTecnica/Bannerconsultoria2.png);
+    }
+
+    #consultoria-home .titles #title-consultancy {
+        font-size: 1.3rem;
+    }
+
+    #consultoria-home .titles #title-technique {
+        font-size: 2.0rem;
+
+    }
+
+    #consultoria-home .titles {
+        width: 320px;
+    }
+    
+    #parceiros-contact .title-photo {
+        width: 30%;
+        bottom: 35%;
+    }
+    
 }
 
 @media (max-width: 375px) {
@@ -2279,6 +2446,56 @@
 
     #content-ombudsman .ombudsman-container {
         font-size: 15px;
+    }
+
+    /* ESPECIALISTA  */
+
+    #consultoria-home {
+        background-image: url(./../img/backgrounds/consultoriaTecnica/Bannerconsultoria2.png);
+    }
+
+    #consultoria-home .titles #title-consultancy {
+        font-size: 1.3rem;
+    }
+
+    #consultoria-home .titles #title-technique {
+        font-size: 2.0rem;
+
+    }
+
+    #consultoria-home .titles {
+        width: 320px;
+    }
+
+    .text-technical-consultancy {
+        font-size: 15px;
+    }
+
+    #consultoria-home .btn-clickhere-2 {
+        width: 180px;
+        font-size: 12px;
+    }
+
+    #diferencial .diferencial-header h2 {
+        font-size: 2.0rem;
+    }
+
+    #diferencial .diferencial-header p {
+        font-size: 15px;
+    }
+
+    #diferencial .diferencial-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #diferencial .diferencial-icons .diferencial-box {
+        max-width: 100%;
+        width: 230px;
+    }
+
+    #diferencial .diferencial-container h3 {
+        font-size: 18px;
     }
 
 
@@ -2857,7 +3074,7 @@
     }
 
     /* CONTATO */
-    #contact-form button{
+    #contact-form button {
         width: 220px;
         max-width: 100%;
     }
