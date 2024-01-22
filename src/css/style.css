@@ -5,6 +5,7 @@
 body {
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
+    /* overflow-y: hidden; */
 }
 
 main {
@@ -17,6 +18,7 @@ main {
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 header {
@@ -1976,6 +1978,8 @@ small {
     justify-content: center;
     position: relative;
     z-index: 1;
+    padding-bottom: 25px;
+    overflow-x: hidden;
 }
 
 #contact-form .page-tab {
@@ -1984,17 +1988,26 @@ small {
     z-index: -1;
 }
 
+#contact-form .page-tab img{
+    width: 100%;
+}
+
 #contact-form .contact-and-adress {
     margin-top: 20%;
     display: flex;
     align-items: center;
-    gap: 16%;
-    width: 80%;
+    gap: 20px;
 }
 
 #contact-form .formulario {
     flex: 1;
     z-index: 10;
+    max-width: 100%;
+}
+
+#contact-form .adress-container{
+    flex: 1;
+    max-width: 100%;
 }
 
 #contact-form .formulario form {
@@ -2025,10 +2038,12 @@ small {
     font-size: 17px;
 }
 
-
-
 #contact-form textarea {
     resize: vertical;
+}
+
+.form-flex{
+    max-width: 100%;
 }
 
 button {
@@ -2046,7 +2061,6 @@ button {
     background-color: #0056b3;
 }
 
-
 .required {
     color: red;
     margin-left: 5px;
@@ -2054,22 +2068,23 @@ button {
 
 #contact-form .group-flex {
     display: flex;
-    justify-content: flex-start;
     gap: 10px;
 }
 
 #cidade {
-    width: 300px;
+    /* width: 300px; */
+    max-width: 100%;
 }
 
 #estado {
-    width: 250px;
+    /* width: 250px; */
+    max-width: 100%;
 }
-
 
 #contact-form .adress-container .adress-box {
     width: 380px;
-    height: 400px;
+    max-width: 100%;
+    height: auto;
     border-radius: 15px;
     background-color: var(--main-color);
     display: flex;
@@ -2107,7 +2122,6 @@ button {
 }
 
 #maps {
-    padding-top: 20px;
     background-color: #e6e6e6;
     height: 70vh;
 }
@@ -2576,13 +2590,13 @@ button {
     justify-content: center;
     align-items: center;
     height: auto;
-
+    flex-wrap: wrap;
 }
 
 .product-category {
     border-collapse: collapse;
-    width: 50%;
-    margin: 50px 0;
+    width: 35%;
+    margin: 20px 20px;
 }
 
 .product-category th,

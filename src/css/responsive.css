@@ -22,21 +22,21 @@
         height: 90vh;
     }
 
-    .fild-produts .product-spacification .product-name{
+    .fild-produts .product-spacification .product-name {
         font-size: 20px;
     }
 
     .fild-produts .product-spacification .product-description,
-    .fild-produts .product-spacification .list-spacification li{
+    .fild-produts .product-spacification .list-spacification li {
         font-size: 16px;
     }
 
-    .fild-produts .btn-clickhere-2{
+    .fild-produts .btn-clickhere-2 {
         width: 200px;
         font-size: 14px;
     }
 
-    .fild-produts .content-product img{
+    .fild-produts .content-product img {
         width: 80%;
     }
 
@@ -424,22 +424,48 @@
         font-size: 2vh;
     }
 
-    #related-product .product-row{
+    #related-product .product-row {
         flex-wrap: nowrap;
     }
 
-    #related-product{
+    #related-product {
         display: block;
 
     }
 
-    #product-table{
+    #product-table {
         font-size: 15px;
     }
+
+    /* CONTATO  */
+
+    #contact-form .contact-and-adress {
+        flex-direction: column;
+    }
+
+    .content .title .title-main {
+        font-size: 50px;
+    }
+
+    #contact .title-photo {
+        width: 30%;
+    }
+
+    #contact-form .adress-container .adress-box,
+    #contact-form .adress-container .adress-box li {
+        font-size: 14px;
+    }
+
+    #contact-form .group-flex {
+        flex-wrap: wrap
+    }
+
+
 
 }
 
 @media (max-width: 900px) {
+
     /* MENU */
     header {
         display: flex;
@@ -1094,1729 +1120,1746 @@
         width: 120px;
         font-size: 12px;
     }
-
-
-
-
-
-    @media (max-width: 628px) {
-
-        /* MENU */
-        #btn-mobile {
-            display: flex;
-            padding: .5rem 1rem;
-            border: none;
-            background: none;
-            cursor: pointer;
-            gap: .5rem;
-            width: auto;
-
-        }
-
-        .menu-nav ul {
-            display: block;
-            position: absolute;
-            width: 100%;
-            right: 0;
-            background: var(--main-color);
-            transition: .4s;
-            z-index: 1000;
-            height: 0px;
-            visibility: hidden;
-            overflow-y: hidden;
-            border-radius: 0 0 .5rem .5rem;
-            text-align: center;
-        }
-
-        .menu .menu-nav li {
-            margin: 20px 0;
-            font-size: 20px;
-        }
-
-        .menu .dropdown ul.dropdown-menu {
-            width: 100%;
-        }
-
-        .menu .dropdown ul.dropdown-menu li a {
-            text-align: center;
-        }
-
-        .menu-nav.active ul {
-            height: 100vh;
-            visibility: visible;
-            overflow-y: auto;
-        }
-
-        #hamburguer {
-            border-top: 2px solid var(--white);
-            display: block;
-            width: 20px;
-        }
-
-        #hamburguer::after,
-        #hamburguer::before {
-            content: '';
-            display: block;
-            width: 20px;
-            height: 2px;
-            background: var(--white);
-            margin-top: 5px;
-            transition: .3s;
-            position: relative;
-        }
-
-        .menu-nav.active #hamburguer {
-            border-top-color: transparent;
-        }
-
-        .menu-nav.active #hamburguer::before {
-            transform: rotate(135deg);
-        }
-
-        .menu-nav.active #hamburguer::after {
-            transform: rotate(-135deg);
-            top: -7px;
-        }
-
-        /* BANNER HOME */
-        #banner-home .content .title {
-            padding: 0 1rem;
-        }
-
-        #banner-home .content .title h1 {
-            font-size: 18px;
-            width: auto;
-        }
-
-        #banner-home .content .text {
-            font-size: 12px;
-            width: auto;
-        }
-
-        #banner-home .content .btn-clickhere-1 {
-            padding: 8px;
-            width: 90px;
-            font-size: 12px;
-        }
-
-        /* CONSUTORIA TECNICA */
-        #technical-consultancy {
-            height: 80vh;
-            padding: 1.5rem 0;
-        }
-
-        #technical-consultancy .container-technical-consultancy {
-            display: flex;
-            flex-direction: column;
-            width: 20px;
-        }
-
-        #technical-consultancy .titles {
-            width: 300px;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-        }
-
-        #technical-consultancy .titles #title-consultancy {
-            font-size: 18px;
-            font-weight: 500;
-        }
-
-        #technical-consultancy .titles #title-technique {
-            font-size: 40px;
-        }
-
-        #technical-consultancy .titles .text-technical-consultancy {
-            font-size: 12px;
-            text-align: justify;
-        }
-
-        #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
-            width: 200px;
-            height: 180px;
-        }
-
-
-        #technical-consultancy .container-technical-consultancy .btn-clickhere-2 {
-            padding: 10px;
-            font-size: 12px;
-            width: 120px;
-            left: 40%;
-            transform: translate(-50%, -50%);
-        }
-
-        #video-instituciona {
-            height: 70vh;
-        }
-
-        #video-institucional .container-institucional {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-        }
-
-        #video-institucional .institucional iframe {
-            width: 300px;
-            height: 169px;
-        }
-
-        #video-institucional .assista-video img {
-            width: 25px;
-            height: 25px;
-        }
-
-        #video-institucional .assista-video h2,
-        i {
-            font-size: 20px;
-            text-align: center;
-        }
-
-        #video-institucional .assista-video p {
-            width: 250px;
-            text-align: justify;
-            font-size: 12px;
-            margin-top: 5px;
-        }
-
-        #video-institucional .btn-clickhere-3 {
-            padding: 12px;
-            width: 120px;
-            margin-top: 20px;
-            font-size: 12px;
-            top: 10%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        /* DEPOIMENTOS DOS CLIENTES */
-        #satisfied-customers {
-            height: 90vh;
-        }
-
-        #satisfied-customers .testimonial-header h2 {
-            font-size: 22px;
-            font-weight: 900;
-        }
-
-        #satisfied-customers .testimonial-header p {
-            max-width: 280px;
-            margin: 0 auto;
-            font-size: 12px;
-        }
-
-        #satisfied-customers .swiper-container {
-            padding-top: 20px;
-        }
-
-        #satisfied-customers .swiper-slide {
-            width: 280px;
-            height: auto;
-            margin-right: 8px;
-        }
-
-        #satisfied-customers .testimonialBox {
-            padding: 20px;
-        }
-
-        #satisfied-customers .testimonialBox .content {
-            font-size: 13px;
-        }
-
-        #satisfied-customers .testimonialBox .details .imgBx img {
-            width: 80%;
-            height: 80%;
-        }
-
-        #satisfied-customers .testimonialBox .quote {
-            top: 10px;
-            right: 10px;
-            width: 30px;
-            height: 30px;
-        }
-
-        #satisfied-customers .testimonialBox .details h3 {
-            font-size: 14px;
-        }
-
-        #satisfied-customers .testimonialBox .details span {
-            font-size: 10px;
-        }
-
-        /* DESTAQUES BLOG / ARTIGOS */
-        #highlights {
-            display: block;
-        }
-
-        #highlights .highlights-title h2 {
-            font-size: 22px;
-            font-weight: 900;
-            margin-top: 0;
-        }
-
-        #highlights .latest-highlights {
-            width: 280px;
-            height: 300px;
-            box-shadow: 8px 8px 10px rgb(109, 109, 109);
-        }
-
-        .latest-item-top,
-        .latest-item-bottom {
-            width: 280px;
-
-        }
-
-        .latest-container {
-            gap: 40px;
-        }
-
-        .latest-title h3 {
-            font-size: 16px;
-        }
-
-        .latest-title p {
-            font-size: 12px;
-        }
-
-        .btn-clickhere-4 {
-            padding: 10px;
-            color: var(--blue-tertiary);
-            font-size: 12px;
-            font-weight: bold;
-            padding: 12px;
-        }
-
-        #highlights .latest-highlights:nth-last-child(-n+5) {
-            display: none;
-        }
-
-        #highlights .btn-clickhere-5 {
-            margin: 10% 0 20% 0;
-            width: 150px;
-            font-size: 15px;
-        }
-
-        /* DESTAQUE ENDOMAKETING */
-        #highlights .destaque-mensal {
-            width: 90%;
-            height: 270px;
-        }
-
-        #highlights .destaque-mensal .evento-destaque {
-            width: 200px;
-            height: 215px;
-            top: -165px;
-            left: 86px;
-            border-radius: 50% 50% 5% 5%;
-        }
-
-        #highlights .content-event {
-            text-align: justify;
-        }
-
-        #highlights .title-event {
-            font-size: 18px;
-            text-align: center;
-        }
-
-        #highlights .text-event {
-            font-size: 15px;
-        }
-
-        #highlights .destaque-mensal .btn-clickhere-4 {
-            padding: 10px;
-            width: 140px;
-            color: var(--blue-tertiary);
-            font-size: 15px;
-            font-weight: bold;
-            margin-top: 20px;
-            position: absolute;
-            bottom: -20px;
-            right: 125px;
-            box-shadow: 10px 10px 10px rgb(109, 109, 109);
-        }
-
-        /* LOCALIZAÇÃO */
-        #location {
-            height: 80vh;
-        }
-
-        #location .location-title h2 {
-            font-size: 20px;
-        }
-
-        #location .location-title .fa-map-marker-alt {
-            margin-right: 5px;
-            color: red;
-        }
-
-        #location iframe {
-            width: 280px;
-            height: 280px;
-        }
-
-        /* FOOTER  */
-        .container-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            flex-wrap: wrap;
-
-        }
-
-        .footer-left,
-        .footer-right {
-            flex: 1;
-            width: 100%;
-        }
-
-        .footer-right {
-            display: flex;
-            align-items: center;
-            width: 100%;
-        }
-
-        .endereco h2,
-        .social h2 {
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
-
-        .endereco,
-        .horario,
-        .social {
-            padding: 10px;
-            font-size: 12px;
-            text-align: center;
-        }
-
-        .endereco address {
-            font-style: normal;
-            margin-bottom: 20px;
-        }
-
-        .horario {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .horario h2 {
-            font-size: 18px;
-            text-transform: capitalize;
-        }
-
-        .dias-atendimento,
-        .horarios-funcionamento {
-            flex: 1;
-            width: 100%;
-        }
-
-        .horarios-funcionamento {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .footer-right h2 {
-            font-size: 18px;
-            text-transform: capitalize;
-        }
-
-        .dias-atendimento {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .social {
-            display: flex;
-            justify-content: flex-end;
-            align-items: end;
-        }
-
-
-        .list-social {
-            display: flex;
-            gap: 20px;
-        }
-
-        .list-social a {
-            font-size: 30px;
-        }
-
-        .social-links ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .social-links li {
-            margin: 5px 0;
-        }
-
-        .social-links a {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        .btn-clickhere-5 {
-            padding: 10px;
-            font-size: 12px;
-        }
-
-        small {
-            width: 100%;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            font-size: 12px;
-        }
-
-        /* PAGINA QUEM SOMOS  */
-        /* BANNER */
-        main {
-            overflow-x: hidden;
-        }
-
-        #banner-somos .content .title .title-main {
-            font-size: 30px;
-            text-transform: uppercase;
-            width: auto;
-        }
-
-        #historia-empresa .titles #title-timeline {
-            font-size: 1.7rem;
-            font-weight: 300;
-        }
-
-        #historia-empresa .titles #subtitle-timeline {
-            font-size: 2rem;
-            text-transform: uppercase;
-            font-weight: 900;
-        }
-
-        .timeline-wrapper {
-            display: none;
-        }
-
-        .timeLineMobile {
-            display: block;
-            height: auto;
-        }
-
-        .timeLineMobile::after {
-            left: 31px;
-        }
-
-        .container-timeLineMobile {
-            width: 100%;
-            padding-left: 70px;
-            padding-right: 25px;
-            text-align: justify;
-            font-size: 12px;
-        }
-
-        .container-timeLineMobile::before {
-            left: 61px;
-            border: medium solid var(--blue-tertiary);
-            border-width: 10px 10px 10px 0;
-            border-color: transparent var(--blue-tertiary) transparent transparent;
-
-        }
-
-        .left::after,
-        .right::after {
-            left: 20px;
-        }
-
-        .right {
-            left: 0%;
-        }
-
-        /* MISSÃO VISAO E VALORES  */
-        #missao {
-            height: 80vh;
-            padding: 20px;
-        }
-
-        #missao .content-missao {
-            width: 80%;
-            text-align: justify;
-        }
-
-        #missao .content-missao #title-missao {
-            font-size: 25px;
-            margin-bottom: 15px;
-        }
-
-        #missao .content-missao #text-missao {
-            font-size: 13px;
-        }
-
-        /* RESPONSABILIDADE FOTO  */
-
-        #responsabilidade {
-            height: 40vh;
-        }
-
-        #responsabilidade .titles-responsabilidade #title-responsabilidade {
-
-            font-size: 25px;
-            font-weight: bold;
-        }
-
-        #responsabilidade .titles-responsabilidade #subtitle-responsabilidade {
-            color: var(--white);
-            font-size: 18px;
-            font-weight: 300;
-        }
-
-        #responsabilidade .page-tab {
-            position: absolute;
-            top: -1px;
-        }
-
-        .historia-conteudo {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .reverse {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-
-        #social-ambiental .page-tab-bottom {
-            position: absolute;
-            bottom: -5px;
-        }
-
-        #social-ambiental .page-tab-bottom img {
-            width: 100%;
-        }
-
-        #social-ambiental .conteudo-escrito {
-            max-width: 100%;
-        }
-
-        #social-ambiental .conteudo-escrito h3 {
-            font-size: 18px;
-            padding: 10px;
-            text-align: center;
-        }
-
-        #social-ambiental .conteudo-escrito p {
-            font-size: 12px;
-            text-align: justify;
-        }
-
-        #movie-institutional {
-            height: auto;
-        }
-
-        #movie-institutional #assista {
-            font-size: 1.5rem;
-            font-weight: 300;
-        }
-
-        #movie-institutional #video {
-            font-size: 1.5rem;
-            text-transform: uppercase;
-            font-weight: 900;
-        }
-
-        #movie-institutional iframe {
-            width: 100%;
-            height: auto;
-        }
-
-        /* PAGINA CERTIFICADOS  */
-
-        #certificate {
-            height: 30vh;
-        }
-
-        .content .title .title-main {
-            font-size: 30px;
-            text-transform: uppercase;
-        }
-
-        #seal-integrity {
-            height: auto;
-        }
-
-        .seal-integrity-content {
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-        }
-
-        .text-content-seal {
-            max-width: 80%;
-        }
-
-        .text-content-seal h2 {
-            font-size: 1.1rem;
-            text-align: center;
-        }
-
-        .texto-conteudo {
-            font-size: .9rem;
-        }
-
-        .seal-integrity-content img {
-            max-width: 70%;
-        }
-
-        #bpf {
-            max-height: 100vh;
-        }
-
-        #bpf .bpf-content {
-            display: flex;
-            flex-direction: column-reverse;
-            gap: 30px;
-        }
-
-        #bpf .bpf-content img {
-            max-width: 70%;
-            height: auto;
-        }
-
-        #bpf .bpf-content .text-bpf {
-            max-width: 80%;
-        }
-
-        #bpf .bpf-content .text-bpf h2 {
-            font-size: 1.1rem;
-            text-align: center;
-        }
-
-        #environmentally-friendly {
-            height: 100vh;
-        }
-
-        #environmentally-friendly .environmentally-friendly-content {
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-        }
-
-        #environmentally-friendly .environmentally-friendly-content img {
-            max-width: 70%;
-        }
-
-        #environmentally-friendly .text-environmentally-friendly {
-            max-width: 80%;
-        }
-
-        #environmentally-friendly .text-environmentally-friendly h2 {
-            font-size: 1.1rem;
-            text-align: center;
-        }
-
-        #brazilian-industry {
-            height: 120vh;
-        }
-
-        #brazilian-industry .brazilian-industry-content {
-            display: flex;
-            flex-direction: column-reverse;
-            gap: 30px;
-        }
-
-        #brazilian-industry .brazilian-industry-content img {
-            max-width: 70%;
-        }
-
-        #brazilian-industry .text-brazilian-industry {
-            max-width: 80%;
-        }
-
-        #brazilian-industry .text-brazilian-industry h2 {
-            font-size: 1.1rem;
-            text-align: center;
-        }
-
-
-        /* PRODUTOS  */
-        #product-banner .title-main {
-            font-size: 22px;
-        }
-
-        #product-section {
-            height: 100vh;
-        }
-
-        #product-section .content-produto {
-            width: 100%;
-        }
-
-        #product-section .title-produto #title-main {
-            font-size: 18px;
-            text-align: center;
-        }
-
-        #product-section .title-produto #subtitle {
-            font-size: 20px;
-            text-align: center;
-        }
-
-        #product-section .text-event {
-            font-size: 12px;
-            text-align: justify;
-        }
-
-        #product-section .produto-area .btn-clickhere-4 {
-            width: 100px;
-            font-size: 10px;
-            right: 35%;
-        }
-
-        .wrapper #categorias {
-            width: 8%;
-            padding: 5px;
-        }
-
-        #product-section {
-            height: 80vh;
-        }
-
-        #product-section .produto-area {
-            height: auto;
-            display: flex;
-            flex-direction: column-reverse;
-        }
-
-        #product-section .produto-area .produto-imagem {
-            width: 290px;
-            height: 280px;
-            position: relative;
-            left: 20%;
-        }
-
-        #search-section .search-container input {
-            width: 100%;
-        }
-
-        .wrapper #categorias h2 {
-            font-size: 22px;
-        }
-
-        .wrapper #categorias li {
-            font-size: 14px;
-        }
-
-        .wrapper .produto {
-            width: 80%;
-            max-width: none;
-        }
-
-        .wrapper #produto .produto h3 {
-            font-size: 13px;
-        }
-
-        .wrapper #produto .produto h5 {
-            font-size: 10px;
-            font-weight: 500;
-        }
-
-        #contact-store .title-photo {
-            width: 40%;
-        }
-
-        #contact-store .title-photo h3 {
-            font-size: 1.2vh;
-        }
-
-        #contact-store .title-photo h4 {
-            font-size: 1.2vh;
-        }
-
-        .mobile-dropdown {
-            display: block;
-            display: flex;
-            justify-content: center;
-        }
-
-        aside {
-            display: none;
-        }
-
-        .fild-produts {
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-        }
-
-        .fild-produts .product-spacification,
-        .fild-produts .content-product {
-            width: 90%;
-        }
-
-        .product-category {
-            width: 100%;
-        }
-
-        #related-product .product-row .produto {
-            width: 100%;
-        }
-
-        .fild-produts .product-spacification .btn-clickhere-2 {
-            text-align: center;
-            width: 200px;
-            font-size: 13px;
-            margin-left: auto;
-            margin-right: auto; /* Adicione esta linha */
-            display: block; /* Adicione esta linha */
-        }
-
-        #product-table{
-            width: 80%;
-            align-self: center;
-            font-size: 13px;
-        }
-
-        #related-product .product-row{
-            flex-wrap: nowrap;
-        }
-
-        #related-product .title-related h2{
-            font-size: 16px;
-            text-align: center;
-            font-weight: bold;
-        }
-
-        #related-product h3{
-            font-size: 13px;
-        }
+}
+
+@media (max-width: 628px) {
+
+    /* MENU */
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+        width: auto;
+    }
+
+    .menu-nav ul {
+        display: block;
+        position: absolute;
+        width: 100%;
+        right: 0;
+        background: var(--main-color);
+        transition: .4s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+        border-radius: 0 0 .5rem .5rem;
+        text-align: center;
+    }
+
+    .menu .menu-nav li {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+
+    .menu .dropdown ul.dropdown-menu {
+        width: 100%;
+    }
+
+    .menu .dropdown ul.dropdown-menu li a {
+        text-align: center;
+    }
+
+    .menu-nav.active ul {
+        height: 100vh;
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #hamburguer {
+        border-top: 2px solid var(--white);
+        display: block;
+        width: 20px;
+    }
+
+    #hamburguer::after,
+    #hamburguer::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: var(--white);
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    .menu-nav.active #hamburguer {
+        border-top-color: transparent;
+    }
+
+    .menu-nav.active #hamburguer::before {
+        transform: rotate(135deg);
+    }
+
+    .menu-nav.active #hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+    /* BANNER HOME */
+    #banner-home .content .title {
+        padding: 0 1rem;
+    }
+
+    #banner-home .content .title h1 {
+        font-size: 18px;
+        width: auto;
+    }
+
+    #banner-home .content .text {
+        font-size: 12px;
+        width: auto;
+    }
+
+    #banner-home .content .btn-clickhere-1 {
+        padding: 8px;
+        width: 90px;
+        font-size: 12px;
+    }
+
+    /* CONSUTORIA TECNICA */
+    #technical-consultancy {
+        height: 80vh;
+        padding: 1.5rem 0;
+    }
+
+    #technical-consultancy .container-technical-consultancy {
+        display: flex;
+        flex-direction: column;
+        width: 20px;
+    }
+
+    #technical-consultancy .titles {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #technical-consultancy .titles #title-consultancy {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    #technical-consultancy .titles #title-technique {
+        font-size: 40px;
+    }
+
+    #technical-consultancy .titles .text-technical-consultancy {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
+        width: 200px;
+        height: 180px;
+    }
+
+
+    #technical-consultancy .container-technical-consultancy .btn-clickhere-2 {
+        padding: 10px;
+        font-size: 12px;
+        width: 120px;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    #video-instituciona {
+        height: 70vh;
+    }
+
+    #video-institucional .container-institucional {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #video-institucional .institucional iframe {
+        width: 300px;
+        height: 169px;
+    }
+
+    #video-institucional .assista-video img {
+        width: 25px;
+        height: 25px;
+    }
+
+    #video-institucional .assista-video h2,
+    i {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #video-institucional .assista-video p {
+        width: 250px;
+        text-align: justify;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    #video-institucional .btn-clickhere-3 {
+        padding: 12px;
+        width: 120px;
+        margin-top: 20px;
+        font-size: 12px;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* DEPOIMENTOS DOS CLIENTES */
+    #satisfied-customers {
+        height: 90vh;
+    }
+
+    #satisfied-customers .testimonial-header h2 {
+        font-size: 22px;
+        font-weight: 900;
+    }
+
+    #satisfied-customers .testimonial-header p {
+        max-width: 280px;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    #satisfied-customers .swiper-container {
+        padding-top: 20px;
+    }
+
+    #satisfied-customers .swiper-slide {
+        width: 280px;
+        height: auto;
+        margin-right: 8px;
+    }
+
+    #satisfied-customers .testimonialBox {
+        padding: 20px;
+    }
+
+    #satisfied-customers .testimonialBox .content {
+        font-size: 13px;
+    }
+
+    #satisfied-customers .testimonialBox .details .imgBx img {
+        width: 80%;
+        height: 80%;
+    }
+
+    #satisfied-customers .testimonialBox .quote {
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #satisfied-customers .testimonialBox .details h3 {
+        font-size: 14px;
+    }
+
+    #satisfied-customers .testimonialBox .details span {
+        font-size: 10px;
+    }
+
+    /* DESTAQUES BLOG / ARTIGOS */
+    #highlights {
+        display: block;
+    }
+
+    #highlights .highlights-title h2 {
+        font-size: 22px;
+        font-weight: 900;
+        margin-top: 0;
+    }
+
+    #highlights .latest-highlights {
+        width: 280px;
+        height: 300px;
+        box-shadow: 8px 8px 10px rgb(109, 109, 109);
+    }
+
+    .latest-item-top,
+    .latest-item-bottom {
+        width: 280px;
 
     }
 
-    @media (max-width: 375px) {
+    .latest-container {
+        gap: 40px;
+    }
 
-        /* CONSUTORIA TECNICA */
-        #technical-consultancy {
-            height: 80vh;
-            padding: 1.5rem 0;
-        }
+    .latest-title h3 {
+        font-size: 16px;
+    }
 
-        #technical-consultancy .container-technical-consultancy {
-            display: flex;
-            flex-direction: column;
-            width: 20px;
-        }
+    .latest-title p {
+        font-size: 12px;
+    }
 
-        #technical-consultancy .titles {
-            width: 300px;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-        }
+    .btn-clickhere-4 {
+        padding: 10px;
+        color: var(--blue-tertiary);
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px;
+    }
 
-        #technical-consultancy .titles #title-consultancy {
-            font-size: 18px;
-            font-weight: 500;
-        }
+    #highlights .latest-highlights:nth-last-child(-n+5) {
+        display: none;
+    }
 
-        #technical-consultancy .titles #title-technique {
-            font-size: 40px;
-        }
+    #highlights .btn-clickhere-5 {
+        margin: 10% 0 20% 0;
+        width: 150px;
+        font-size: 15px;
+    }
 
-        #technical-consultancy .titles .text-technical-consultancy {
-            font-size: 12px;
-            text-align: justify;
-        }
+    /* DESTAQUE ENDOMAKETING */
+    #highlights .destaque-mensal {
+        width: 90%;
+        height: 270px;
+    }
 
-        #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
-            width: 200px;
-            height: 180px;
-        }
+    #highlights .destaque-mensal .evento-destaque {
+        width: 200px;
+        height: 215px;
+        top: -165px;
+        left: 86px;
+        border-radius: 50% 50% 5% 5%;
+    }
 
-        #technical-consultancy .container-technical-consultancy .technical-consultancy-image img {
-            width: 350px;
-            height: 200px;
-            right: -65px;
-            bottom: 0px;
-        }
+    #highlights .content-event {
+        text-align: justify;
+    }
 
-        #technical-consultancy .container-technical-consultancy .btn-clickhere-2 {
-            padding: 10px;
-            font-size: 12px;
-            width: 120px;
-            left: 40%;
-            transform: translate(-50%, -50%);
-        }
+    #highlights .title-event {
+        font-size: 18px;
+        text-align: center;
+    }
 
-        #video-institucional {
-            height: 90vh;
-        }
+    #highlights .text-event {
+        font-size: 15px;
+    }
 
-        #video-institucional .container-institucional {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-        }
+    #highlights .destaque-mensal .btn-clickhere-4 {
+        padding: 10px;
+        width: 140px;
+        color: var(--blue-tertiary);
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 20px;
+        position: absolute;
+        bottom: -20px;
+        right: 125px;
+        box-shadow: 10px 10px 10px rgb(109, 109, 109);
+    }
 
-        #video-institucional .institucional iframe {
-            width: 300px;
-            height: 180px;
-        }
+    /* LOCALIZAÇÃO */
+    #location {
+        height: 80vh;
+    }
 
-        #video-institucional .assista-video img {
-            width: 25px;
-            height: 25px;
-        }
+    #location .location-title h2 {
+        font-size: 20px;
+    }
 
-        #video-institucional .assista-video h2,
-        i {
-            font-size: 20px;
-            text-align: center;
-        }
+    #location .location-title .fa-map-marker-alt {
+        margin-right: 5px;
+        color: red;
+    }
 
-        #video-institucional .assista-video p {
-            width: 250px;
-            text-align: justify;
-            font-size: 12px;
-            margin-top: 5px;
-        }
+    #location iframe {
+        width: 280px;
+        height: 280px;
+    }
 
-        #video-institucional .btn-clickhere-3 {
-            padding: 12px;
-            width: 120px;
-            margin-top: 20px;
-            font-size: 12px;
-            top: 10%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        /* DEPOIMENTOS DOS CLIENTES */
-        #satisfied-customers {
-            height: 90vh;
-        }
-
-        #satisfied-customers .testimonial-header h2 {
-            font-size: 22px;
-            font-weight: 900;
-        }
-
-        #satisfied-customers .testimonial-header p {
-            max-width: 280px;
-            margin: 0 auto;
-            font-size: 12px;
-        }
-
-        #satisfied-customers .swiper-container {
-            padding-top: 20px;
-        }
-
-        #satisfied-customers .swiper-slide {
-            width: 280px;
-            height: auto;
-            margin-right: 8px;
-        }
-
-        #satisfied-customers .testimonialBox {
-            padding: 20px;
-        }
-
-        #satisfied-customers .testimonialBox .content {
-            font-size: 13px;
-        }
-
-        #satisfied-customers .testimonialBox .details .imgBx img {
-            width: 80%;
-            height: 80%;
-        }
-
-        #satisfied-customers .testimonialBox .quote {
-            top: 10px;
-            right: 10px;
-            width: 30px;
-            height: 30px;
-        }
-
-        #satisfied-customers .testimonialBox .details h3 {
-            font-size: 14px;
-        }
-
-        #satisfied-customers .testimonialBox .details span {
-            font-size: 10px;
-        }
-
-        /* DESTAQUES BLOG / ARTIGOS */
-        #highlights {
-            display: block;
-        }
-
-        #highlights .highlights-title h2 {
-            font-size: 22px;
-            font-weight: 900;
-            margin-top: 0;
-        }
-
-        #highlights .latest-highlights {
-            width: 280px;
-            height: 300px;
-            box-shadow: 8px 8px 10px rgb(109, 109, 109);
-        }
-
-        .latest-item-top,
-        .latest-item-bottom {
-            width: 280px;
-
-        }
-
-        .latest-container {
-            gap: 40px;
-        }
-
-        .latest-title h3 {
-            font-size: 16px;
-        }
-
-        .latest-title p {
-            font-size: 12px;
-        }
-
-        .btn-clickhere-4 {
-            padding: 10px;
-            color: var(--blue-tertiary);
-            font-size: 12px;
-            font-weight: bold;
-            padding: 12px;
-        }
-
-        #highlights .latest-highlights:nth-last-child(-n+5) {
-            display: none;
-        }
-
-        #highlights .btn-clickhere-5 {
-            margin: 10% 0 20% 0;
-            width: 150px;
-            font-size: 15px;
-        }
-
-        /* DESTAQUE ENDOMAKETING */
-        #highlights .destaque-mensal {
-            width: 90%;
-            height: 270px;
-        }
-
-        #highlights .destaque-mensal .evento-destaque {
-            left: 70px;
-        }
-
-        #highlights .destaque-mensal .btn-clickhere-4 {
-            position: absolute;
-            bottom: -20px;
-            right: 100px;
-        }
-
-        /* TRABALHE CONOSCO */
-
-        #work-with-us {
-            height: 40vh;
-        }
-
-        #work-with-us .title-main {
-            font-size: 22px;
-        }
-
-        #form-work .file-input button {
-            width: 200px;
-        }
-
-        #form-work button {
-            width: 200px;
-        }
-
-        /* CANAL DE DENUNCIAS  */
-        #ombudsman {
-            height: 40vh;
-        }
-
-        #ombudsman .title-main {
-            font-size: 22px;
-        }
-
-        #content-ombudsman .ombudsman-container {
-            font-size: 15px;
-        }
-
+    /* FOOTER  */
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex-wrap: wrap;
 
     }
 
-    @media (max-width: 320px) {
-        body {
-            overflow-x: hidden;
-        }
-
-        /* MENU */
-        #btn-mobile {
-            display: flex;
-            justify-content: space-between;
-            padding: .5rem 1rem;
-            border: none;
-            background: none;
-            cursor: pointer;
-            gap: .5rem;
-            width: auto;
-
-        }
-
-        .menu {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .menu-nav ul {
-            display: block;
-            position: absolute;
-            width: 100%;
-            right: 0;
-            background: var(--main-color);
-            transition: .4s;
-            z-index: 1000;
-            height: 0px;
-            visibility: hidden;
-            overflow-y: hidden;
-            border-radius: 0 0 .5rem .5rem;
-            text-align: center;
-        }
-
-        .menu .menu-nav li {
-            margin: 20px 0;
-            font-size: 20px;
-        }
-
-        .menu .dropdown ul.dropdown-menu {
-            width: 100%;
-
-        }
-
-        .menu .dropdown ul.dropdown-menu li a {
-            text-align: center;
-        }
-
-        .menu-nav.active ul {
-            height: 100vh;
-            visibility: visible;
-            overflow-y: auto;
-        }
-
-        #hamburguer {
-            border-top: 2px solid var(--white);
-            display: block;
-            width: 20px;
-        }
-
-        #hamburguer::after,
-        #hamburguer::before {
-            content: '';
-            display: block;
-            width: 20px;
-            height: 2px;
-            background: var(--white);
-            margin-top: 5px;
-            transition: .3s;
-            position: relative;
-        }
-
-        .menu-nav.active #hamburguer {
-            border-top-color: transparent;
-        }
-
-        .menu-nav.active #hamburguer::before {
-            transform: rotate(135deg);
-        }
-
-        .menu-nav.active #hamburguer::after {
-            transform: rotate(-135deg);
-            top: -7px;
-        }
-
-        /* BANNER HOME */
-        #banner-home .content .title {
-            padding: 0 1rem;
-        }
-
-        #banner-home .content .title h1 {
-            font-size: 18px;
-            width: auto;
-        }
-
-        #banner-home .content .text {
-            font-size: 12px;
-            width: auto;
-        }
-
-        #banner-home .content .btn-clickhere-1 {
-            padding: 8px;
-            width: 90px;
-            font-size: 12px;
-        }
-
-        /* CONSUTORIA TECNICA */
-        #technical-consultancy {
-            height: 88vh;
-            padding: 1.5rem 0;
-        }
-
-        #technical-consultancy .container-technical-consultancy {
-            display: flex;
-            flex-direction: column;
-            width: 20px;
-        }
-
-        #technical-consultancy .titles {
-            width: 200px;
-            display: flex;
-            flex-direction: column;
-            text-align: left;
-        }
-
-        #technical-consultancy .titles #title-consultancy {
-            font-size: 18px;
-            font-weight: 500;
-        }
-
-        #technical-consultancy .titles #title-technique {
-            font-size: 40px;
-        }
-
-        #technical-consultancy .titles .text-technical-consultancy {
-            font-size: 12px;
-            text-align: justify;
-        }
-
-        #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
-            width: 200px;
-            height: 180px;
-        }
-
-        #technical-consultancy .container-technical-consultancy .technical-consultancy-image img {
-            width: 350px;
-            height: 200px;
-            right: -65px;
-            bottom: 0px;
-        }
-
-        #technical-consultancy .container-technical-consultancy .btn-clickhere-2 {
-            padding: 10px;
-            font-size: 12px;
-            width: 120px;
-        }
-
-        /* VÍDEO INSTITUCIONAL */
-
-        #video-institucional {
-            height: 100vh;
-        }
-
-        #video-institucional .container-institucional {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-        }
-
-        #video-institucional .institucional iframe {
-            width: 300px;
-            height: 169px;
-        }
-
-        #video-institucional .assista-video img {
-            width: 25px;
-            height: 25px;
-        }
-
-        #video-institucional .assista-video h2,
-        i {
-            font-size: 20px;
-            text-align: center;
-        }
-
-        #video-institucional .assista-video p {
-            width: 250px;
-            text-align: justify;
-            font-size: 12px;
-            margin-top: 5px;
-        }
-
-        #video-institucional .btn-clickhere-3 {
-            padding: 12px;
-            width: 120px;
-            margin-top: 20px;
-            font-size: 12px;
-            top: 10%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        /* DEPOIMENTOS DOS CLIENTES */
-        #satisfied-customers {
-            height: 100vh;
-        }
-
-        #satisfied-customers .testimonial-header h2 {
-            font-size: 22px;
-            font-weight: 900;
-        }
-
-        #satisfied-customers .testimonial-header p {
-            max-width: 280px;
-            margin: 0 auto;
-            font-size: 12px;
-        }
-
-        #satisfied-customers .swiper-container {
-            padding-top: 20px;
-        }
-
-        #satisfied-customers .swiper-slide {
-            width: 280px;
-            height: auto;
-            margin-right: 8px;
-        }
-
-        #satisfied-customers .testimonialBox {
-            padding: 20px;
-        }
-
-        #satisfied-customers .testimonialBox .content {
-            font-size: 13px;
-        }
-
-        #satisfied-customers .testimonialBox .details .imgBx img {
-            width: 80%;
-            height: 80%;
-        }
-
-        #satisfied-customers .testimonialBox .quote {
-            top: 10px;
-            right: 10px;
-            width: 30px;
-            height: 30px;
-        }
-
-        #satisfied-customers .testimonialBox .details h3 {
-            font-size: 14px;
-        }
-
-        #satisfied-customers .testimonialBox .details span {
-            font-size: 10px;
-        }
-
-        /* DESTAQUES BLOG / ARTIGOS */
-        #highlights {
-            display: block;
-        }
-
-        #highlights .highlights-title h2 {
-            font-size: 22px;
-            font-weight: 900;
-            margin-top: 0;
-        }
-
-        #highlights .latest-highlights {
-            width: 280px;
-            height: 300px;
-            box-shadow: 8px 8px 10px rgb(109, 109, 109);
-        }
-
-        .latest-item-top,
-        .latest-item-bottom {
-            width: 280px;
-
-        }
-
-        .latest-container {
-            gap: 40px;
-        }
-
-        .latest-title h3 {
-            font-size: 16px;
-        }
-
-        .latest-title p {
-            font-size: 12px;
-        }
-
-        .btn-clickhere-4 {
-            padding: 10px;
-            color: var(--blue-tertiary);
-            font-size: 12px;
-            font-weight: bold;
-            padding: 12px;
-        }
-
-        #highlights .latest-highlights:nth-last-child(-n+5) {
-            display: none;
-        }
-
-        #highlights .btn-clickhere-5 {
-            margin: 10% 0 20% 0;
-            width: 150px;
-            font-size: 15px;
-        }
-
-        /* DESTAQUE ENDOMAKETING */
-        #highlights .destaque-mensal {
-            width: 90%;
-            height: 270px;
-        }
-
-        #highlights .destaque-mensal .evento-destaque {
-            width: 200px;
-            height: 215px;
-            top: -165px;
-            left: 50px;
-            border-radius: 50% 50% 5% 5%;
-        }
-
-        #highlights .content-event {
-            text-align: justify;
-        }
-
-        #highlights .title-event {
-            font-size: 18px;
-            text-align: center;
-        }
-
-        #highlights .text-event {
-            font-size: 15px;
-        }
-
-        #highlights .destaque-mensal .btn-clickhere-4 {
-            padding: 10px;
-            width: 140px;
-            color: var(--blue-tertiary);
-            font-size: 15px;
-            font-weight: bold;
-            margin-top: 20px;
-            position: absolute;
-            bottom: -20px;
-            right: 70px;
-            box-shadow: 10px 10px 10px rgb(109, 109, 109);
-        }
-
-        /* LOCALIZAÇÃO */
-        #location {
-            height: 80vh;
-        }
-
-        #location .location-title h2 {
-            font-size: 20px;
-        }
-
-        #location .location-title .fa-map-marker-alt {
-            margin-right: 5px;
-            color: red;
-        }
-
-        #location iframe {
-            width: 280px;
-            height: 280px;
-        }
-
-        /* FOOTER  */
-        .container-footer {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        .footer-left,
-        .footer-right {
-            flex: 1;
-            width: 100%;
-        }
-
-        .footer-right {
-            display: flex;
-            align-items: center;
-            width: 100%;
-        }
-
-        .endereco h2,
-        .social h2 {
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
-
-        .endereco,
-        .horario,
-        .social {
-            padding: 10px;
-            font-size: 12px;
-        }
-
-        .endereco address {
-            font-style: normal;
-            margin-bottom: 20px;
-        }
-
-        .horario {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .horario h2 {
-            font-size: 18px;
-            text-transform: capitalize;
-        }
-
-        .dias-atendimento,
-        .horarios-funcionamento {
-            flex: 1;
-            width: 100%;
-        }
-
-        .horarios-funcionamento {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .footer-right h2 {
-            font-size: 18px;
-            text-transform: capitalize;
-        }
-
-        .dias-atendimento {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .social {
-            display: flex;
-            justify-content: flex-end;
-            align-items: end;
-        }
-
-
-        .list-social {
-            display: flex;
-            gap: 20px;
-        }
-
-        .list-social a {
-            font-size: 30px;
-        }
-
-        .social-links ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .social-links li {
-            margin: 5px 0;
-        }
-
-        .social-links a {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        .btn-clickhere-5 {
-            padding: 10px;
-            font-size: 12px;
-        }
-
-        small {
-            width: 100%;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            font-size: 12px;
-        }
-
-        /* PAGINA QUEM SOMOS  */
-        /* BANNER */
-        main {
-            overflow-x: hidden;
-        }
-
-        #banner-somos .content .title .title-main {
-            font-size: 25px;
-            width: auto;
-        }
-
-        #historia-empresa #title-timeline-center .titles {
-            width: 260px;
-
-        }
-
-        #historia-empresa .titles #title-timeline {
-            font-size: 1.7rem;
-            font-weight: 300;
-        }
-
-        #historia-empresa .titles #subtitle-timeline {
-            font-size: 2rem;
-            text-transform: uppercase;
-            font-weight: 900;
-        }
-
-        .timeline-wrapper {
-            display: none;
-        }
-
-        .timeLineMobile {
-            display: block;
-            height: auto;
-        }
-
-        .timeLineMobile::after {
-            left: 31px;
-        }
-
-        .container-timeLineMobile {
-            width: 100%;
-            padding-left: 70px;
-            padding-right: 25px;
-            text-align: justify;
-            font-size: 12px;
-        }
-
-        .container-timeLineMobile::before {
-            left: 61px;
-            border: medium solid hsl(209, 97%, 53%);
-            border-width: 10px 10px 10px 0;
-            border-color: transparent hsl(209, 97%, 53%) transparent transparent;
-        }
-
-        .left::after,
-        .right::after {
-            left: 20px;
-        }
-
-        .right {
-            left: 0%;
-        }
-
-        #missao {
-            height: auto;
-        }
-
-        /* CERTIFICATE  */
-        #seal-integrity {
-            height: auto;
-        }
-
-        #bpf {
-            height: 130vh;
-        }
-
-        #environmentally-friendly {
-            height: auto;
-        }
-
-        #brazilian-industry {
-            height: auto;
-        }
-
-        #product-section {
-            height: 120vh;
-        }
-
+    .footer-left,
+    .footer-right {
+        flex: 1;
+        width: 100%;
+    }
+
+    .footer-right {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .endereco h2,
+    .social h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .endereco,
+    .horario,
+    .social {
+        padding: 10px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .endereco address {
+        font-style: normal;
+        margin-bottom: 20px;
+    }
+
+    .horario {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .horario h2 {
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+
+    .dias-atendimento,
+    .horarios-funcionamento {
+        flex: 1;
+        width: 100%;
+    }
+
+    .horarios-funcionamento {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-right h2 {
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+
+    .dias-atendimento {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social {
+        display: flex;
+        justify-content: flex-end;
+        align-items: end;
+    }
+
+
+    .list-social {
+        display: flex;
+        gap: 20px;
+    }
+
+    .list-social a {
+        font-size: 30px;
+    }
+
+    .social-links ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .social-links li {
+        margin: 5px 0;
+    }
+
+    .social-links a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .btn-clickhere-5 {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    small {
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 12px;
+    }
+
+    /* PAGINA QUEM SOMOS  */
+    /* BANNER */
+    main {
+        overflow-x: hidden;
+    }
+
+    #banner-somos .content .title .title-main {
+        font-size: 30px;
+        text-transform: uppercase;
+        width: auto;
+    }
+
+    #historia-empresa .titles #title-timeline {
+        font-size: 1.7rem;
+        font-weight: 300;
+    }
+
+    #historia-empresa .titles #subtitle-timeline {
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+
+    .timeline-wrapper {
+        display: none;
+    }
+
+    .timeLineMobile {
+        display: block;
+        height: auto;
+    }
+
+    .timeLineMobile::after {
+        left: 31px;
+    }
+
+    .container-timeLineMobile {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .container-timeLineMobile::before {
+        left: 61px;
+        border: medium solid var(--blue-tertiary);
+        border-width: 10px 10px 10px 0;
+        border-color: transparent var(--blue-tertiary) transparent transparent;
+
+    }
+
+    .left::after,
+    .right::after {
+        left: 20px;
+    }
+
+    .right {
+        left: 0%;
+    }
+
+    /* MISSÃO VISAO E VALORES  */
+    #missao {
+        height: 80vh;
+        padding: 20px;
+    }
+
+    #missao .content-missao {
+        width: 80%;
+        text-align: justify;
+    }
+
+    #missao .content-missao #title-missao {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    #missao .content-missao #text-missao {
+        font-size: 13px;
+    }
+
+    /* RESPONSABILIDADE FOTO  */
+
+    #responsabilidade {
+        height: 40vh;
+    }
+
+    #responsabilidade .titles-responsabilidade #title-responsabilidade {
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #responsabilidade .titles-responsabilidade #subtitle-responsabilidade {
+        color: var(--white);
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    #responsabilidade .page-tab {
+        position: absolute;
+        top: -1px;
+    }
+
+    .historia-conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #social-ambiental .page-tab-bottom {
+        position: absolute;
+        bottom: -5px;
+    }
+
+    #social-ambiental .page-tab-bottom img {
+        width: 100%;
+    }
+
+    #social-ambiental .conteudo-escrito {
+        max-width: 100%;
+    }
+
+    #social-ambiental .conteudo-escrito h3 {
+        font-size: 18px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #social-ambiental .conteudo-escrito p {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    #movie-institutional {
+        height: auto;
+    }
+
+    #movie-institutional #assista {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+
+    #movie-institutional #video {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+
+    #movie-institutional iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    /* PAGINA CERTIFICADOS  */
+
+    #certificate {
+        height: 30vh;
+    }
+
+    .content .title .title-main {
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    #seal-integrity {
+        height: auto;
+    }
+
+    .seal-integrity-content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .text-content-seal {
+        max-width: 80%;
+    }
+
+    .text-content-seal h2 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .texto-conteudo {
+        font-size: .9rem;
+    }
+
+    .seal-integrity-content img {
+        max-width: 70%;
+    }
+
+    #bpf {
+        max-height: 100vh;
+    }
+
+    #bpf .bpf-content {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    #bpf .bpf-content img {
+        max-width: 70%;
+        height: auto;
+    }
+
+    #bpf .bpf-content .text-bpf {
+        max-width: 80%;
+    }
+
+    #bpf .bpf-content .text-bpf h2 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    #environmentally-friendly {
+        height: 100vh;
+    }
+
+    #environmentally-friendly .environmentally-friendly-content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #environmentally-friendly .environmentally-friendly-content img {
+        max-width: 70%;
+    }
+
+    #environmentally-friendly .text-environmentally-friendly {
+        max-width: 80%;
+    }
+
+    #environmentally-friendly .text-environmentally-friendly h2 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    #brazilian-industry {
+        height: 120vh;
+    }
+
+    #brazilian-industry .brazilian-industry-content {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    #brazilian-industry .brazilian-industry-content img {
+        max-width: 70%;
+    }
+
+    #brazilian-industry .text-brazilian-industry {
+        max-width: 80%;
+    }
+
+    #brazilian-industry .text-brazilian-industry h2 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+
+    /* PRODUTOS  */
+    #product-banner .title-main {
+        font-size: 22px;
+    }
+
+    #product-section {
+        height: 100vh;
+    }
+
+    #product-section .content-produto {
+        width: 100%;
+    }
+
+    #product-section .title-produto #title-main {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #product-section .title-produto #subtitle {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #product-section .text-event {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    #product-section .produto-area .btn-clickhere-4 {
+        width: 100px;
+        font-size: 10px;
+        right: 35%;
+    }
+
+    .wrapper #categorias {
+        width: 8%;
+        padding: 5px;
+    }
+
+    #product-section {
+        height: 80vh;
+    }
+
+    #product-section .produto-area {
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #product-section .produto-area .produto-imagem {
+        width: 290px;
+        height: 280px;
+        position: relative;
+        left: 20%;
+    }
+
+    #search-section .search-container input {
+        width: 100%;
+    }
+
+    .wrapper #categorias h2 {
+        font-size: 22px;
+    }
+
+    .wrapper #categorias li {
+        font-size: 14px;
+    }
+
+    .wrapper .produto {
+        width: 80%;
+        max-width: none;
+    }
+
+    .wrapper #produto .produto h3 {
+        font-size: 13px;
+    }
+
+    .wrapper #produto .produto h5 {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    #contact-store .title-photo {
+        width: 40%;
+    }
+
+    #contact-store .title-photo h3 {
+        font-size: 1.2vh;
+    }
+
+    #contact-store .title-photo h4 {
+        font-size: 1.2vh;
+    }
+
+    .mobile-dropdown {
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .fild-produts {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .fild-produts .product-spacification,
+    .fild-produts .content-product {
+        width: 90%;
+    }
+
+    .product-category {
+        width: 100%;
+    }
+
+    #related-product .product-row .produto {
+        width: 100%;
+    }
+
+    .fild-produts .product-spacification .btn-clickhere-2 {
+        text-align: center;
+        width: 200px;
+        font-size: 13px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #product-table {
+        width: 80%;
+        align-self: center;
+        font-size: 13px;
+    }
+
+    #related-product .product-row {
+        flex-wrap: nowrap;
+    }
+
+    #related-product .title-related h2 {
+        font-size: 16px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #related-product h3 {
+        font-size: 13px;
+    }
+
+    /* contato  */
+    #contact {
+        height: 30vh;
+    }
+
+    #contact-form h2 {
+        font-size: 18px;
+    }
+
+    form label {
+        font-size: 15px;
+    }
+
+    #contact-form .contact-and-adress {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    /* CONSUTORIA TECNICA */
+    #technical-consultancy {
+        height: 80vh;
+        padding: 1.5rem 0;
+    }
+
+    #technical-consultancy .container-technical-consultancy {
+        display: flex;
+        flex-direction: column;
+        width: 20px;
+    }
+
+    #technical-consultancy .titles {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #technical-consultancy .titles #title-consultancy {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    #technical-consultancy .titles #title-technique {
+        font-size: 40px;
+    }
+
+    #technical-consultancy .titles .text-technical-consultancy {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
+        width: 200px;
+        height: 180px;
+    }
+
+    #technical-consultancy .container-technical-consultancy .technical-consultancy-image img {
+        width: 350px;
+        height: 200px;
+        right: -65px;
+        bottom: 0px;
+    }
+
+    #technical-consultancy .container-technical-consultancy .btn-clickhere-2 {
+        padding: 10px;
+        font-size: 12px;
+        width: 120px;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    #video-institucional {
+        height: 90vh;
+    }
+
+    #video-institucional .container-institucional {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #video-institucional .institucional iframe {
+        width: 300px;
+        height: 180px;
+    }
+
+    #video-institucional .assista-video img {
+        width: 25px;
+        height: 25px;
+    }
+
+    #video-institucional .assista-video h2,
+    i {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #video-institucional .assista-video p {
+        width: 250px;
+        text-align: justify;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    #video-institucional .btn-clickhere-3 {
+        padding: 12px;
+        width: 120px;
+        margin-top: 20px;
+        font-size: 12px;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* DEPOIMENTOS DOS CLIENTES */
+    #satisfied-customers {
+        height: 90vh;
+    }
+
+    #satisfied-customers .testimonial-header h2 {
+        font-size: 22px;
+        font-weight: 900;
+    }
+
+    #satisfied-customers .testimonial-header p {
+        max-width: 280px;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    #satisfied-customers .swiper-container {
+        padding-top: 20px;
+    }
+
+    #satisfied-customers .swiper-slide {
+        width: 280px;
+        height: auto;
+        margin-right: 8px;
+    }
+
+    #satisfied-customers .testimonialBox {
+        padding: 20px;
+    }
+
+    #satisfied-customers .testimonialBox .content {
+        font-size: 13px;
+    }
+
+    #satisfied-customers .testimonialBox .details .imgBx img {
+        width: 80%;
+        height: 80%;
+    }
+
+    #satisfied-customers .testimonialBox .quote {
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #satisfied-customers .testimonialBox .details h3 {
+        font-size: 14px;
+    }
+
+    #satisfied-customers .testimonialBox .details span {
+        font-size: 10px;
+    }
+
+    /* DESTAQUES BLOG / ARTIGOS */
+    #highlights {
+        display: block;
+    }
+
+    #highlights .highlights-title h2 {
+        font-size: 22px;
+        font-weight: 900;
+        margin-top: 0;
+    }
+
+    #highlights .latest-highlights {
+        width: 280px;
+        height: 300px;
+        box-shadow: 8px 8px 10px rgb(109, 109, 109);
+    }
+
+    .latest-item-top,
+    .latest-item-bottom {
+        width: 280px;
+
+    }
+
+    .latest-container {
+        gap: 40px;
+    }
+
+    .latest-title h3 {
+        font-size: 16px;
+    }
+
+    .latest-title p {
+        font-size: 12px;
+    }
+
+    .btn-clickhere-4 {
+        padding: 10px;
+        color: var(--blue-tertiary);
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px;
+    }
+
+    #highlights .latest-highlights:nth-last-child(-n+5) {
+        display: none;
+    }
+
+    #highlights .btn-clickhere-5 {
+        margin: 10% 0 20% 0;
+        width: 150px;
+        font-size: 15px;
+    }
+
+    /* DESTAQUE ENDOMAKETING */
+    #highlights .destaque-mensal {
+        width: 90%;
+        height: 270px;
+    }
+
+    #highlights .destaque-mensal .evento-destaque {
+        left: 70px;
+    }
+
+    #highlights .destaque-mensal .btn-clickhere-4 {
+        position: absolute;
+        bottom: -20px;
+        right: 100px;
+    }
+
+    /* TRABALHE CONOSCO */
+
+    #work-with-us {
+        height: 40vh;
+    }
+
+    #work-with-us .title-main {
+        font-size: 22px;
+    }
+
+    #form-work .file-input button {
+        width: 200px;
+    }
+
+    #form-work button {
+        width: 200px;
+    }
+
+    /* CANAL DE DENUNCIAS  */
+    #ombudsman {
+        height: 40vh;
+    }
+
+    #ombudsman .title-main {
+        font-size: 22px;
+    }
+
+    #content-ombudsman .ombudsman-container {
+        font-size: 15px;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /* MENU */
+    #btn-mobile {
+        display: flex;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+        width: auto;
+
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-nav ul {
+        display: block;
+        position: absolute;
+        width: 100%;
+        right: 0;
+        background: var(--main-color);
+        transition: .4s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+        border-radius: 0 0 .5rem .5rem;
+        text-align: center;
+    }
+
+    .menu .menu-nav li {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+
+    .menu .dropdown ul.dropdown-menu {
+        width: 100%;
+
+    }
+
+    .menu .dropdown ul.dropdown-menu li a {
+        text-align: center;
+    }
+
+    .menu-nav.active ul {
+        height: 100vh;
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #hamburguer {
+        border-top: 2px solid var(--white);
+        display: block;
+        width: 20px;
+    }
+
+    #hamburguer::after,
+    #hamburguer::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: var(--white);
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    .menu-nav.active #hamburguer {
+        border-top-color: transparent;
+    }
+
+    .menu-nav.active #hamburguer::before {
+        transform: rotate(135deg);
+    }
+
+    .menu-nav.active #hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+    /* BANNER HOME */
+    #banner-home .content .title {
+        padding: 0 1rem;
+    }
+
+    #banner-home .content .title h1 {
+        font-size: 18px;
+        width: auto;
+    }
+
+    #banner-home .content .text {
+        font-size: 12px;
+        width: auto;
+    }
+
+    #banner-home .content .btn-clickhere-1 {
+        padding: 8px;
+        width: 90px;
+        font-size: 12px;
+    }
+
+    /* CONSUTORIA TECNICA */
+    #technical-consultancy {
+        height: 88vh;
+        padding: 1.5rem 0;
+    }
+
+    #technical-consultancy .container-technical-consultancy {
+        display: flex;
+        flex-direction: column;
+        width: 20px;
+    }
+
+    #technical-consultancy .titles {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #technical-consultancy .titles #title-consultancy {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    #technical-consultancy .titles #title-technique {
+        font-size: 40px;
+    }
+
+    #technical-consultancy .titles .text-technical-consultancy {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
+        width: 200px;
+        height: 180px;
+    }
+
+    #technical-consultancy .container-technical-consultancy .technical-consultancy-image img {
+        width: 350px;
+        height: 200px;
+        right: -65px;
+        bottom: 0px;
+    }
+
+    #technical-consultancy .container-technical-consultancy .btn-clickhere-2 {
+        padding: 10px;
+        font-size: 12px;
+        width: 120px;
+    }
+
+    /* VÍDEO INSTITUCIONAL */
+
+    #video-institucional {
+        height: 100vh;
+    }
+
+    #video-institucional .container-institucional {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #video-institucional .institucional iframe {
+        width: 300px;
+        height: 169px;
+    }
+
+    #video-institucional .assista-video img {
+        width: 25px;
+        height: 25px;
+    }
+
+    #video-institucional .assista-video h2,
+    i {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #video-institucional .assista-video p {
+        width: 250px;
+        text-align: justify;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    #video-institucional .btn-clickhere-3 {
+        padding: 12px;
+        width: 120px;
+        margin-top: 20px;
+        font-size: 12px;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* DEPOIMENTOS DOS CLIENTES */
+    #satisfied-customers {
+        height: 100vh;
+    }
+
+    #satisfied-customers .testimonial-header h2 {
+        font-size: 22px;
+        font-weight: 900;
+    }
+
+    #satisfied-customers .testimonial-header p {
+        max-width: 280px;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    #satisfied-customers .swiper-container {
+        padding-top: 20px;
+    }
+
+    #satisfied-customers .swiper-slide {
+        width: 280px;
+        height: auto;
+        margin-right: 8px;
+    }
+
+    #satisfied-customers .testimonialBox {
+        padding: 20px;
+    }
+
+    #satisfied-customers .testimonialBox .content {
+        font-size: 13px;
+    }
+
+    #satisfied-customers .testimonialBox .details .imgBx img {
+        width: 80%;
+        height: 80%;
+    }
+
+    #satisfied-customers .testimonialBox .quote {
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #satisfied-customers .testimonialBox .details h3 {
+        font-size: 14px;
+    }
+
+    #satisfied-customers .testimonialBox .details span {
+        font-size: 10px;
+    }
+
+    /* DESTAQUES BLOG / ARTIGOS */
+    #highlights {
+        display: block;
+    }
+
+    #highlights .highlights-title h2 {
+        font-size: 22px;
+        font-weight: 900;
+        margin-top: 0;
+    }
+
+    #highlights .latest-highlights {
+        width: 280px;
+        height: 300px;
+        box-shadow: 8px 8px 10px rgb(109, 109, 109);
+    }
+
+    .latest-item-top,
+    .latest-item-bottom {
+        width: 280px;
+
+    }
+
+    .latest-container {
+        gap: 40px;
+    }
+
+    .latest-title h3 {
+        font-size: 16px;
+    }
+
+    .latest-title p {
+        font-size: 12px;
+    }
+
+    .btn-clickhere-4 {
+        padding: 10px;
+        color: var(--blue-tertiary);
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px;
+    }
+
+    #highlights .latest-highlights:nth-last-child(-n+5) {
+        display: none;
+    }
+
+    #highlights .btn-clickhere-5 {
+        margin: 10% 0 20% 0;
+        width: 150px;
+        font-size: 15px;
+    }
+
+    /* DESTAQUE ENDOMAKETING */
+    #highlights .destaque-mensal {
+        width: 90%;
+        height: 270px;
+    }
+
+    #highlights .destaque-mensal .evento-destaque {
+        width: 200px;
+        height: 215px;
+        top: -165px;
+        left: 50px;
+        border-radius: 50% 50% 5% 5%;
+    }
+
+    #highlights .content-event {
+        text-align: justify;
+    }
+
+    #highlights .title-event {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #highlights .text-event {
+        font-size: 15px;
+    }
+
+    #highlights .destaque-mensal .btn-clickhere-4 {
+        padding: 10px;
+        width: 140px;
+        color: var(--blue-tertiary);
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 20px;
+        position: absolute;
+        bottom: -20px;
+        right: 70px;
+        box-shadow: 10px 10px 10px rgb(109, 109, 109);
+    }
+
+    /* LOCALIZAÇÃO */
+    #location {
+        height: 80vh;
+    }
+
+    #location .location-title h2 {
+        font-size: 20px;
+    }
+
+    #location .location-title .fa-map-marker-alt {
+        margin-right: 5px;
+        color: red;
+    }
+
+    #location iframe {
+        width: 280px;
+        height: 280px;
+    }
+
+    /* FOOTER  */
+    .container-footer {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .footer-left,
+    .footer-right {
+        flex: 1;
+        width: 100%;
+    }
+
+    .footer-right {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .endereco h2,
+    .social h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .endereco,
+    .horario,
+    .social {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .endereco address {
+        font-style: normal;
+        margin-bottom: 20px;
+    }
+
+    .horario {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .horario h2 {
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+
+    .dias-atendimento,
+    .horarios-funcionamento {
+        flex: 1;
+        width: 100%;
+    }
+
+    .horarios-funcionamento {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-right h2 {
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+
+    .dias-atendimento {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social {
+        display: flex;
+        justify-content: flex-end;
+        align-items: end;
+    }
+
+
+    .list-social {
+        display: flex;
+        gap: 20px;
+    }
+
+    .list-social a {
+        font-size: 30px;
+    }
+
+    .social-links ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .social-links li {
+        margin: 5px 0;
+    }
+
+    .social-links a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .btn-clickhere-5 {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    small {
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 12px;
+    }
+
+    /* PAGINA QUEM SOMOS  */
+    /* BANNER */
+    main {
+        overflow-x: hidden;
+    }
+
+    #banner-somos .content .title .title-main {
+        font-size: 25px;
+        width: auto;
+    }
+
+    #historia-empresa #title-timeline-center .titles {
+        width: 260px;
+
+    }
+
+    #historia-empresa .titles #title-timeline {
+        font-size: 1.7rem;
+        font-weight: 300;
+    }
+
+    #historia-empresa .titles #subtitle-timeline {
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+
+    .timeline-wrapper {
+        display: none;
+    }
+
+    .timeLineMobile {
+        display: block;
+        height: auto;
+    }
+
+    .timeLineMobile::after {
+        left: 31px;
+    }
+
+    .container-timeLineMobile {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .container-timeLineMobile::before {
+        left: 61px;
+        border: medium solid hsl(209, 97%, 53%);
+        border-width: 10px 10px 10px 0;
+        border-color: transparent hsl(209, 97%, 53%) transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+        left: 20px;
+    }
+
+    .right {
+        left: 0%;
+    }
+
+    #missao {
+        height: auto;
+    }
+
+    /* CERTIFICATE  */
+    #seal-integrity {
+        height: auto;
+    }
+
+    #bpf {
+        height: 130vh;
+    }
+
+    #environmentally-friendly {
+        height: auto;
+    }
+
+    #brazilian-industry {
+        height: auto;
+    }
+
+    #product-section {
+        height: 120vh;
+    }
+
+    /* CONTATO */
+    #contact-form button{
+        width: 220px;
+        max-width: 100%;
     }
 
 }
