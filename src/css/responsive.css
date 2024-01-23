@@ -1292,6 +1292,10 @@
     }
 
         /* BLOG  */
+        #destaque-mensal{
+            max-height: 90vh;
+        }
+
         #destaque-mensal .imagem-destaque{
             width: 360px;
             height: 310px;
@@ -2315,6 +2319,7 @@
     }
 
     /* BLOG  */
+
     #destaque-mensal .conteudo{
         flex-direction: column-reverse;
         align-self: center;
@@ -2331,8 +2336,8 @@
     }
 
     #destaque-mensal .imagem-destaque{
-        width: 60%;
-        height: 280px;
+        width: 65%;
+        height: 260px;
     }
 
     #destaque-mensal .title-destaque h2{
@@ -2355,8 +2360,6 @@
     #endo-marketing{
         padding-top: 40%;
     }
-
-
 
     .to-top{
         top: 0;
@@ -2401,14 +2404,17 @@
         width: 200px;
         height: 200px;
         position: relative;
-        left: 20%;
-        top: 1%;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%, -50%);
     }
 
     #endo-marketing .conteudo-endo .box-endo{
-        width: 80%;
+        width: 70%;
         height: auto;
         position: relative;
+        box-shadow: 10px 10px 40px rgb(34, 34, 34);
+        border-radius: 7px;
     }
 
     #endo-marketing .conteudo-endo .box-endo .content-right .btn-clickhere-5{

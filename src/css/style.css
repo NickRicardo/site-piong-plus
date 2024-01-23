@@ -912,6 +912,7 @@ small {
 #destaque-mensal .conteudo {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 60px;
     width: 80%;
 }
