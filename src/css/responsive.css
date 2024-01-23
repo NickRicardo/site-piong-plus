@@ -46,7 +46,6 @@
 }
 
 @media(max-width: 1200px) {
-
     /* MENU  */
     .menu .menu-nav li {
         margin: 20px 8px;
@@ -69,7 +68,6 @@
         height: 65vh;
         padding: 1.5rem 0;
     }
-
 
     #technical-consultancy .titles {
         width: 18rem;
@@ -282,7 +280,6 @@
         margin-right: 5px;
         color: red;
     }
-
 
     #responsabilidade {
         height: 65vh;
@@ -513,6 +510,48 @@
     #parceiros-contact .title-photo {
         width: 30%;
         bottom: 30%;
+    }
+
+    /* BLOG  */
+    #destaque-mensal .imagem-destaque{
+        width: 350px;
+        height: 450px;
+    }
+
+    #destaque-mensal .title-destaque h2{
+        font-size: 45px;
+    }
+
+    #destaque-mensal .texto-destaque{
+        font-size: 18px;
+    }
+
+    #artigos .conteudo-artigos .box-artigo {
+        width: 280px;
+    }
+
+    #endo-marketing .conteudo-endo{
+        gap: 120px;
+    }
+
+    #endo-marketing .box-content{
+        width: 70%;
+    }
+
+    #endo-marketing .conteudo-endo .text-endo {
+        font-size: 13px;
+    }
+
+    #endo-marketing .conteudo-endo .image-endo {
+        right: -90px;
+        top: -40px;
+    }
+
+    #endo-marketing .conteudo-endo .box-endo .content-right .btn-clickhere-5,
+    #endo-marketing .conteudo-endo .box-endo .btn-clickhere-5{
+        width: 100px;
+        font-size: 12px;
+        padding: 10px;
     }
 }
 
@@ -1251,6 +1290,87 @@
         gap: 30px;
         width: 80%;
     }
+
+        /* BLOG  */
+        #destaque-mensal .imagem-destaque{
+            width: 360px;
+            height: 310px;
+        }
+    
+        #destaque-mensal .title-destaque h2{
+            font-size: 35px;
+        }
+    
+        #destaque-mensal .texto-destaque{
+            font-size: 16px;
+        }
+
+        #destaque-mensal .btn-clickhere-3 {
+            width: 150px;
+            font-size: 16px;
+        }
+    
+        #artigos .conteudo-artigos .box-artigo {
+            width: 280px;
+        }
+
+        #endo-marketing{
+            padding-top: 40%;
+        }
+    
+        #endo-marketing .conteudo-endo{
+            gap: 50px;
+            flex-direction: column;
+        }
+
+        .to-top{
+            top: 0;
+        }
+
+        .box-right{
+            right: 0;
+            margin: 0;
+        }
+
+        .box-right {
+            left: 0;
+        }
+
+        .content-right {
+            margin-left: 0;
+        }
+
+        .image-left {
+            left: 320px;
+        }
+    
+        #endo-marketing .box-content{
+            width: 80%;
+        }
+    
+        #endo-marketing .conteudo-endo .text-endo {
+            font-size: 13px;
+        }
+    
+        #endo-marketing .conteudo-endo .image-endo {
+            right: -90px;
+            top: -40px;
+        }
+
+        #endo-marketing .conteudo-endo .box-endo{
+            width: 80%;
+        }
+
+        #endo-marketing .conteudo-endo .box-endo .content-right .btn-clickhere-5{
+            left: 0;
+        }
+    
+        #endo-marketing .conteudo-endo .box-endo .content-right .btn-clickhere-5,
+        #endo-marketing .conteudo-endo .box-endo .btn-clickhere-5{
+            width: 100px;
+            font-size: 12px;
+            padding: 10px;
+        }
 }
 
 @media (max-width: 628px) {
@@ -2193,7 +2313,114 @@
         width: 30%;
         bottom: 35%;
     }
-    
+
+    /* BLOG  */
+    #destaque-mensal .conteudo{
+        flex-direction: column-reverse;
+        align-self: center;
+    }
+
+    #destaque-mensal .conteudo-escrito{
+        align-items: center;
+        text-align: center;
+        width: 80%;
+    }
+
+    #destaque-mensal .conteudo-escrito .title-destaque #title-baixo{
+        margin: 0;
+    }
+
+    #destaque-mensal .imagem-destaque{
+        width: 60%;
+        height: 280px;
+    }
+
+    #destaque-mensal .title-destaque h2{
+        font-size: 35px;
+    }
+
+    #destaque-mensal .texto-destaque{
+        font-size: 16px;
+    }
+
+    #destaque-mensal .btn-clickhere-3 {
+        width: 150px;
+        font-size: 16px;
+    }
+
+    #artigos .conteudo-artigos .box-artigo {
+        width: 280px;
+    }
+
+    #endo-marketing{
+        padding-top: 40%;
+    }
+
+
+
+    .to-top{
+        top: 0;
+    }
+
+    .box-right{
+        right: 0;
+        margin: 0;
+    }
+
+    .box-right {
+        left: 0;
+    }
+
+    .content-right {
+        margin-left: 0;
+    }
+
+    .image-left {
+        left: 320px;
+    }
+
+    #endo-marketing .conteudo-endo{
+        gap: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #endo-marketing .box-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #endo-marketing .conteudo-endo .text-endo {
+        font-size: 13px;
+    }
+
+    #endo-marketing .conteudo-endo .image-endo {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        left: 20%;
+        top: 1%;
+    }
+
+    #endo-marketing .conteudo-endo .box-endo{
+        width: 80%;
+        height: auto;
+        position: relative;
+    }
+
+    #endo-marketing .conteudo-endo .box-endo .content-right .btn-clickhere-5{
+        left: 0;
+    }
+
+    #endo-marketing .conteudo-endo .box-endo .content-right .btn-clickhere-5,
+    #endo-marketing .conteudo-endo .box-endo .btn-clickhere-5{
+        width: 100px;
+        font-size: 12px;
+        padding: 10px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -2496,6 +2723,11 @@
 
     #diferencial .diferencial-container h3 {
         font-size: 18px;
+    }
+
+    /* blog  */
+    #artigos .conteudo-artigos .box-artigo {
+        width: 80%;
     }
 
 

@@ -913,6 +913,7 @@ small {
     display: flex;
     align-items: center;
     gap: 60px;
+    width: 80%;
 }
 
 #destaque-mensal .imagem-destaque {
@@ -929,11 +930,9 @@ small {
 #destaque-mensal .conteudo-escrito {
     display: flex;
     flex-direction: column;
-    margin-bottom: 25%;
     color: var(--white);
     width: 500px;
     height: auto;
-
 }
 
 #destaque-mensal .conteudo-escrito .title-destaque #title-cima {
@@ -1142,21 +1141,29 @@ small {
 #endo-marketing .conteudo-endo .box-endo {
     position: relative;
     background-color: var(--white);
-    width: 500px;
+    width: 30%;
     height: 200px;
     padding: 30px;
+    max-width: 100%;
 }
 
-#endo-marketing .conteudo-endo .text-endo {
-    width: 350px;
+#endo-marketing .box-content {
+    width: 65%;
     text-align: left;
     padding-top: 10px;
 }
 
-#endo-marketing .conteudo-endo .image-endo {
+#endo-marketing .conteudo-endo .title-endo{
+    font-size: 16px;
+}
 
-    width: 220px;
-    height: 250px;
+#endo-marketing .conteudo-endo .text-endo {
+    font-size: 14px;
+}
+
+#endo-marketing .conteudo-endo .image-endo {
+    width: 41%;
+    height: 100%;
     position: absolute;
     border-radius: 45% 45% 5% 5%;
     right: -90px;
@@ -1257,7 +1264,7 @@ small {
 }
 
 .content-right {
-    margin-left: 120px;
+    margin-left: 20%;
 }
 
 .page-counter {
@@ -3037,7 +3044,7 @@ li {
     gap: 80px;
 }
 
-#parceiros .parceiros-coment .parceiros-box img{
+#parceiros .parceiros-coment .parceiros-box img {
     box-shadow: 1px 15px 50px rgba(0, 0, 0, 0.2);
     position: relative;
     border-radius: 25px;
