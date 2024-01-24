@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 /* menu de navegacao */
 body {
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
-    /* overflow-y: hidden; */
+    width: 100%;
 }
 
 main {
@@ -267,22 +266,14 @@ header {
 }
 
 #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
-    width: 750px;
-    height: 670px;
+    width: 720px;
+    height: 655px;
     z-index: 99;
     background-image: url(/src/img/backgrounds/consultoriaTecnica/ConsultTEc.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
-}
-
-#technical-consultancy .container-technical-consultancy .technical-consultancy-image img {
-    position: absolute;
-    width: 800px;
-    height: 480px;
-    right: -150px;
-    bottom: 0.5px;
 }
 
 #technical-consultancy .container-technical-consultancy .btn-clickhere-2 {
@@ -2749,6 +2740,7 @@ button {
     background-image: none;
 }
 
+/* MATERIA BLOG  */
 #materia-banner {
     height: 6vh;
     background: var(--bg-section-product);
@@ -2808,8 +2800,6 @@ li {
     text-decoration: underline;
 }
 
-
-
 #container-materia .materia-description {
     color: var(--gray-text);
     font-size: 20px;
@@ -2822,7 +2812,7 @@ li {
     justify-content: center;
 
 }
-
+/* SWIPPER  */
 .slider_container {
     margin: 50px 0;
 }
@@ -2835,6 +2825,13 @@ li {
 
 .card_slider {
     padding: 50px 10px;
+}
+
+.img_box img {
+    max-width: 100%;  /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto;  /* Mantém a proporção da imagem */
+    display: block;  /* Evita espaços extras abaixo da imagem */
+    margin: 0 auto;  /* Centraliza a imagem dentro do contêiner */
 }
 
 #consultoria-home {

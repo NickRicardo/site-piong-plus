@@ -553,6 +553,42 @@
         font-size: 12px;
         padding: 10px;
     }
+
+    
+    /* MATERIA BLOG  */
+    #materia-banner .title-main{
+        font-size: 22px;
+    }
+
+    #container-materia .fild-materia {
+        width: 80%;
+        padding: 30px 0;
+    }
+
+    #container-materia .materia-name {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    #container-materia .subtitle-materia,
+    #container-materia .subtitle-materia-artigo {
+        font-size: 18px;
+        margin: 15px 0;
+    }
+
+    #container-materia .subtitle-materia-artigo ul,
+    #container-materia .negrito,
+    #container-materia .materia-description {
+        font-size: 16px;
+    }
+
+    .slider_container {
+        margin: 30px 0;
+    }
+
+    .latest-highlights{
+        width: inherit;
+    }
 }
 
 @media (max-width: 900px) {
@@ -818,6 +854,7 @@
     .latest-item-top,
     .latest-item-bottom {
         width: 280px;
+        box-shadow: 20px 20px 50px rgb(109, 109, 109);
     }
 
     .latest-container {
@@ -2426,6 +2463,37 @@
         width: 100px;
         font-size: 12px;
         padding: 10px;
+    }
+
+    /* MATERIA BLOG  */
+    #materia-banner .title-main{
+        font-size: 20px;
+    }
+
+    #container-materia .fild-materia {
+        width: 80%;
+        padding: 30px 0;
+    }
+
+    #container-materia .materia-name {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    #container-materia .subtitle-materia,
+    #container-materia .subtitle-materia-artigo {
+        font-size: 16px;
+        margin: 15px 0;
+    }
+
+    #container-materia .subtitle-materia-artigo ul,
+    #container-materia .negrito,
+    #container-materia .materia-description {
+        font-size: 14px;
+    }
+
+    .slider_container {
+        margin: 30px 0;
     }
 }
 
