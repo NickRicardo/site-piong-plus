@@ -422,8 +422,8 @@ i {
 
 #satisfied-customers .testimonialBox .details .imgBx {
     position: relative;
-    width: 60px;
-    height: 60px;
+    width: 85px;
+    height: 85px;
     border-radius: 50%;
     overflow: hidden;
     margin-right: 10px
@@ -880,6 +880,8 @@ small {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: justify;
+    font-size: 17px;
 }
 
 .content .title .title-main {
@@ -2973,6 +2975,19 @@ li {
 
 .fa-youtube {
     color: red;
+}
+
+.fa-whatsapp-square{
+    color: #63E6BE;
+    font-size: 35px;
+}
+
+.fa-facebook-square{
+    color: var(--blue-tertiary);
+}
+
+.fa-instagram-square{
+    color: #ec3685;
 }
 
 .celular {
