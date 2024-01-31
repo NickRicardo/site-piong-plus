@@ -1147,7 +1147,7 @@ small {
     padding-top: 10px;
 }
 
-#endo-marketing .conteudo-endo .title-endo{
+#endo-marketing .conteudo-endo .title-endo {
     font-size: 16px;
 }
 
@@ -2209,7 +2209,6 @@ button {
     width: 100%;
 }
 
-
 #environmentally-friendly .page-tab-bottom {
     position: absolute;
     bottom: -5px;
@@ -2237,10 +2236,14 @@ button {
 }
 
 #brazilian-industry {
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: start;
+    position: relative;
+    padding-top: 20px;
+    font-size: 16px;
+    padding-bottom: 750px;
 }
 
 #brazilian-industry .brazilian-industry-content {
@@ -2256,6 +2259,42 @@ button {
 }
 
 .brazilian-industry-content .text-brazilian-industry {
+    width: 500px;
+    text-align: justify;
+}
+
+#brazilian-industry .page-tab-bottom {
+    position: absolute;
+    bottom: -6px;
+}
+
+#brazilian-industry .page-tab-bottom img {
+    width: 100%;
+}
+
+#gafo {
+    background-color: #002e48;
+    height: 65vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gafo .gafo-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+.gafo-content #foto-conteudo5 {
+    max-width: 100%;
+    height: auto;
+}
+
+.gafo-content .text-gafo {
     width: 500px;
     text-align: justify;
 }
@@ -2814,6 +2853,7 @@ li {
     justify-content: center;
 
 }
+
 /* SWIPPER  */
 .slider_container {
     margin: 50px 0;
@@ -2830,10 +2870,14 @@ li {
 }
 
 .img_box img {
-    max-width: 100%;  /* Garante que a imagem não ultrapasse a largura do contêiner */
-    height: auto;  /* Mantém a proporção da imagem */
-    display: block;  /* Evita espaços extras abaixo da imagem */
-    margin: 0 auto;  /* Centraliza a imagem dentro do contêiner */
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    display: block;
+    /* Evita espaços extras abaixo da imagem */
+    margin: 0 auto;
+    /* Centraliza a imagem dentro do contêiner */
 }
 
 #consultoria-home {
@@ -2977,16 +3021,16 @@ li {
     color: red;
 }
 
-.fa-whatsapp-square{
+.fa-whatsapp-square {
     color: #63E6BE;
     font-size: 35px;
 }
 
-.fa-facebook-square{
+.fa-facebook-square {
     color: var(--blue-tertiary);
 }
 
-.fa-instagram-square{
+.fa-instagram-square {
     color: #ec3685;
 }
 

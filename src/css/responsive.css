@@ -1094,7 +1094,7 @@
     }
 
     #brazilian-industry {
-        height: 120vh;
+        height: 100vh;
     }
 
     #brazilian-industry .brazilian-industry-content {
@@ -1104,7 +1104,7 @@
     }
 
     #brazilian-industry .brazilian-industry-content img {
-        max-width: 70%;
+        max-width: 100%;
     }
 
     #brazilian-industry .text-brazilian-industry {
@@ -1112,6 +1112,29 @@
     }
 
     #brazilian-industry .text-brazilian-industry h2 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    #gafo {
+        height: 80vh;
+    }
+
+    #gafo .gafo-content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #gafo .gafo-content img {
+        max-width: 70%;
+    }
+
+    #gafo .text-gafo {
+        max-width: 80%;
+    }
+
+    #gafo .text-gafo h2 {
         font-size: 1.1rem;
         text-align: center;
     }
@@ -2132,10 +2155,6 @@
         display: flex;
         flex-direction: column-reverse;
         gap: 30px;
-    }
-
-    #brazilian-industry .brazilian-industry-content img {
-        max-width: 70%;
     }
 
     #brazilian-industry .text-brazilian-industry {
