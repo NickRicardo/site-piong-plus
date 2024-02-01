@@ -99,7 +99,7 @@ header {
 #banner-home .imagens-slider {
     position: relative;
     display: flex;
-    height: 90vh;
+    height: 85vh;
     align-items: start;
     justify-content: center;
 }
@@ -212,18 +212,18 @@ header {
     }
 }
 
-#banner-home .page-tab {
+#banner-home .page-tab-bottom {
     position: absolute;
-    bottom: -30px;
+    bottom: 20px;
 }
 
-#banner-home .page-tab img {
+#banner-home .page-tab-bottom img {
     max-width: 100%;
 }
 
 /* CONSUTORIA TECNICA */
 #technical-consultancy {
-    height: 80vh;
+    height: auto;
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -911,7 +911,7 @@ small {
 }
 
 #destaque-mensal .imagem-destaque {
-    background-image: url(/src/img/blog/destaque-mensal/Inovar/projetoInovar.jpg);
+    background-image: url(./../img/Blog/destaque-mensal/Inovar/projetoInovar.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

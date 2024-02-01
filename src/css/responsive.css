@@ -1536,9 +1536,14 @@
         font-size: 12px;
     }
 
+    #banner-home .page-tab-bottom{
+        position: absolute;
+        bottom: 35px;
+    }
+
     /* CONSUTORIA TECNICA */
     #technical-consultancy {
-        height: 80vh;
+        height: 55vh;
         padding: 1.5rem 0;
     }
 
@@ -1570,10 +1575,9 @@
     }
 
     #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
-        width: 200px;
-        height: 180px;
+        width: 250px;
+        height: 250px;
     }
-
 
     #technical-consultancy .container-technical-consultancy .btn-clickhere-2 {
         padding: 10px;
@@ -1584,7 +1588,7 @@
     }
 
     #video-instituciona {
-        height: 70vh;
+        height: 65vh;
     }
 
     #video-institucional .container-institucional {
@@ -2520,7 +2524,7 @@
 
     /* CONSUTORIA TECNICA */
     #technical-consultancy {
-        height: 80vh;
+        height: 55vh;
         padding: 1.5rem 0;
     }
 
@@ -2552,8 +2556,8 @@
     }
 
     #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
-        width: 200px;
-        height: 180px;
+        width: 230px;
+        height: 230px;
     }
 
     #technical-consultancy .container-technical-consultancy .technical-consultancy-image img {
@@ -2841,7 +2845,6 @@
         cursor: pointer;
         gap: .5rem;
         width: auto;
-
     }
 
     .menu {
@@ -2871,7 +2874,6 @@
 
     .menu .dropdown ul.dropdown-menu {
         width: 100%;
-
     }
 
     .menu .dropdown ul.dropdown-menu li a {
@@ -2938,7 +2940,7 @@
 
     /* CONSUTORIA TECNICA */
     #technical-consultancy {
-        height: 88vh;
+        height: 55vh;
         padding: 1.5rem 0;
     }
 
@@ -2970,8 +2972,8 @@
     }
 
     #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
-        width: 200px;
-        height: 180px;
+        width: 220px;
+        height: 220px;
     }
 
     #technical-consultancy .container-technical-consultancy .technical-consultancy-image img {
