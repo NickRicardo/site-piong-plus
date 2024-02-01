@@ -180,8 +180,12 @@
     }
 
     #satisfied-customers .testimonialBox .details .imgBx img {
-        width: 80%;
-        height: 80%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
 
@@ -801,7 +805,7 @@
 
     #satisfied-customers .swiper-slide {
         width: 300px;
-        height: 300px;
+        height: auto;
         margin-right: 8px;
     }
 
@@ -810,12 +814,16 @@
     }
 
     #satisfied-customers .testimonialBox .content {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     #satisfied-customers .testimonialBox .details .imgBx img {
-        width: 80%;
-        height: 80%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     #satisfied-customers .testimonialBox .quote {
@@ -899,8 +907,22 @@
         top: -100px;
     }
 
+    #highlights .destaque-mensal .btn-clickhere-4 {
+        padding: 10px;
+        width: 150px;
+        color: var(--blue-tertiary);
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 20px;
+        position: absolute;
+        bottom: -20px;
+        right: 125px;
+        box-shadow: 10px 10px 10px rgb(109, 109, 109);
+
+    }
+
     #highlights .content-event {
-        width: 350px;
+        width: 45%;
         text-align: justify;
     }
 
@@ -910,7 +932,7 @@
     }
 
     #highlights .text-event {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     /* LOCALIZAÇÃO */
@@ -1009,7 +1031,6 @@
     }
 
     /* PAGINA CERTIFICADOS  */
-
     #certificate {
         height: 30vh;
     }
@@ -1536,14 +1557,13 @@
         font-size: 12px;
     }
 
-    #banner-home .page-tab-bottom{
-        position: absolute;
-        bottom: 35px;
+    #banner-home .page-tab-bottom img{
+        display: none;
     }
 
     /* CONSUTORIA TECNICA */
     #technical-consultancy {
-        height: 55vh;
+        height: 70vh;
         padding: 1.5rem 0;
     }
 
@@ -1665,8 +1685,12 @@
     }
 
     #satisfied-customers .testimonialBox .details .imgBx img {
-        width: 80%;
-        height: 80%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     #satisfied-customers .testimonialBox .quote {
@@ -1746,13 +1770,17 @@
     #highlights .destaque-mensal .evento-destaque {
         width: 200px;
         height: 215px;
-        top: -165px;
+        top: -20%;
         left: 86px;
         border-radius: 50% 50% 5% 5%;
+        left: 50%;
+        transform: translate(-50%, -50%) 
+        
     }
 
     #highlights .content-event {
-        text-align: justify;
+        width: 100%;
+        text-align: center;
     }
 
     #highlights .title-event {
@@ -1772,9 +1800,11 @@
         font-weight: bold;
         margin-top: 20px;
         position: absolute;
-        bottom: -20px;
+        bottom: -40px;
         right: 125px;
         box-shadow: 10px 10px 10px rgb(109, 109, 109);
+        left: 50%;
+        transform: translate(-50%, -50%) 
     }
 
     /* LOCALIZAÇÃO */
@@ -2524,7 +2554,7 @@
 
     /* CONSUTORIA TECNICA */
     #technical-consultancy {
-        height: 55vh;
+        height: 70vh;
         padding: 1.5rem 0;
     }
 
@@ -2653,8 +2683,12 @@
     }
 
     #satisfied-customers .testimonialBox .details .imgBx img {
-        width: 80%;
-        height: 80%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     #satisfied-customers .testimonialBox .quote {
@@ -2732,13 +2766,21 @@
     }
 
     #highlights .destaque-mensal .evento-destaque {
-        left: 70px;
+        width: 200px;
+        height: 215px;
+        top: -20%;
+        left: 86px;
+        border-radius: 50% 50% 5% 5%;
+        left: 50%;
+        transform: translate(-50%, -50%) 
     }
 
     #highlights .destaque-mensal .btn-clickhere-4 {
         position: absolute;
-        bottom: -20px;
+        bottom: -40px;
         right: 100px;
+        left: 50%;
+        transform: translate(-50%, -50%) 
     }
 
     /* TRABALHE CONOSCO */
@@ -2940,7 +2982,7 @@
 
     /* CONSUTORIA TECNICA */
     #technical-consultancy {
-        height: 55vh;
+        height: 70vh;
         padding: 1.5rem 0;
     }
 
@@ -3069,8 +3111,12 @@
     }
 
     #satisfied-customers .testimonialBox .details .imgBx img {
-        width: 80%;
-        height: 80%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     #satisfied-customers .testimonialBox .quote {
@@ -3150,9 +3196,11 @@
     #highlights .destaque-mensal .evento-destaque {
         width: 200px;
         height: 215px;
-        top: -165px;
-        left: 50px;
+        top: -20%;
+        left: 86px;
         border-radius: 50% 50% 5% 5%;
+        left: 50%;
+        transform: translate(-50%, -50%) 
     }
 
     #highlights .content-event {
@@ -3176,9 +3224,11 @@
         font-weight: bold;
         margin-top: 20px;
         position: absolute;
-        bottom: -20px;
+        bottom: -40px;
         right: 70px;
         box-shadow: 10px 10px 10px rgb(109, 109, 109);
+        left: 50%;
+        transform: translate(-50%, -50%) 
     }
 
     /* LOCALIZAÇÃO */
