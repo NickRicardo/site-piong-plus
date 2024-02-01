@@ -405,14 +405,14 @@ i {
     color: #999;
 }
 
-#satisfied-customers .testimonialBox .quote {
+/* #satisfied-customers .testimonialBox .quote {
     position: absolute;
     top: 20px;
     right: 30px;
     opacity: 0.2;
     width: 50px;
     height: 50px;
-}
+} */
 
 #satisfied-customers .testimonialBox .details {
     display: flex;
@@ -685,7 +685,7 @@ i {
 }
 
 #location .page-tab-bottom img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .location-title {
@@ -1669,7 +1669,7 @@ small {
 }
 
 #responsabilidade .page-tab img {
-    width: 100%;
+    max-width: 100%;
 }
 
 #responsabilidade .page-tab-bottom {
@@ -1678,7 +1678,7 @@ small {
 }
 
 #responsabilidade .page-tab-bottom img {
-    width: 100%;
+    max-width: 100%;
 }
 
 #responsabilidade .titles-responsabilidade {
@@ -1720,7 +1720,7 @@ small {
 }
 
 #social-ambiental .page-tab-bottom img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .historia-conteudo {
@@ -2881,7 +2881,7 @@ li {
 }
 
 #consultoria-home {
-    background-image: url(../img/backgrounds/consultoriaTecnica/Bannerconsultoria_compressed.png);
+    background-image: url(../img/backgrounds/consultoriaTecnica/Bannerconsultoria.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;

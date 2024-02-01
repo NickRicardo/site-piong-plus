@@ -2011,6 +2011,14 @@
         text-align: justify;
     }
 
+    #missao .page-tab{
+        top: -1px;
+    }
+
+    #missao .page-tab img{
+        max-width: 100%;
+    }
+
     #missao .content-missao #title-missao {
         font-size: 25px;
         margin-bottom: 15px;
@@ -2043,6 +2051,10 @@
         top: -1px;
     }
 
+    #responsabilidade .page-tab img{
+        max-width: 100%;
+    }
+
     .historia-conteudo {
         display: flex;
         flex-direction: column;
@@ -2057,6 +2069,11 @@
         position: absolute;
         bottom: -5px;
     }
+
+    #social-ambiental .page-tab-bottom{
+        bottom: -7px;
+    }
+    
 
     #social-ambiental .page-tab-bottom img {
         width: 100%;
@@ -2387,7 +2404,7 @@
     }
 
     #consultoria-home {
-        background-image: url(./../img/backgrounds/consultoriaTecnica/Bannerconsultoria2_compressed.png);
+        background-image: url(./../img/backgrounds/consultoriaTecnica/Bannerconsultoria2.png    );
     }
 
     #consultoria-home .titles #title-consultancy {
@@ -2520,7 +2537,8 @@
 
     /* MATERIA BLOG  */
     #materia-banner .title-main{
-        font-size: 20px;
+        font-size: 14px;
+        text-align: center;
     }
 
     #container-materia .fild-materia {
