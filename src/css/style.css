@@ -666,7 +666,10 @@ i {
 }
 
 #location {
-    background: url(../img/backgrounds/home/location1.png) top/cover fixed;
+    background: url(../img/backgrounds/home/location1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -772,11 +775,8 @@ footer {
 }
 
 .social {
-    /* height: 60%; */
     display: flex;
     justify-content: flex-end;
-    /* align-items: end; */
-    /* margin-right: 12%; */
     margin-top: 15%;
 }
 
@@ -1625,7 +1625,7 @@ small {
 }
 
 #missao .page-tab img {
-    width: 100%;
+    max-width: 100%;
 }
 
 #missao .content-missao {
