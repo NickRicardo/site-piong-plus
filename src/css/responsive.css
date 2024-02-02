@@ -14,8 +14,12 @@
     }
 
     #technical-consultancy .container-technical-consultancy .technical-consultancy-image {
-        width: 605px;
-        height: 605px;
+        width: 500px;
+        height: 500px;
+    }
+
+    #banner-home .page-tab-bottom{
+        bottom: -20px;
     }
 
     #missao {
@@ -61,6 +65,10 @@
     #banner-home .content .text {
         font-size: 15px;
         width: auto;
+    }
+
+    #banner-home .page-tab-bottom{
+        bottom: -20px;
     }
 
     /* CONSUTORIA TECNICA */
