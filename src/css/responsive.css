@@ -196,7 +196,6 @@
         object-fit: cover;
     }
 
-
     #satisfied-customers .testimonialBox .quote {
         top: 10px;
         right: 10px;
@@ -293,12 +292,16 @@
         color: red;
     }
 
+    #missao .content-missao #title-missao{
+        font-size: 25px;
+    }
+
     #responsabilidade {
-        height: 65vh;
+        height: 85vh;
     }
 
     .historia-conteudo {
-        width: 100%;
+        width: 90%;
     }
 
     .historia-conteudo .foto-conteudo {
@@ -312,6 +315,10 @@
     #movie-institutional #assista,
     #movie-institutional #video {
         font-size: 2rem;
+    }
+
+    #missao .content-missao #text-missao {
+        font-size: 14px;
     }
 
     /* CERTIFICADO  */
@@ -1023,19 +1030,42 @@
     }
 
     #missao {
-        height: 95vh;
+        height: 90vh;
+        padding: 20px;
+        justify-content: center;
     }
 
     #responsabilidade {
         height: 65vh;
     }
 
+    #responsabilidade .titles-responsabilidade #title-responsabilidade{
+        font-size: 40px;
+    }
+
+    #responsabilidade .titles-responsabilidade #subtitle-responsabilidade{
+        font-size: 30px;
+    }
+
+    .historia-conteudo .conteudo-escrito{
+        font-size: 16px;
+    }
+
+    #missao .page-tab img{
+        display: none;
+    }
+
     .historia-conteudo {
-        width: 100%;
+        width: 90%;
     }
 
     .historia-conteudo .foto-conteudo {
         max-width: 50%;
+    }
+
+    iframe{
+        width: 550px;
+        height: 400px;
     }
 
     /* PAGINA CERTIFICADOS  */
