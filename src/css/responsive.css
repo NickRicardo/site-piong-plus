@@ -2004,6 +2004,7 @@
     #missao {
         height: 80vh;
         padding: 20px;
+        justify-content: center;
     }
 
     #missao .content-missao {
@@ -2011,13 +2012,8 @@
         text-align: justify;
     }
 
-    #missao .page-tab{
-        top: -1px;
-        
-    }
-
     #missao .page-tab img{
-        max-width: 100%;
+        display: none;
     }
 
     #missao .content-missao #title-missao {
@@ -2047,13 +2043,13 @@
         font-weight: 300;
     }
 
-    #responsabilidade .page-tab {
-        position: absolute;
-        top: -1px;
-    }
 
     #responsabilidade .page-tab img{
-        max-width: 100%;
+       display: none;
+    }
+
+    #responsabilidade .page-tab-bottom img{
+        display: none;
     }
 
     .historia-conteudo {
@@ -2071,13 +2067,8 @@
         bottom: -5px;
     }
 
-    #social-ambiental .page-tab-bottom{
-        bottom: -7px;
-    }
-    
-
     #social-ambiental .page-tab-bottom img {
-        width: 100%;
+       display: none;
     }
 
     #social-ambiental .conteudo-escrito {
