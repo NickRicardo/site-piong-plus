@@ -23,7 +23,7 @@
     }
 
     #missao {
-        height: 90vh;
+        height: 110vh;
     }
 
     .fild-produts .product-spacification .product-name {
@@ -280,6 +280,10 @@
 
     #highlights .text-event {
         font-size: 15px;
+    }
+
+    #missao{
+        height: 120vh;
     }
 
     /* LOCALIZAÇÃO */
@@ -2057,6 +2061,7 @@
     #missao .content-missao #title-missao {
         font-size: 25px;
         margin-bottom: 15px;
+        text-align: center;
     }
 
     #missao .content-missao #text-missao {
