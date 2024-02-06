@@ -366,6 +366,7 @@ i {
     overflow: hidden;
     width: 100%;
     height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1743,7 +1744,6 @@ small {
 .historia-conteudo .conteudo-escrito {
     text-align: justify;
     max-width: 50%;
-
 }
 
 #movie-institutional {
@@ -1768,7 +1768,6 @@ small {
 #movie-institutional .container-institucional .assista-video {
     padding: 50px;
 }
-
 
 #movie-institutional #assista {
     font-size: 2.5rem;
@@ -2810,7 +2809,7 @@ button {
 #container-materia .materia-name {
     color: var(--blue-claro);
     text-align: center;
-    font-size: 23px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 

@@ -47,6 +47,112 @@
     #product-section {
         height: 90vh;
     }
+
+    /* VIDEO INSTITUCIONAL */
+    #video-institucional {
+        height: 80vh;
+        position: relative;
+    }
+
+    #video-institucional .assista-video {
+        margin-top: -180px;
+    }
+
+    #video-institucional .assista-video img {
+        width: 25px;
+        height: 25px;
+    }
+
+    #video-institucional .assista-video h2,
+    i {
+        font-size: 32px;
+        text-align: right;
+    }
+
+    #video-institucional .assista-video p {
+        width: 400px;
+        text-align: right;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    #video-institucional .btn-clickhere-3 {
+        padding: 12px;
+        width: 180px;
+        margin-top: 20px;
+        font-size: 15px;
+        top: 10px;
+        right: 0;
+        transform: translate(-10%, -50%);
+    }
+
+    #video-institucional .institucional iframe {
+        width: 30.875rem;
+        height: 17.5rem;
+        margin-top: -180px;
+    }
+
+     /* DEPOIMENTOS DOS CLIENTES */
+     #satisfied-customers {
+        height: 85vh;
+        min-height: 85vh;
+    }
+
+    #satisfied-customers .testimonial-header h2 {
+        font-size: 32px;
+        font-weight: 900;
+    }
+
+    #satisfied-customers .testimonial-header p {
+        max-width: 500px;
+        margin: 0 auto;
+        font-size: 17px;
+    }
+
+    #satisfied-customers .swiper-container {
+        padding-top: 20px;
+    }
+
+    #satisfied-customers .swiper-slide {
+        width: 300px;
+        height: auto;
+        margin-right: 8px;
+    }
+
+    #satisfied-customers .testimonialBox {
+        padding: 20px;
+    }
+
+    #satisfied-customers .testimonialBox .content {
+        font-size: 15px;
+    }
+
+    #satisfied-customers .testimonialBox .details .imgBx img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #satisfied-customers .testimonialBox .quote {
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #satisfied-customers .testimonialBox .details h3 {
+        font-size: 15px;
+    }
+
+    #satisfied-customers .testimonialBox .details span {
+        font-size: 12px;
+    }
+
+
+
 }
 
 @media(max-width: 1200px) {
@@ -107,6 +213,65 @@
         font-size: 12px;
         width: 180px;
         left: -30px;
+    }
+
+    /* DEPOIMENTOS DOS CLIENTES */
+    #satisfied-customers {
+        height: 90vh;
+        min-height: 90vh;
+    }
+
+    #satisfied-customers .testimonial-header h2 {
+        font-size: 25px;
+        font-weight: 900;
+    }
+
+    #satisfied-customers .testimonial-header p {
+        max-width: 500px;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+
+    #satisfied-customers .swiper-container {
+        padding-top: 20px;
+    }
+
+    #satisfied-customers .swiper-slide {
+        width: 300px;
+        height: auto;
+        margin-right: 8px;
+    }
+
+    #satisfied-customers .testimonialBox {
+        padding: 20px;
+    }
+
+    #satisfied-customers .testimonialBox .content {
+        font-size: 16px;
+    }
+
+    #satisfied-customers .testimonialBox .details .imgBx img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #satisfied-customers .testimonialBox .quote {
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #satisfied-customers .testimonialBox .details h3 {
+        font-size: 15px;
+    }
+
+    #satisfied-customers .testimonialBox .details span {
+        font-size: 12px;
     }
 
     /* VIDEO INSTITUCIONAL */
