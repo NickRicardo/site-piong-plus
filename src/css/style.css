@@ -167,6 +167,8 @@ header {
     color: var(--white);
     text-align: center;
     font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #banner-home .content .btn-clickhere-1 {
@@ -2793,7 +2795,8 @@ button {
 
 #materia-banner .title-main {
     color: var(--white);
-    font-size: 25px;
+    font-size: 22px;
+    text-align: center;
 }
 
 #container-materia {
@@ -2844,7 +2847,7 @@ li {
 
 #container-materia .materia-description {
     color: var(--gray-text);
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
 }
 
