@@ -2784,7 +2784,8 @@ button {
 
 /* MATERIA BLOG  */
 #materia-banner {
-    height: 6vh;
+    height: auto;
+    min-height: 7vh;
     background: var(--bg-section-product);
     display: flex;
     justify-content: center;
