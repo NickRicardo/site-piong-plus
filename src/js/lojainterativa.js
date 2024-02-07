@@ -106,16 +106,6 @@ const produtos = [
     },
     //#endregion
 
-    //#region Campo Cirúrgico Oftálmico (Categoria5)
-    {
-        nome: 'Campo Cirúrgico Oftálmico | SSMMS',
-        categoria: 'categoria5',
-        imagem: '../img/produtos/categorias/campoOftalmico/campoOftalmico2.png',
-        especificacoes: 'Indicado  para cobertura  da mesa de instrumentos com impermeabilidade e reforço absorvente.',
-        paginaDetalhes: '../../../src/html/produtos/campoOftalmico.html'
-    },
-    //#endregion
-
     //#region Cobertura de Mesa (Categoria6)
     {
         nome: 'COBERTURA IMPERMEÁVEL PARA MESA AUXILIAR',
@@ -134,11 +124,21 @@ const produtos = [
     },
 
     {
-        nome: 'COBERTURA IMPERMEÁVEL PLÁTICO PBD',
+        nome: 'COBERTURA IMPERMEÁVEL PARA MESA MAYO | PEBD COM REFORÇO EM LC',
         categoria: 'categoria6',
         imagem: '../img/produtos/categorias/coberturaMesa/coberturaPEBD.png',
         especificacoes: 'Indicado  para cobertura  da mesa de instrumentos com impermeabilidade e reforço absorvente.',
-        paginaDetalhes: '../../../src/html/produtoscoberturaImpermeavelComReforco.html'
+        paginaDetalhes: '../../../src/html/produtos/coberturaImpermeavelComReforço.html'
+    },
+    //#endregion
+
+    //#region Campo Cirúrgico Oftálmico (Categoria5)
+    {
+        nome: 'Campo Cirúrgico Oftálmico | SSMMS',
+        categoria: 'categoria5',
+        imagem: '../img/produtos/categorias/campoOftalmico/campoOftalmico2.png',
+        especificacoes: 'Indicado  para cobertura  da mesa de instrumentos com impermeabilidade e reforço absorvente.',
+        paginaDetalhes: '../../../src/html/produtos/campoOftalmico.html'
     },
     //#endregion
 
@@ -152,9 +152,9 @@ const produtos = [
     },
     //#endregion
 
-    //#region Kit's Cirúrgicos (Categoria8)
+    //#region Kit's Cirúrgicos ORTOPEDIA E TRAUMATOLOGIA (Categoria8)
     {
-        nome: 'ORTOPEDIA E TRAUMATOLOGIA | Kit Cir. Ortopédico Ombro',
+        nome: 'Kit Cir. Ortopédico Ombro',
         categoria: 'categoria8',
         imagem: '../img/produtos/categorias/kitCirurgico/kit498269.png',
         especificacoes: 'Kit Cirúrgico Ortopédico Ombro CÓD. 49.82.69 ANVISA: 803.420.60.005',
@@ -162,7 +162,7 @@ const produtos = [
     },
 
     {
-        nome: 'ORTOPEDIA E TRAUMATOLOGIA | Kit Cir. Ortopédico Joelho',
+        nome: 'Kit Cir. Ortopédico Joelho',
         categoria: 'categoria8',
         imagem: '../img/produtos/categorias/kitCirurgico/kit488286.png',
         especificacoes: 'Kit Cirúrgico Ortopédico Joelho CÓD. 48.82.86 ANVISA: 803.420.60.005',
@@ -170,7 +170,7 @@ const produtos = [
     },
 
     {
-        nome: 'ORTOPEDIA E TRAUMATOLOGIA | Kit Cir. Ortopédico Quadril',
+        nome: 'Kit Cir. Ortopédico Quadril',
         categoria: 'categoria8',
         imagem: '../img/produtos/categorias/kitCirurgico/kit488360.png',
         especificacoes: 'Kit Cirúrgico Ortopédico Quadrl CÓD. 48.83.60 ANVISA: 803.420.60.005',
@@ -178,7 +178,7 @@ const produtos = [
     },
 
     {
-        nome: 'OBSTETRÍCIA / GINECOLOGIA / UROLOGIA | Kit Cir. Cesárea',
+        nome: 'Kit Cir. Cesárea',
         categoria: 'categoria8',
         imagem: '../img/produtos/categorias/kitCirurgico/kit488478.png',
         especificacoes: 'Kit Cirúrgico Cesárea CÓD. 48.84.78 ANVISA: 803.420.60.011',
@@ -186,7 +186,7 @@ const produtos = [
     },
 
     {
-        nome: 'OBSTETRÍCIA / GINECOLOGIA / UROLOGIA | Kit Cir. Cesárea Humanizado',
+        nome: 'Kit Cir. Cesárea Humanizado',
         categoria: 'categoria8',
         imagem: '../img/produtos/categorias/kitCirurgico/kit488480.png',
         especificacoes: 'Kit Cirúrgico Cesárea Humanizado CÓD. 48.84.80 ANVISA: 803.420.60.011',
@@ -194,7 +194,7 @@ const produtos = [
     },
 
     {
-        nome: 'OBSTETRÍCIA / GINECOLOGIA / UROLOGIA | Kit Cir. Ginecológico',
+        nome: 'Kit Cir. Ginecológico',
         categoria: 'categoria8',
         imagem: '../img/produtos/categorias/kitCirurgico/kit468312.png',
         especificacoes: 'Kit Cirúrgico Ginecológico CÓD. 46.83.12 ANVISA: 803.420.60.005',
@@ -202,7 +202,7 @@ const produtos = [
     },
 
     {
-        nome: 'OBSTETRÍCIA / GINECOLOGIA / UROLOGIA | Kit Cirúrgico Urológico',
+        nome: 'Kit Cirúrgico Urológico',
         categoria: 'categoria8',
         imagem: '../img/produtos/categorias/kitCirurgico/kit571042.png',
         especificacoes: 'Kit Cirúrgico Urológico CÓD. 57.10.42 ANVISA: 803.420.60.005',
@@ -210,7 +210,7 @@ const produtos = [
     },
 
     {
-        nome: 'CARDIOLOGIA | Kit Cir. Hemodinâmica',
+        nome: 'Kit Cir. Hemodinâmica',
         categoria: 'categoria8',
         imagem: '../img/produtos/categorias/kitCirurgico/kit488276.png',
         especificacoes: 'Kit Cirúrgico Hemodinâmica CÓD. 48.82.76 ANVISA: 803.420.60.011',
@@ -218,7 +218,7 @@ const produtos = [
     },
 
     {
-        nome: 'CIRUGIAS GERAIS/UNIVERSAIS | Kit Cir. Universal',
+        nome: 'Kit Cir. Universal',
         categoria: 'categoria8',
         imagem: '../img/produtos/categorias/kitCirurgico/kit488265.png',
         especificacoes: 'Kit Cirúrgico Universal CÓD. 48.82.65 ANVISA: 803.420.60.005',
@@ -226,7 +226,7 @@ const produtos = [
     },
 
     {
-        nome: 'CIRUGIAS GERAIS/UNIVERSAIS | Kit Cir. Universal com Avental',
+        nome: 'Kit Cir. Universal com Avental',
         categoria: 'categoria8',
         imagem: '../img/produtos/categorias/kitCirurgico/kit488268.png',
         especificacoes: 'Kit Cirúrgico Universal com Avental CÓD. 48.82.68 ANVISA: 803.420.60.005',
