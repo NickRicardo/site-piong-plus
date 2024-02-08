@@ -24,7 +24,7 @@
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Trabalhe conosco Pion G Plus</title>
+    <title>Sua mensagem foi enviada.</title>
 
 </head>
 
@@ -68,68 +68,22 @@
         </div>
     </header>
 
-
     <main class="container">
-        <section id="work-with-us">
+        <section id="work-with-us-sucess">
             <div class="content">
                 <div class="title">
-                    <h1 class="title-main">Trabalhe conosco</h1>
+                    <h1 class="title-main" style="text-transform: none; font-size: 34px;">Obrigado pelo seu contato!</h1>
                 </div>
+                <div class="sub-title">
+                    <p style="text-align: justify;">Gostaríamos de agradecer por entrar em contato conosco. Recebemos sua mensagem e estamos trabalhando para melhor atendê-lo. Sua mensagem será revisada cuidadosamente pela nossa equipe. Esperamos poder responder dentro de 24 horas.</p>
+                </div>
+
+                <a href="./../../index.html" class="btn-clickhere-1">Voltar ao site</a>
             </div>
-        </section>
 
-        <section id="form-work">
-            <div class="work-titles">
-                <h5>Faça parte da equipe Pion G Plus!</h5>
-                <h2>Trabalhe Conosco</h2>
-            </div>
-            <div class="content-form">
-                <form id="resumeForm" form action="https://formsubmit.co/trabalheconosco@piong.com.br" method="POST"
-                    enctype="multipart/form-data" target="_blank">
-                    <input type="hidden" name="_next" value="http://127.0.0.1:5501/src/html/sucesso-curriculo.html" />
-
-                    <div class="form-group">
-                        <label for="name">Nome:<span class="required">*</span></label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="email">E-mail:<span class="required">*</span></label>
-                        <input type="email" id="email" name="email"
-                            pattern="(^[a-zA-Z0-9_.+a-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="phone">Telefone:<span class="required">*</span></label>
-                        <input type="tel" required="required" maxlength="11" name="phone" pattern="[0-9]{10,11}" />
-                        <small>Informe apenas números (10 ou 11 dígitos).</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="cpf">CPF:<span class="required">*</span></label>
-                        <input type="text" id="cpf" name="cpf" required pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
-                        <small>Informe apenas números (11 dígitos) com a máscara: XXX.XXX.XXX-XX</small>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="resume">Currículo:<span class="required">*</span></label>
-                        <div class="file-input">
-                            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" style="display:none;"
-                                onchange="displayFileName()">
-                            <button type="button" onclick="document.getElementById('resume').click()">
-                                Adicionar Currículo
-                            </button>
-                        </div>
-                    </div>
-
-                    <div id="file-name-info" style="display:none;">
-                        <p>Arquivo anexado: <span id="file-name"></span></p>
-                    </div>
-
-                    <button type="submit">Enviar Currículo</button>
-                </form>
-            </div>
         </section>
     </main>
+
     <footer class="container">
         <div class="container-footer">
             <div class="footer-left">

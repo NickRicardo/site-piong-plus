@@ -44,6 +44,7 @@ header {
     display: flex;
     align-items: center;
     height: 80px;
+    padding-right: 60px;
 }
 
 .menu .menu-nav li {
@@ -3143,4 +3144,32 @@ li {
     text-align: left;
     color: var(--white);
     z-index: 3;
+}
+
+.sub-title{
+    text-align: center;
+    color: var(--white);
+    width: 50%;
+}
+
+#work-with-us-sucess {
+    background-image: url(../img/backgrounds/empresa/trabalheConosco/baner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#work-with-us-sucess .content .btn-clickhere-1 {
+    text-align: center;
+    background: var(--white);
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    width: 180px;
+    margin-top: 20px;
+    color: var(--blue-tertiary);
+    font-weight: bold;
 }
