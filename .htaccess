@@ -1,0 +1,20 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.piong.com.br/$1 [R,L]
+
+Redirect 301 /contatos https://piong.com.br/src/html/contato.html
+Redirect 301 /empresa https://piong.com.br/src/html/quem-somos.html
+Redirect 301 /camisolasbatas https://piong.com.br/src/html/produtos.html
+Redirect 301 /calca-e-blusa https://piong.com.br/src/html/produtos.html
+Redirect 301 /coberturas-de-mesa https://piong.com.br/src/html/produtos.html
+Redirect 301 /aventaismacacoes https://piong.com.br/src/html/produtos.html
+Redirect 301 /campos-cirurgicos https://piong.com.br/src/html/produtos.html
+Redirect 301 /campos-oftalmicos https://piong.com.br/src/html/produtos.html
+Redirect 301 /involucroswrap https://piong.com.br/src/html/produtos.html
+Redirect 301 /kits-cirurgicos https://piong.com.br/src/html/produtos.html
+Redirect 301 /kits-odontologicos https://piong.com.br/src/html/produtos.html
+Redirect 301 /blog https://piong.com.br/src/html/blog.html
+Redirect 301 /lgpd https://piong.com.br/src/html/politica.html
+Redirect 301 /trabalheconosco https://piong.com.br/src/html/trabalhe-conosco.html
+Redirect 301 /certificados https://piong.com.br/src/html/trabalhe-conosco.html
+Redirect 301 /outubro-rosa-2023 https://piong.com.br/src/html/materia-blog/endomkt/outubroRosa.html
