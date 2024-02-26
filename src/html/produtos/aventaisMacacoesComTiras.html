@@ -45,11 +45,6 @@
 </head>
 
 <body>
-    <div id="cookie-banner">
-        <p>Este site usa cookies para garantir a melhor experiência. Ao continuar navegando, você concorda com o uso de
-            cookies. <a href="/src/html/politica.html"><u>Leia nossa política de cookies</u></a>.</p>
-        <button id="accept-cookies">Aceitar cookies</button>
-    </div>
     <header>
         <div class="menu">
             <div class="logo">
@@ -238,6 +233,25 @@
         <small>Pion G Plus © 2023 - CNPJ: 01.675.208/0001-73
         </small>
     </footer>
+    
+    <!--cookies-msg-->
+    <div class="cookies-msg">
+        <div class="cookies-txt">
+            <p>
+            <p>Este site usa cookies e tecnologias afins, que são pequenos arquivos ou pedaços de texto baixados para um
+                aparelho quando o visitante acessa um website ou aplicativo. Ao utilizar nosso site você está de acordo
+                com a utilização dos cookies para te proporcionar uma melhor experiência. Para saber mais, leia nossa <a
+                    style="color: white;" href="/src/html/politica.html"><u><strong><em>política de
+                                privacidade</em></strong></u></a>.</p>
+            </p>
+            <div class="cookies-btn">
+                <button onclick="aceito()">Aceito</button>
+            </div>
+        </div>
+    </div>
+    <!--end-msg-->
+
+
     <script src="/src/js/cookies.js"></script>
     <script src="../js/index.js"></script>
     <script src="../../../src/js/dropdown.js"></script>

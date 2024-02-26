@@ -3173,3 +3173,46 @@ li {
     color: var(--blue-tertiary);
     font-weight: bold;
 }
+
+.cookies-msg{
+    width: 80%;
+    background-color: var(--blue-client);
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 14px;
+    display: none;
+    z-index: 99;
+}
+
+.cookies-msg.mostrarCookie{
+    display: block;
+}
+
+.cookies-msg .cookies-txt{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+    font-size: 17px;
+    color: var(--white);
+}
+
+.cookies-msg .cookies-btn{
+    margin-left: 30px;
+}
+
+.cookies-msg .cookies-btn button{
+    background-color: var(--white);
+    color: var(--blue-client);
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.cookies-msg .cookies-btn button:hover{
+    transform: scale(0.9);
+}
