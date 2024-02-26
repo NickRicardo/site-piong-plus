@@ -124,7 +124,7 @@
     }
 
     #satisfied-customers .testimonialBox .content {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     #satisfied-customers .testimonialBox .details .imgBx img {
@@ -279,7 +279,7 @@
 
     #satisfied-customers .swiper-slide {
         width: 300px;
-        height: auto;
+        height: 300px;
         margin-right: 8px;
     }
 
@@ -361,7 +361,7 @@
 
     /* DEPOIMENTOS DOS CLIENTES */
     #satisfied-customers {
-        height: 90vh;
+        height: 115vh;
     }
 
     #satisfied-customers .testimonial-header h2 {
