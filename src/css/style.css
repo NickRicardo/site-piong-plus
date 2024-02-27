@@ -1067,15 +1067,19 @@ small {
 }
 
 .normas {
-    background-image: url(/src/img/Blog/artigos/regulamentacoes.png)
+    background-image: url(/src/img/Blog/artigos/regulamentacoes.png);
 }
 
 .adocao {
-    background-image: url(/src/img/Blog/artigos/adocao.png)
+    background-image: url(/src/img/Blog/artigos/adocao.png);
 }
 
 .estoque {
-    background-image: url(/src/img/Blog/artigos/estoqueepi.png)
+    background-image: url(/src/img/Blog/artigos/estoqueepi.png);
+}
+
+.ona {
+    background-image: url(/src/img/Blog/artigos/ona.png);
 }
 
 #artigos .conteudo-artigos .box-artigo .box-bottom {

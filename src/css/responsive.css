@@ -94,8 +94,7 @@
 
      /* DEPOIMENTOS DOS CLIENTES */
      #satisfied-customers {
-        height: 85vh;
-        min-height: 85vh;
+        height: 115vh;
     }
 
     #satisfied-customers .testimonial-header h2 {
