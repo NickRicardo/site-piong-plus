@@ -613,7 +613,7 @@ i {
     position: absolute;
     top: -120px;
     left: 150px;
-    background-image: url(/src/img/Blog/destaque-mensal/Outubro-rosa/pb2.jpeg);
+    background-image: url(/src/img/Blog/destaque-mensal/caranaval-piong/foto1.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -1194,6 +1194,13 @@ small {
     background-position: center;
 }
 
+#endo-marketing .conteudo-endo .carnaval {
+    background-image: url(/src/img/Blog/destaque-mensal/caranaval-piong/foto1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #endo-marketing .conteudo-endo .inovar {
     background-image: url(../../src/img/Blog/destaque-mensal/Inovar/projetoInovar.jpg);
     background-size: cover;
@@ -1214,6 +1221,15 @@ small {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+#endo-marketing .conteudo-endo .parceria-firjan {
+    background-image: url(../../src/img/Blog/destaque-mensal/reconhecimento-firjan/foto07.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 
 #endo-marketing .conteudo-endo .box-endo .btn-clickhere-5 {
     position: relative;
