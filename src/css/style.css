@@ -1082,6 +1082,10 @@ small {
     background-image: url(/src/img/Blog/artigos/ona.png);
 }
 
+.uso-unico {
+    background-image: url(/src/img/Blog/artigos/uso-unico.png);
+}
+
 #artigos .conteudo-artigos .box-artigo .box-bottom {
     flex: 1;
     color: var(--white);
