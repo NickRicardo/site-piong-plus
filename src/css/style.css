@@ -1910,6 +1910,13 @@ small {
     background-color: #0056b3;
 }
 
+#form-work #disability {
+    width: 200px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
 #policy {
     background-image: url(../img/backgrounds/politica/bg1.png);
     background-size: cover;
