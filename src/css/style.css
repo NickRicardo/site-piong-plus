@@ -34,6 +34,75 @@ header {
     padding: 0 4rem;
 }
 
+/* Usado em datas especiais */
+.menu-especial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #542C81;
+    padding: 0 4rem;
+}
+
+.menu-especial .logo img {
+    height: 30px;
+    margin-right: 20px;
+}
+
+.menu-especial .menu-nav li {
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.menu-especial .dropdown ul.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: var(--white);
+    width: 250px;
+    z-index: 99999;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.menu-especial .menu-nav a {
+    color: var(--white);
+}
+
+.menu-especial .dropdown ul.dropdown-menu li {
+    display: block;
+    text-align: left;
+    padding: 8px;
+}
+
+.menu-especial .dropdown ul.dropdown-menu li a:hover {
+    font-weight: bold;
+}
+
+.menu-especial .dropdown ul.dropdown-menu li a {
+    color: var(--white);
+    display: block;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.menu-especial .dropdown ul.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #d1aff9;
+    width: 250px;
+    z-index: 99999;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    border-radius: 0.5rem;
+}
+/* fim da area de estilização especial */
+
+
 .menu .logo img {
     height: 30px;
     margin-right: 20px;
@@ -613,7 +682,7 @@ i {
     position: absolute;
     top: -120px;
     left: 150px;
-    background-image: url(/src/img/Blog/destaque-mensal/caranaval-piong/foto1.jpg);
+    background-image: url(/src/img/Blog/destaque-mensal/Empresa-amiga-da-mulher/destaque.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -915,7 +984,7 @@ small {
 }
 
 #destaque-mensal .imagem-destaque {
-    background-image: url(./../img/Blog/destaque-mensal/Inovar/projetoInovar.jpg);
+    background-image: url(/src/img/Blog/destaque-mensal/Empresa-amiga-da-mulher/destaque.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2825,7 +2894,24 @@ button {
     margin-top: 20px;
 }
 
+/* Usado para datas especiais */
+#materia-banner-especial{
+    height: auto;
+    min-height: 7vh;
+    background: #542C81;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 #materia-banner .title-main {
+    color: var(--white);
+    font-size: 22px;
+    text-align: center;
+}
+
+/* Usado para datas especiais */
+#materia-banner-especial .title-main {
     color: var(--white);
     font-size: 22px;
     text-align: center;
@@ -2843,6 +2929,14 @@ button {
 
 #container-materia .materia-name {
     color: var(--blue-claro);
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Usado para datas especiais */
+#container-materia .materia-name-especial {
+    color: #542C81;
     text-align: center;
     font-size: 20px;
     margin-bottom: 20px;
