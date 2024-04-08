@@ -904,7 +904,7 @@ small {
 .hidden {
     opacity: 0;
     filter: blur(15px);
-    transition: all 4s;
+    transition: all 5s;
     transform: translateX(-100%);
 }
 
@@ -2433,13 +2433,14 @@ button {
 
 #product-section .produto-area .produto-imagem {
     position: absolute;
-    left: 12%;
-    background-image: url(/src/img/produtos/destaque/destaque1.png);
+    left: 7%;
+    background-image: url(/src/img/produtos/destaque/chamadaOferta3.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
-    width: 550px;
-    height: 550px;
+    width: 350px;
+    height: 350px;
+    top: -55px;
 }
 
 #product-section .content-produto {

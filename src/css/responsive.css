@@ -1508,8 +1508,9 @@
     }
 
     #product-section .produto-area .produto-imagem {
-        width: 450px;
-        height: 450px
+        width: 250px;
+        height: 250px;
+        top: -16px;
     }
 
     .wrapper #categorias h2 {
@@ -2587,10 +2588,10 @@
     }
 
     #product-section .produto-area .produto-imagem {
-        width: 290px;
+        width: 280px;
         height: 280px;
         position: relative;
-        left: 20%;
+        left: -6px;
     }
 
     #search-section .search-container input {
