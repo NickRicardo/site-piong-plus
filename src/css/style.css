@@ -1155,6 +1155,10 @@ small {
     background-image: url(/src/img/Blog/artigos/uso-unico.png);
 }
 
+.checklist {
+    background-image: url(/src/img/Blog/artigos/checklist.png);
+}
+
 #artigos .conteudo-artigos .box-artigo .box-bottom {
     flex: 1;
     color: var(--white);
