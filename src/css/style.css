@@ -1159,6 +1159,10 @@ small {
     background-image: url(/src/img/Blog/artigos/checklist.png);
 }
 
+.entendaNecessidades {
+    background-image: url(/src/img/Blog/artigos/entendaNecessidades.png);
+}
+
 #artigos .conteudo-artigos .box-artigo .box-bottom {
     flex: 1;
     color: var(--white);
