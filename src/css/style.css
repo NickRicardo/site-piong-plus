@@ -2442,13 +2442,13 @@ button {
 #product-section .produto-area .produto-imagem {
     position: absolute;
     left: 7%;
-    background-image: url(/src/img/produtos/destaque/chamadaOferta3.png);
+    background-image: url(/src/img/produtos/destaque/destaque2.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
-    width: 350px;
-    height: 350px;
-    top: -55px;
+    width: 310px;
+    height: 400px;
+    /* top: -55px; */
 }
 
 #product-section .content-produto {
