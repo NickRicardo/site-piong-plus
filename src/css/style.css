@@ -1163,6 +1163,14 @@ small {
     background-image: url(/src/img/Blog/artigos/entendaNecessidades.png);
 }
 
+.diferenca {
+    background-image: url(/src/img/Blog/artigos/diferenca.png);
+}
+
+.descarte {
+    background-image: url(/src/img/Blog/artigos/descarte.png);
+}
+
 #artigos .conteudo-artigos .box-artigo .box-bottom {
     flex: 1;
     color: var(--white);
