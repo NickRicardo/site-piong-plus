@@ -6,7 +6,6 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
   <loc>https://piong.com.br/</loc>
   <lastmod>2024-03-01T15:35:55+00:00</lastmod>
@@ -18,135 +17,133 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/quem-somos.html</loc>
+  <loc>https://piong.com.br/quem-somos</loc>
   <lastmod>2024-03-01T15:35:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/certificado.html</loc>
+  <loc>https://piong.com.br/certificado</loc>
   <lastmod>2024-03-01T15:35:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/politica.html</loc>
+  <loc>https://piong.com.br/politica</loc>
   <lastmod>2024-03-01T15:35:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/produtos.html</loc>
+  <loc>https://piong.com.br/produtos</loc>
   <lastmod>2024-03-01T15:35:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/contato.html</loc>
+  <loc>https://piong.com.br/contato</loc>
   <lastmod>2024-03-01T15:35:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/consultoriaTecnica.html</loc>
+  <loc>https://piong.com.br/consultoria-tecnica</loc>
   <lastmod>2024-03-01T15:35:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/ouvidoria.html</loc>
+  <loc>https://piong.com.br/ouvidoria</loc>
   <lastmod>2024-03-01T15:35:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/trabalhe-conosco.html</loc>
+  <loc>https://piong.com.br/trabalhe-conosco</loc>
   <lastmod>2024-03-01T15:35:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/blog.html</loc>
+  <loc>https://piong.com.br/blog</loc>
   <lastmod>2024-03-01T15:35:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/materia-blog/artigos/acreditacao-hospitalar-ona.html</loc>
+  <loc>https://piong.com.br/acreditacao-hospitalar-ona</loc>
   <lastmod>2024-03-01T15:36:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/materia-blog/artigos/estoqueEpi.html</loc>
+  <loc>https://piong.com.br/estoque-epi</loc>
   <lastmod>2024-03-01T15:36:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/materia-blog/artigos/tendencias.html</loc>
+  <loc>https://piong.com.br/tendencias</loc>
   <lastmod>2024-03-01T15:36:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/materia-blog/artigos/normas.html</loc>
+  <loc>https://piong.com.br/normas</loc>
   <lastmod>2024-03-01T15:36:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/materia-blog/artigos/autoclave.html</loc>
+  <loc>https://piong.com.br/autoclave</loc>
   <lastmod>2024-03-01T15:36:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/materia-blog/artigos/contaminacaocruzada.html</loc>
+  <loc>https://piong.com.br/contaminacao-cruzada</loc>
   <lastmod>2024-03-01T15:36:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/materia-blog/endomkt/caranaval-piong.html</loc>
+  <loc>https://piong.com.br/caranaval-piong</loc>
   <lastmod>2024-03-01T15:36:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/materia-blog/endomkt/inovar.html</loc>
+  <loc>https://piong.com.br/inovar</loc>
   <lastmod>2024-03-01T15:36:00+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/materia-blog/artigos/iras.html</loc>
+  <loc>https://piong.com.br/iras</loc>
   <lastmod>2024-03-01T15:36:00+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/materia-blog/artigos/bioseguranca.html</loc>
+  <loc>https://piong.com.br/bioseguranca</loc>
   <lastmod>2024-03-01T15:36:00+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/materia-blog/artigos/infeccaohosp.html</loc>
+  <loc>https://piong.com.br/infeccao-hospitalar</loc>
   <lastmod>2024-03-01T15:36:00+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/materia-blog/endomkt/reconhecimento-firjan.html</loc>
+  <loc>https://piong.com.br/reconhecimento-firjan</loc>
   <lastmod>2024-03-04T14:46:54+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/materia-blog/endomkt/sobec2023.html</loc>
+  <loc>https://piong.com.br/sobec-2023</loc>
   <lastmod>2024-03-01T15:36:01+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/materia-blog/endomkt/novembroAzul.html</loc>
+  <loc>https://piong.com.br/novembro-azul</loc>
   <lastmod>2024-03-01T15:36:01+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/materia-blog/endomkt/outubroRosa.html</loc>
+  <loc>https://piong.com.br/outubro-rosa</loc>
   <lastmod>2024-03-01T15:36:01+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/materia-blog/endomkt/expoHospital.html</loc>
+  <loc>https://piong.com.br/expo-hospital</loc>
   <lastmod>2024-03-01T15:36:00+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://piong.com.br/src/html/materia-blog/endomkt/fomenta.html</loc>
+  <loc>https://piong.com.br/fomenta</loc>
   <lastmod>2024-03-01T15:36:00+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
-
-
 </urlset>

@@ -826,7 +826,7 @@
     }
 
     /* anuncio de vaga */
-
+/*
     #hiring-banner {
         background: #0567CB;
         padding: 35px;
@@ -844,7 +844,7 @@
     }
 
     .text-content {
-        /* flex: 1; */
+        flex: 1;
         margin-right: 45px;
     }
 
@@ -903,7 +903,7 @@
     .btn-apply:hover {
         background-color: #005a8c;
         color: white;
-    }
+    }*/
 
 }
 
@@ -3049,7 +3049,7 @@
     }
 
     /* anuncio de vaga */
-
+/*
     #hiring-banner {
         background: #0567CB;
         padding: 35px;
@@ -3068,7 +3068,7 @@
     }
 
     .text-content {
-        /* flex: 1; */
+        flex: 1;
         text-align: center;
         margin-bottom: 20px;
         margin-right: 0;
@@ -3132,6 +3132,7 @@
         background-color: #005a8c;
         color: white;
     }
+    */
 }
 
 @media (max-width: 375px) {
