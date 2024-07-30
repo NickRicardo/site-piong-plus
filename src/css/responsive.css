@@ -193,6 +193,8 @@
         text-align: center;
     }
 
+    /* BANNER PODCAST */
+
 }
 
 @media(max-width: 1200px) {
@@ -826,7 +828,7 @@
     }
 
     /* anuncio de vaga */
-/*
+    /*
     #hiring-banner {
         background: #0567CB;
         padding: 35px;
@@ -904,6 +906,50 @@
         background-color: #005a8c;
         color: white;
     }*/
+
+    /* BANNER PODCAST */
+    .left-section #vemai {
+        font-size: 43px;
+        font-weight: 900;
+        color: #000E41;
+    }
+
+    #piongcast {
+        width: 300px;
+        height: auto;
+        margin-left: -40px;
+    }
+
+    .middle-section ul {
+        padding-left: 20px;
+    }
+
+    .left-section h6 {
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: -40px;
+
+    }
+
+    .middle-section li {
+        font-size: 14px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    .guest-image {
+        max-width: 250px;
+        margin-top: 40px;
+        margin-left: -40px;
+    }
+
+    .subscribe p {
+        font-size: 15px;
+    }
+
+
+
+    /* FIM DO BANNER */
 
 }
 
@@ -1850,9 +1896,82 @@
         font-size: 13px;
     }
 
+    /* BANNER PODCAST */
+    .left-section #vemai {
+        font-size: 30px;
+        font-weight: 900;
+        color: #000E41;
+    }
+
+    #piongcast {
+        width: 230px;
+        height: auto;
+        margin-left: -40px;
+    }
+
+    .left-section h6 {
+        font-size: 13px;
+        font-weight: 600;
+        margin-left: -25px;
+
+    }
+
+    .middle-section ul {
+        padding-left: 0px;
+        list-style: none;
+    }
+
+    .middle-section h3 {
+        background-color: #0567CB;
+        color: var(--white);
+        border-radius: 12px;
+        font-size: 13px;
+        margin-bottom: 10px;
+        padding: 8px;
+        width: 180px;
+    }
+
+    .middle-section li {
+        font-size: 13px;
+        margin-bottom: 5px;
+        font-weight: 400;
+    }
+
+    .guest-image {
+        max-width: 200px;
+        margin-top: 40px;
+        margin-left: -40px;
+    }
+
+    .subscribe p {
+        font-size: 15px;
+    }
+
+    /* FIM DO BANNER */
+
+}
+
+@media (max-width: 770px) {
+    .middle-section {
+        display: none;
+    }
+
+    .left-section h6 {
+        font-size: 13px;
+        font-weight: 600;
+        margin-left: -50px;
+    }
 }
 
 @media (max-width: 628px) {
+
+    #banner-home .imagens-slider {
+        height: 65vh;
+    }
+
+    #banner-home .content {
+        top: 90%;
+    }
 
     /* MENU */
     #btn-mobile {
@@ -3049,7 +3168,7 @@
     }
 
     /* anuncio de vaga */
-/*
+    /*
     #hiring-banner {
         background: #0567CB;
         padding: 35px;
@@ -3133,9 +3252,56 @@
         color: white;
     }
     */
+
+    /* BANNER PODCAST */
+
+    .podcast-banner {
+        height: 43vh;
+    }
+
+    .contentpodcast {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .left-section #vemai {
+        margin-top: 5px;
+        text-align: center;
+        margin-left: -25px;
+    }
+
+    #piongcast {
+        margin-left: 0
+    }
+
+    .guest-image {
+        max-width: 200px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .subscribe p {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .left-section h6 {
+        font-size: 13px;
+        font-weight: 600;
+        margin-left: 0px;
+    }
+
+    .subscribe {
+        padding: 3px;
+        text-align: center;
+    } 
+         /* FIM DO BANNER */
 }
 
 @media (max-width: 375px) {
+
 
     /* CONSUTORIA TECNICA */
     #technical-consultancy {

@@ -34,37 +34,6 @@ Redirect 301 /pt_br https://piong.com.br
 Redirect 301 /concursocultural https://piong.com.br
 
 
-# Redirecionamentos para URLs amigáveis
-RewriteRule ^$ /src/html/index.html [L]
-RewriteRule ^sobre-nos$ /src/html/quem-somos.html [L]
-RewriteRule ^certificado$ /src/html/certificado.html [L]
-RewriteRule ^politica$ /src/html/politica.html [L]
-RewriteRule ^produtos$ /src/html/produtos.html [L]
-RewriteRule ^contato$ /src/html/contato.html [L]
-RewriteRule ^consultoria-tecnica$ /src/html/consultoriaTecnica.html [L]
-RewriteRule ^ouvidoria$ /src/html/ouvidoria.html [L]
-RewriteRule ^trabalhe-conosco$ /src/html/trabalhe-conosco.html [L]
-RewriteRule ^blog$ /src/html/blog.html [L]
-RewriteRule ^acreditacao-hospitalar-ona$ /src/html/materia-blog/artigos/acreditacao-hospitalar-ona.html [L]
-RewriteRule ^estoque-epi$ /src/html/materia-blog/artigos/estoqueEpi.html [L]
-RewriteRule ^tendencias$ /src/html/materia-blog/artigos/tendencias.html [L]
-RewriteRule ^normas$ /src/html/materia-blog/artigos/normas.html [L]
-RewriteRule ^autoclave$ /src/html/materia-blog/artigos/autoclave.html [L]
-RewriteRule ^contaminacao-cruzada$ /src/html/materia-blog/artigos/contaminacaocruzada.html [L]
-RewriteRule ^caranaval-piong$ /src/html/materia-blog/endomkt/caranaval-piong.html [L]
-RewriteRule ^inovar$ /src/html/materia-blog/endomkt/inovar.html [L]
-RewriteRule ^iras$ /src/html/materia-blog/artigos/iras.html [L]
-RewriteRule ^bioseguranca$ /src/html/materia-blog/artigos/bioseguranca.html [L]
-RewriteRule ^infeccao-hospitalar$ /src/html/materia-blog/artigos/infeccaohosp.html [L]
-RewriteRule ^reconhecimento-firjan$ /src/html/materia-blog/endomkt/reconhecimento-firjan.html [L]
-RewriteRule ^sobec-2023$ /src/html/materia-blog/endomkt/sobec2023.html [L]
-RewriteRule ^novembro-azul$ /src/html/materia-blog/endomkt/novembroAzul.html [L]
-RewriteRule ^outubro-rosa$ /src/html/materia-blog/endomkt/outubroRosa.html [L]
-RewriteRule ^expo-hospital$ /src/html/materia-blog/endomkt/expoHospital.html [L]
-RewriteRule ^fomenta$ /src/html/materia-blog/endomkt/fomenta.html [L]
-
-
-
 # WordPress padrão .htaccess
 <IfModule mod_rewrite.c>
 RewriteEngine On
