@@ -1,5 +1,13 @@
 @media (max-width: 1600px) {
 
+    #banner-home .imagens-slider {
+        height: 75vh;
+    }
+
+    #banner-home .content {
+        top: 90%;
+    }
+
     /* CONSUTORIA TECNICA */
     #technical-consultancy {
         height: 90vh;
@@ -194,10 +202,18 @@
     }
 
     /* BANNER PODCAST */
+    .podcast-banner {
+        height: 35vh;
+    }
 
+    .guest-image {
+        max-width: 270px;
+    }
 }
 
 @media(max-width: 1200px) {
+
+    
 
     /* MENU  */
     .menu .menu-nav li {
